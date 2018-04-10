@@ -1,0 +1,47 @@
+{{ $product := index .Site.Data.products.productDetails ( .Get "product" ) }}
+{{ $.Scratch.Set "price" .Site.Data.products.price.guides }}
+{{ if .Get "bundle" }}
+	{{ if eq ( .Get "bundle" ) "complete" }}
+		{{ if ne .Site.Data.products.price.guidesComplete.special.start "" | and (ne .Site.Data.products.price.guidesComplete.special.end "") | and (gt (now.Format "20060102") .Site.Data.products.price.guidesComplete.special.start) | and (lt (now.Format "20060102") .Site.Data.products.price.guidesComplete.special.end) }}
+			{{ $.Scratch.Set "price" .Site.Data.products.price.guidesComplete.special.prices }}
+		{{ else }}
+			{{ $.Scratch.Set "price" .Site.Data.products.price.guidesComplete }}
+		{{end }}
+	{{ else if eq ( .Get "bundle" ) "beginner" }}
+		{{ if ne .Site.Data.products.price.guidesBeginner.special.start "" | and (ne .Site.Data.products.price.guidesBeginner.special.end "") | and (gt (now.Format "20060102") .Site.Data.products.price.guidesBeginner.special.start) | and (lt (now.Format "20060102") .Site.Data.products.price.guidesBeginner.special.end) }}
+			{{ $.Scratch.Set "price" .Site.Data.products.price.guidesBeginner.special.prices }}
+		{{ else }}
+			{{ $.Scratch.Set "price" .Site.Data.products.price.guidesBeginner }}
+		{{ end }}
+	{{ else if eq ( .Get "bundle" ) "advanced" }}
+		{{ if ne .Site.Data.products.price.guidesAdvanced.special.start "" | and (ne .Site.Data.products.price.guidesAdvanced.special.end "") | and (gt (now.Format "20060102") .Site.Data.products.price.guidesAdvanced.special.start) | and (lt (now.Format "20060102") .Site.Data.products.price.guidesAdvanced.special.end) }}
+			{{ $.Scratch.Set "price" .Site.Data.products.price.guidesAdvanced.special.prices }}
+		{{ else }}
+			{{ $.Scratch.Set "price" .Site.Data.products.price.guidesAdvanced }}
+		{{ end }}
+	{{ end }}
+{{ else if ne .Site.Data.products.price.guides.special.start "" | and (ne .Site.Data.products.price.guides.special.end "") | and (gt (now.Format "20060102") .Site.Data.products.price.guides.special.start) | and (lt (now.Format "20060102") .Site.Data.products.price.guides.special.end) }}
+	{{ $.Scratch.Set "price" .Site.Data.products.price.guides.special.prices }}
+{{ end }}
+{{ $price := ( $.Scratch.Get "price" ) }}
+{{ if .Get "novideo" }}
+<p><a class="btn btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=1">Buy it now for just {{ ( $price.ebook | safeHTML ) }}</a></p>
+{{ else }}
+{{ if not (.Get "ready") }}<p><em><strong>Want to save {{ if .Get "bundle" }}an additional {{ end }}30%?</strong> Pre-order the video series while it's in production to get {{ if .Get "bundle" }}an additional {{ end }}30% off the launch price.</em></p>{{ end }}
+<div class="row">
+	<div class="grid-half margin-bottom-small">
+		<a class="btn btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=1">Get the Ebook{{ if .Get "bundle" }}s{{ end }} - {{ ( $price.ebook | safeHTML ) }}</a>
+	</div>
+	{{ if .Get "ready" }}<div class="grid-half margin-bottom-small">
+		<a class="btn btn-secondary btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=2">Get the Videos - {{ ( $price.videoReady | safeHTML ) }}</a>
+	</div>{{ else }}
+	<div class="grid-half margin-bottom-small">
+		<a class="btn btn-secondary btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=2">Preorder the Videos - {{ ( $price.video | safeHTML ) }}</a>
+	</div>{{ end }}
+</div>
+{{ if .Get "ready" }}
+<p><a class="btn btn-tertiary btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=3">Get the Ebook{{ if .Get "bundle" }}s{{ end }} + the Videos - {{ ( $price.bothReady | safeHTML ) }}</a></p>
+{{ else }}
+<p><a class="btn btn-tertiary btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=3">Get the Ebook{{ if .Get "bundle" }}s{{ end }} + Preorder the Videos - {{ ( $price.both | safeHTML ) }}</a></p>
+{{ end }}
+{{ end }}

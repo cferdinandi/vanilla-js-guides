@@ -1,0 +1,11 @@
+<ul>
+	{{ if .Inner }}
+		<li>The Pocket Guides <span class="text-small text-muted">({{ if .Get "novideo" }}in PDF, EPUB, MOBI, and HTML formats{{ else }}in ebook format, streaming HD video, or both{{ end }})</span>{{ .Inner | markdownify }}</li>
+	{{ else }}
+		<li>The Pocket Guide <span class="text-small text-muted">({{ if .Get "novideo" }}in PDF, EPUB, MOBI, and HTML formats{{ else }}in ebook format, streaming HD video, or both{{ end }})</span></li>
+	{{ end }}
+	<li>The Source Code &amp; Demos</li>
+	<li>The Vanilla JavaScript Toolkit</li>
+	<li>Exclusive Slack Access</li>
+	<li>FREE Updates for Life</li>
+</ul>

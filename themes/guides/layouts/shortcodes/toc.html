@@ -1,0 +1,15 @@
+<h2>All articles in this series</h2>
+{{ $.Scratch.Set "current" "" }}
+{{ if (.Get "current") }}
+	{{ $.Scratch.Set "current" (.Get "current") }}
+{{ end }}
+
+<ol>
+{{ range $index, $title := (index .Site.Data.series (.Get "series")) }}
+	{{ if eq ($.Scratch.Get "current") $title }}
+	<li class="text-muted">{{ $title }} <em class="text-small">(This Article)</em></li>
+	{{ else }}
+	<li><a href="{{ urlize $title | absURL }}">{{ $title }}</a></li>
+	{{ end }}
+{{ end }}
+</ol>

@@ -1,0 +1,135 @@
+# Prices
+price:
+    guides:
+        ebook: "$29"
+        video: "<del>$67</del> $47"
+        both: "<del>$69</del> $48"
+        videoReady: "$67"
+        bothReady: "$69"
+        special:
+            start: 20180329
+            end: 20180403
+            prices:
+                ebook: "<del>$29</del> $15"
+                video: "<del>$67</del> $23"
+                both: "<del>$69</del> $24"
+                videoReady: "<del>$67</del> $34"
+                bothReady: "<del>$69</del> $35"
+    guidesComplete:
+        ebook: "$179"
+        video: "<del>$375</del> $262"
+        both: "<del>$379</del> $265"
+        special:
+            start: 20180329
+            end: 20180403
+            prices:
+                ebook: "<del>$179</del> $90"
+                video: "<del>$375</del> $131"
+                both: "<del>$379</del> $133"
+    guidesBeginner:
+        ebook: "$99"
+        video: "<del>$187</del> $131"
+        both: "<del>$189</del> $132"
+        special:
+            start: 20180329
+            end: 20180403
+            prices:
+                ebook: "<del>$99</del> $50"
+                video: "<del>$187</del> $65"
+                both: "<del>$189</del> $66"
+    guidesAdvanced:
+        ebook: "$79"
+        video: "<del>$187</del> $131"
+        both: "<del>$189</del> $132"
+        special:
+            start: 20180329
+            end: 20180403
+            prices:
+                ebook: "<del>$79</del> $40"
+                video: "<del>$187</del> $65"
+                both: "<del>$189</del> $66"
+    call:
+        price: "$399"
+        special:
+            start: 20180329
+            end: 20180403
+            price: "<del>$399</del> $199"
+    mentoring:
+        price: "$999/month"
+        special:
+            start: 20180329
+            end: 20180403
+            price: "<del>$999/month</del> $699/month"
+    training:
+        price: "$3,999"
+        special:
+            start: ""
+            end: ""
+            price: ""
+    consulting:
+        price: "$7,999/month"
+        special:
+            start: ""
+            end: ""
+            price: ""
+    careerGuide: "$39"
+    wickedFastWebsites: "$39"
+
+# Product Details
+productDetails:
+    complete:
+        id: "22572"
+        description: "Every pocket guide in the collection, including any new ones that come out in the future."
+        url: "/complete-set/"
+    beginner:
+        id: "22569"
+        description: "Kick-start your journey to vanilla JS with these essential pocket guides."
+        url: "/beginner-bundle/"
+    advanced:
+        id: "22675"
+        description: "Take your vanilla JavaScript skills to the next level with these pocket guides on advanced topics."
+        url: "/advanced-bundle/"
+    domManipulation:
+        id: "22585"
+        description: "Learn how to get DOM elements and do awesome stuff with them."
+        url: "/dom-manipulation/"
+    stringArrayObject:
+        id: "22696"
+        description: "Transform and edit strings, arrays, and objects to make working with them easier and more productive."
+        url: "/string-array-and-object-manipulation/"
+    variablesFunctionsScope:
+        id: "22939"
+        description: "What are arrow functions? What’s function hoisting? What’s the difference between `var`, `let`, and `const`, and when should you use each?"
+        url: "/variables-functions-and-scope/"
+    domInjectionTraversal:
+        id: "22686"
+        description: "Learn how to generate dynamic content, climb up and down the DOM, and more."
+        url: "/dom-injection-and-traversal/"
+    browserStorage:
+        id: "23245"
+        description: "Store data in local storage, get and set cookies, and retrieve values from query strings."
+        url: "/data-storage-pocket-guide/"
+    ajaxHttp:
+        id: "22689"
+        description: "Learn how to make HTTP requests, asynchronously grab HTML from another page, and more."
+        url: "/ajax-and-http/"
+    polyfills:
+        id: ""
+        description: "Making your scripts work across browsers can be tough. Learn how to make it way easier."
+        url: ""
+    microlibrary:
+        id: ""
+        description: "Speed up your development time by creating custom, tiny libraries with the polyfills and helper functions that you use the most."
+        url: ""
+    bugsBrowserQuirks:
+        id: "22699"
+        description: "Making your scripts work across browsers can be tough. Learn how to make it way easier."
+        url: "/bugs-and-browser-quirks/"
+    writingPlugins:
+        id: "22656"
+        description: "Learn how to write flexible, modular, scalable plugins that grow with you and your users."
+        url: "/writing-vanilla-js-plugins/"
+    webApps:
+        id: "22882"
+        description: "Build interactive web apps and single page apps without libraries or frameworks."
+        url: "/web-apps/"

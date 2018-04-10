@@ -1,0 +1,3 @@
+[submodule "themes/go-make-things-theme"]
+	path = themes/go-make-things-theme
+	url = https://github.com/cferdinandi/go-make-things-theme.git

@@ -1,0 +1,6 @@
+{{ if and (gt (now.Format "20060102") 20180329) (lt (now.Format "20060102") 20180403) }}
+<p><mark>🐰 <em><strong>Easter Sale!</strong> Now through Monday, get 50% off of my <a href="/guides">vanilla JS pocket guides</a> and <a href="/call">coaching calls</a>, and 30% off of my <a href="/mentoring">JavaScript mentoring program</a>. Make 2018 the year you master JavaScript!</em></mark></p>
+{{ else }}
+{{ if false }}<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href="https://gomakethings.com/guides/">vanilla JavaScript pocket guides</a> are short, focused, and made for beginners. You can do this!</em></mark></p>{{ end }}
+<p><mark>🔥 <em><strong>New!</strong> All of my <a href="/guides">vanilla JS pocket guides</a> have been updated with new resources and more backwards-compatible polyfills.</em></mark></p>
+{{ end }}
