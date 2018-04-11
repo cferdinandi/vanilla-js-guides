@@ -19,9 +19,9 @@ I want to help you master vanilla JavaScript, without all of the painful false s
 	<li>{{<phone no-underline icon>}}</li>
 </ul>
 
-<div class="padding-top">
-	{{<guide-faq>}}
-</div>
+<hr class="line-secondary">
+
+{{<guide-faq>}}
 
 <div class="padding-top">
 	{{<mailchimp intro>}}
