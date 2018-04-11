@@ -48,32 +48,6 @@ price:
                 ebook: "<del>$79</del> $40"
                 video: "<del>$187</del> $65"
                 both: "<del>$189</del> $66"
-    call:
-        price: "$399"
-        special:
-            start: 20180329
-            end: 20180403
-            price: "<del>$399</del> $199"
-    mentoring:
-        price: "$999/month"
-        special:
-            start: 20180329
-            end: 20180403
-            price: "<del>$999/month</del> $699/month"
-    training:
-        price: "$3,999"
-        special:
-            start: ""
-            end: ""
-            price: ""
-    consulting:
-        price: "$7,999/month"
-        special:
-            start: ""
-            end: ""
-            price: ""
-    careerGuide: "$39"
-    wickedFastWebsites: "$39"
 
 # Product Details
 productDetails:

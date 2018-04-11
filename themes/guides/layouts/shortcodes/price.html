@@ -22,30 +22,4 @@
 	{{ else }}
 		{{ ( .Site.Data.products.price.guidesAdvanced.ebook | safeHTML ) }}
 	{{ end }}
-{{ else if eq (.Get "for") "call" }}
-	{{ if ne .Site.Data.products.price.call.special.start "" | and (ne .Site.Data.products.price.call.special.end "") | and (gt (now.Format "20060102") .Site.Data.products.price.call.special.start) | and (lt (now.Format "20060102") .Site.Data.products.price.call.special.end) }}
-		{{ ( .Site.Data.products.price.call.special.price | safeHTML ) }}
-	{{ else }}
-		{{ ( .Site.Data.products.price.call.price | safeHTML ) }}
-	{{ end }}
-{{ else if eq (.Get "for") "mentoring" }}
-	{{ if ne .Site.Data.products.price.mentoring.special.start "" | and (ne .Site.Data.products.price.mentoring.special.end "") | and (gt (now.Format "20060102") .Site.Data.products.price.mentoring.special.start) | and (lt (now.Format "20060102") .Site.Data.products.price.mentoring.special.end) }}
-		{{ ( .Site.Data.products.price.mentoring.special.price | safeHTML ) }}
-	{{ else }}
-		{{ ( .Site.Data.products.price.mentoring.price | safeHTML ) }}
-	{{ end }}
-{{ else if eq (.Get "for") "training" }}
-	{{ if ne .Site.Data.products.price.training.special.start "" | and (ne .Site.Data.products.price.training.special.end "") | and (gt (now.Format "20060102") .Site.Data.products.price.training.special.start) | and (lt (now.Format "20060102") .Site.Data.products.price.training.special.end) }}
-		{{ ( .Site.Data.products.price.training.special.price | safeHTML ) }}
-	{{ else }}
-		{{ ( .Site.Data.products.price.training.price | safeHTML ) }}
-	{{ end }}
-{{ else if eq (.Get "for") "consulting" }}
-	{{ if ne .Site.Data.products.price.consulting.special.start "" | and (ne .Site.Data.products.price.consulting.special.end "") | and (gt (now.Format "20060102") .Site.Data.products.price.consulting.special.start) | and (lt (now.Format "20060102") .Site.Data.products.price.consulting.special.end) }}
-		{{ ( .Site.Data.products.price.consulting.special.price | safeHTML ) }}
-	{{ else }}
-		{{ ( .Site.Data.products.price.consulting.price | safeHTML ) }}
-	{{ end }}
-{{ else if eq (.Get "for") "career-guide" }}
-{{ else if eq (.Get "for") "wicked-fast-websites" }}
 {{ end }}

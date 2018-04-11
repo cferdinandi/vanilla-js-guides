@@ -108,31 +108,6 @@ if (!Element.prototype.matches) {
   return fluidvids;
 
 }));
-/**
- * Add links to headings
- * @param {String} selector The headings to get in the DOM (uses querySelectorAll)
- * @param {String} content  The content to add to the anchor link [default: #]
- * @param {String} styles   The class(es) to add to the link [default: anchor-link]
- */
- var addHeadingLinks = function (selector, content, styles) {
-
- 	'use strict';
-
- 	// Make sure a selector was provided
- 	if (!selector) return;
-
- 	// Variables
- 	var headings = document.querySelectorAll(selector);
- 	content = content || '#';
- 	styles = styles || 'anchor-link';
-
- 	// Loop through each heading and add an anchor link
- 	for (var i = 0; i < headings.length; i++) {
- 		if (!headings[i].id) continue;
- 		headings[i].innerHTML += ' <a class="' + styles + '" href="#' + headings[i].id + '">' + content + '</a>';
- 	}
-
- };
 var mailchimp = function (callback) {
 
 	'use strict';
@@ -1057,12 +1032,7 @@ if (document.querySelector('a[href*="#"]')) {
 if (document.querySelector('#mailchimp-form')) {
 	mailchimp((function (data) {
 		if (data.result !== 'error') {
-			window.location.href = '/newsletter-success';
+			window.location.href = 'https://gomakethings.com/newsletter-success';
 		}
 	}));
-}
-
-// Anchor links on posts
-if (document.body.matches('.type-articles.page-single') || document.body.matches('#page-54a32daa7699b0585cab71188bd8c152')) {
-	addHeadingLinks('h2, h3, h4, h5, h6', '#', 'link-no-underline');
 }
