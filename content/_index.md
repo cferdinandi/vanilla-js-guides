@@ -14,8 +14,6 @@ description: ""
 
 {{<cta for="guides-all">}}
 
-{{<guide-formats class="padding-bottom">}}
-
 {{<guide-used-by>}}
 
 ## Bundles
