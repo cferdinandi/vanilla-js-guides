@@ -14,7 +14,9 @@ description: ""
 
 {{<cta for="guides-all">}}
 
-{{<guide-used-by>}}
+<div class="padding-bottom">
+	{{<guide-used-by>}}
+</div>
 
 ## Bundles
 
