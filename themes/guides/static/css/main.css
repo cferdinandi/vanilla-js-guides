@@ -1,5 +1,5 @@
 /*!
- * guides v1.1.0: The theme for gomakethings.com
+ * guides v1.2.0: The theme for gomakethings.com
  * (c) 2018 Chris Ferdinandi
  * MIT License
  * http://github.com/cferdinandi/vanilla-js-guides
@@ -681,15 +681,14 @@ dfn {
  */
 /* line 344, src/sass/components/_typography.scss */
 mark {
-  background: #fbf89a;
-  background-image: linear-gradient(to right, #fbf89a 0%, #fbf9c9 100%);
+  background: #fbf9c9;
   color: #272727;
 }
 
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 353, src/sass/components/_typography.scss */
+/* line 354, src/sass/components/_typography.scss */
 small {
   font-size: 80%;
 }
@@ -697,7 +696,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 360, src/sass/components/_typography.scss */
+/* line 361, src/sass/components/_typography.scss */
 sub,
 sup {
   font-size: 75%;
@@ -706,12 +705,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 368, src/sass/components/_typography.scss */
+/* line 369, src/sass/components/_typography.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 372, src/sass/components/_typography.scss */
+/* line 373, src/sass/components/_typography.scss */
 sub {
   bottom: -0.25em;
 }
@@ -719,7 +718,7 @@ sub {
 /**
  * Blockquotes
  */
-/* line 381, src/sass/components/_typography.scss */
+/* line 382, src/sass/components/_typography.scss */
 blockquote {
   border-left: 0.25em solid #e5e5e5;
   font-style: italic;
@@ -728,20 +727,20 @@ blockquote {
   padding-right: 1em;
 }
 
-/* line 389, src/sass/components/_typography.scss */
+/* line 390, src/sass/components/_typography.scss */
 blockquote cite {
   color: #808080;
   font-size: 0.9375em;
   padding-top: 1em;
 }
 
-/* line 396, src/sass/components/_typography.scss */
+/* line 397, src/sass/components/_typography.scss */
 blockquote,
 q {
   quotes: none;
 }
 
-/* line 401, src/sass/components/_typography.scss */
+/* line 402, src/sass/components/_typography.scss */
 blockquote:before,
 blockquote:after,
 q:before,

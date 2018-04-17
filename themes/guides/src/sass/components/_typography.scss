@@ -342,8 +342,9 @@ dfn {
  * Address styling not present in IE 8/9.
  */
 mark {
-	background: #fbf89a;
-	background-image: linear-gradient(to right, #fbf89a 0%, #fbf9c9 100%);
+	// background: #fbf89a;
+	// background-image: linear-gradient(to right, #fbf89a 0%, #fbf9c9 100%);
+	background: #fbf9c9;
 	color: $color-black;
 }
 
