@@ -69,7 +69,9 @@ Get everything you need to start writing flexible, modular plugins with vanilla 
 
 {{%/purchase-box%}}
 
-<div class="padding-top-large padding-bottom">{{<testimonial for="patriciaParker" photo="true">}}</div>
+<div class="padding-top-large padding-bottom">{{<testimonial for="scottTirrell" photo="true">}}</div>
+
+<div class="padding-bottom">{{<testimonial for="patriciaParker" photo="true">}}</div>
 
 <div class="padding-bottom-large">{{<testimonial for="jeremyGreen" photo="true">}}</div>
 

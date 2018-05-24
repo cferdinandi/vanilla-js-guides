@@ -69,7 +69,9 @@ AND, you'll automatically get any new pocket guides I release in the future, com
 
 {{%/purchase-box%}}
 
-<div class="padding-top-large padding-bottom">{{<testimonial for="patriciaParker" photo="true">}}</div>
+<div class="padding-top-large padding-bottom">{{<testimonial for="scottTirrell" photo="true">}}</div>
+
+<div class="padding-bottom">{{<testimonial for="patriciaParker" photo="true">}}</div>
 
 <div class="padding-bottom-large">{{<testimonial for="jeremyGreen" photo="true">}}</div>
 

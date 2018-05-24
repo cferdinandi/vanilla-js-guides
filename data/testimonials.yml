@@ -101,6 +101,12 @@ ruudVanZuidam:
     photo: "/img/testimonials/ruud-van-zuidam.jpg"
     quote: "<p>As a front-ender I always found JS difficult and made the mistake \"solving\" my lack of knowledge with the use of jQuery and a lot of plugins.</p>When I stumbled over your site and watched the video I had the feeling that for the first time I had an insight how JS works and how to learn it."
 
+scottTirrell:
+    name: "Scott Tirrell"
+    url: "https://twitter.com/stirrell42/status/975446126060081157"
+    photo: "/img/testimonials/scott-tirrell.jpg"
+    quote: "Chris’s pocket guides are great. I definitely recommend picking them up if you’re learning or interested in learning Vanilla JavaScript."
+
 stuartRobson:
     name: "Stuart Robson"
     url: "https://twitter.com/StuRobson/status/807328299580067844"
