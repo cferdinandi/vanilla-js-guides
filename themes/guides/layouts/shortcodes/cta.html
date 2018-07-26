@@ -1,10 +1,10 @@
-{{ if and (gt (now.Format "20060102") 20180329) (lt (now.Format "20060102") 20180403) }}
+{{ if and (gt (now.Format "20060102") 20180329) (lt (now.Format "20060102") 20180727) }}
 {{ if eq (.Get "for") "guide" }}
-<p><mark>🐰 <em><strong>Easter Sale!</strong> Now through Monday, get 50% off of my vanilla JS pocket guides. Make 2018 the year you master JavaScript!</em></mark></p>
+<p><mark>🔥 <em><strong>FIRE SALE!</strong> To celebrate the launch of the <strong><a href="https://vanillajsguides.com/variables-functions-and-scope/">Pocket Guide video series on Functions, Variables, and Scope</a></strong>, you can <strong>take 50% off any guide or bundle</strong> with the code <strong><code>VAR50</code></strong> at checkout. This ends at midnight, so don't wait!</em></mark></p>
 {{ else if eq (.Get "for") "guide-buy" }}
-<p><mark>🐰 <em><strong>Easter Sale!</strong> Use the code <code>HOP50</code> at checkout to get 50% off of my vanilla JS pocket guides. Make 2018 the year you master JavaScript!</em></mark></p>
+<p><mark>🔥 <em><strong>FIRE SALE!</strong> Use the code <strong><code>VAR50</code></strong> at checkout to get 50% off. This ends at midnight, so don't wait!</em></mark></p>
 {{ else if eq (.Get "for") "guides-all" }}
-<p><mark>🐰 <em><strong>Easter Sale!</strong> Now through Monday, get 50% off of my vanilla JS pocket guides. Make 2018 the year you master JavaScript!</em></mark></p>
+<p><mark>🔥 <em><strong>FIRE SALE!</strong> To celebrate the launch of the <strong><a href="https://vanillajsguides.com/variables-functions-and-scope/">Pocket Guide video series on Functions, Variables, and Scope</a></strong>, you can <strong>take 50% off any guide or bundle</strong> with the code <strong><code>VAR50</code></strong> at checkout. This ends at midnight, so don't wait!</em></mark></p>
 {{ end }}
 {{ else }}
 {{ if eq (.Get "for") "guide" }}
