@@ -7,8 +7,7 @@ params:
   rssURL: "https://gomakethings.com/feed/index.xml"
   rssLimit: 7
   studentURL: "https://courses.gomakethings.com"
-  cacheBust: true
-  version: "1.2.0"
+  minify: true
 
 # The language code for the site
 languageCode: "en-us"
