@@ -154,6 +154,11 @@ var api = function () {
 	 */
 	var process = function (data, store) {
 
+		// Store to session storage
+		if (store) {
+			sessionStorage.setItem('gmt-api-data', data);
+		}
+
 		// Convert the stringified data to JSON
 		var data = JSON.parse(data);
 
@@ -161,11 +166,6 @@ var api = function () {
 		render(ctas, data['ctas'], 'cta');
 		render(testimonials, data['testimonials'], 'testimonial');
 		render(prices, data['prices'], 'price');
-
-		// Store to session storage
-		if (store) {
-			sessionStorage.setItem('gmt-api-data', data);
-		}
 
 	};
 
