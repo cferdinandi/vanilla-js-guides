@@ -106,20 +106,14 @@ var api = function () {
 	 * @param  {Object} data The pricing data
 	 * @param  {String} id   The ID of the price
 	 */
-	var renderPrice = function (node, data, id) {
-
-		// Get the product type
-		var product = node.getAttribute('data-product');
-		if (!product) return;
+	var renderPrice = function (node, data) {
 
 		// Get the price
-		// var priceID = id === 'guide-individual' && data['guides-all'] ? data['guides-all'][product] : data[id][product];
-		var price = id === 'guide-individual' && data['guides-all'] ? data['guides-all'] : data[id];
-		if (!price) return;
-		if (!price[product] || price[product].length < 1) return;
+		var price = node.getAttribute('data-product');
+		if (!price || !data[price] || data[price].length < 1) return;
 
 		// Update the price
-		node.innerHTML = price[product];
+		node.innerHTML = data[price];
 
 	};
 
@@ -134,11 +128,11 @@ var api = function () {
 
 			// Get the content ID
 			var id = nodes[i].getAttribute('data-' + type);
-			if (!id || (type !== 'price' && !data[id])) continue;
+			if (!id || !data[id]) continue;
 
 			// Render data into the DOM
 			if (type === 'price') {
-				renderPrice(nodes[i], data, id);
+				renderPrice(nodes[i], data[id]);
 			} else if (type === 'cta') {
 				renderCTA(nodes[i], data[id]);
 			} else {
