@@ -69,7 +69,9 @@ Get everything you need to start building web apps with vanilla JavaScript:
 
 {{%/purchase-box%}}
 
-<div class="padding-top-large padding-bottom">{{<testimonial for="scottTirrell" photo="true">}}</div>
+<div class="padding-top-large padding-bottom">{{<testimonial for="kieranBarker" photo="true">}}</div>
+
+<div class="padding-bottom">{{<testimonial for="scottTirrell" photo="true">}}</div>
 
 <div class="padding-bottom">{{<testimonial for="patriciaParker" photo="true">}}</div>
 
