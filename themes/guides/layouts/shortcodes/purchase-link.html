@@ -27,7 +27,7 @@
 {{ if .Get "novideo" }}
 <p><a class="btn btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=1">Buy it now for just <span data-price="guides-{{ if .Get "bundle" }}{{ .Get "bundle" }}{{ else }}individual{{ end }}" data-product="ebook">{{ ( $price.ebook | safeHTML ) }}</span></a></p>
 {{ else }}
-{{ if not (.Get "ready") }}<p><em><strong>Want to save {{ if .Get "bundle" }}an additional {{ end }}30%?</strong> Pre-order the video series while it's in production to get {{ if .Get "bundle" }}an additional {{ end }}30% off the launch price.</em></p>{{ end }}
+{{ if not (.Get "ready") }}<p><em><strong>Want to save {{ if .Get "bundle" }}an additional {{ end }}30%?</strong> Pre-order the video series while it's in development to get {{ if .Get "bundle" }}an additional {{ end }}30% off the launch price.</em></p>{{ end }}
 <div class="row">
 	<div class="grid-half margin-bottom-small">
 		<a class="btn btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=1">Get the Ebook{{ if .Get "bundle" }}s{{ end }} - <span data-price="guides-{{ if .Get "bundle" }}{{ .Get "bundle" }}{{ else }}individual{{ end }}" data-product="ebook">{{ ( $price.ebook | safeHTML ) }}</span></a>
