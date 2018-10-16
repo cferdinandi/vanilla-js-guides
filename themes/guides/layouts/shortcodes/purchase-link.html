@@ -45,4 +45,4 @@
 <p><a class="btn btn-tertiary btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=3">Get the Ebook{{ if .Get "bundle" }}s{{ end }} + Preorder the Videos - <span data-price="guides-{{ if .Get "bundle" }}{{ .Get "bundle" }}{{ else }}individual-preorder{{ end }}" data-product="both" >{{ ( $price.both | safeHTML ) }}</span></a></p>
 {{ end }}
 {{ end }}
-<p><strong>Want to share with your team?</strong> Email me at {{<email params="subject=Pocket%20Guide%20Team%20Pricing&body=Hi%2C%20I'm%20interested%20in%20team%20pricing%20for%20%7BPOCKET%20GUIDE%7D%20for%20%7BX%7D%20people.%20Thanks!">}} to get special team pricing.</p>
+<p><strong>Want to share with your team?</strong> Email me at {{<email>}} to get special team pricing.</p>
