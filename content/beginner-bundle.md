@@ -55,7 +55,6 @@ description: ""
 - String, Array, & Object Manipulation
 - Variables, Functions, & Scope
 - DOM Injection & Traversal
-- Bugs & Browser Quirks
 {{</purchase-summary>}}
 
 {{<cta for="guide-buy">}}

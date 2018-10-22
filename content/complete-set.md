@@ -56,7 +56,6 @@ AND, you'll automatically get any new pocket guides I release in the future, com
 - String, Array, & Object Manipulation
 - Variables, Functions, & Scope
 - DOM Injection & Traversal
-- Bugs & Browser Quirks
 - Browser Storage
 - Ajax/HTTP
 - Writing Vanilla JS Plugins
