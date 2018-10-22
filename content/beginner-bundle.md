@@ -60,7 +60,7 @@ description: ""
 
 {{<cta for="guide-buy">}}
 
-{{<purchase-link bundle="beginner" product="beginner">}}
+{{<purchase-link ready="true" bundle="beginner" product="beginner">}}
 
 {{%/purchase-box%}}
 

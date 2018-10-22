@@ -2,52 +2,24 @@
 price:
     guides:
         ebook: "$29"
-        video: "<del>$67</del> $47"
-        both: "<del>$69</del> $48"
-        videoReady: "$67"
-        bothReady: "$69"
-        special:
-            start: 20180329
-            end: 20180403
-            prices:
-                ebook: "<del>$29</del> $15"
-                video: "<del>$67</del> $23"
-                both: "<del>$69</del> $24"
-                videoReady: "<del>$67</del> $34"
-                bothReady: "<del>$69</del> $35"
+        video: "<del>$69</del> $48"
+        both: "<del>$74</del> $52"
+        videoReady: "$69"
+        bothReady: "$74"
     guidesComplete:
         ebook: "$179"
-        video: "<del>$375</del> $262"
-        both: "<del>$379</del> $265"
-        special:
-            start: 20180329
-            end: 20180403
-            prices:
-                ebook: "<del>$179</del> $90"
-                video: "<del>$375</del> $131"
-                both: "<del>$379</del> $133"
+        video: "<del>$387</del> $329"
+        both: "<del>$415</del> $352"
     guidesBeginner:
         ebook: "$99"
-        video: "<del>$187</del> $131"
-        both: "<del>$189</del> $132"
-        special:
-            start: 20180329
-            end: 20180403
-            prices:
-                ebook: "<del>$99</del> $50"
-                video: "<del>$187</del> $65"
-                both: "<del>$189</del> $66"
+        video: "$194"
+        both: "$207"
+        videoReady: "$194"
+        bothReady: "$207"
     guidesAdvanced:
         ebook: "$79"
-        video: "<del>$187</del> $131"
-        both: "<del>$189</del> $132"
-        special:
-            start: 20180329
-            end: 20180403
-            prices:
-                ebook: "<del>$79</del> $40"
-                video: "<del>$187</del> $65"
-                both: "<del>$189</del> $66"
+        video: "<del>$194</del> $135"
+        both: "<del>$207</del> $145"
 
 # Product Details
 productDetails:
