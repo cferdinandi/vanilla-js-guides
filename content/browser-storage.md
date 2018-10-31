@@ -61,7 +61,7 @@ Get everything you need to start mastering browser storage with vanilla JavaScri
 
 {{<cta for="guide-buy">}}
 
-{{<purchase-link product="browserStorage">}}
+{{<purchase-link product="browserStorage" ready="true">}}
 
 {{<purchase-upsell upsell="advanced">}}
 
