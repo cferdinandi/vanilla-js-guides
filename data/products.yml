@@ -54,7 +54,7 @@ productDetails:
     browserStorage:
         id: "23245"
         description: "Store data in local storage, get and set cookies, and retrieve values from query strings."
-        url: "/data-storage-pocket-guide/"
+        url: "/browser-storage/"
     ajaxHttp:
         id: "22689"
         description: "Learn how to make HTTP requests, asynchronously grab HTML from another page, and more."
