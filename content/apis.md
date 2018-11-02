@@ -1,5 +1,5 @@
 ---
-title: "Ajax and HTTP"
+title: "APIs and JavaScript"
 date: 2018-01-16T10:05:20-05:00
 draft: false
 type: "guide"
@@ -7,12 +7,12 @@ noTitle: true
 description: ""
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5">Ajax and HTTP</h1>
-<p><span class="text-xlarge">Learn how to make make API calls and grab data from other places.</span></p>
+<h1 class="no-padding-top no-margin-bottom h5">APIs and JavaScript</h1>
+<p><span class="text-xlarge">Learn how to work with APIs and integrate them into your sites and apps.</span></p>
 
-<img class="aligncenter" style="width: 88%;" src="/img/guides/ajax.jpg">
+<img class="aligncenter" style="width: 88%;" src="/img/guides/apis.jpg">
 
-<span class="text-large">Learn the ins-and-outs of Ajax and HTTP requests with vanilla JavaScript in about an hour.</span>
+<span class="text-large">Learn the ins-and-outs of working with APIs and vanilla JS in about an&nbsp;hour.</span>
 
 This guide is short, focused, and made for beginners. Get hands-on learning and grow your portfolio with a real project using Ajax and HTTP requests.
 
@@ -24,11 +24,12 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 ## What you'll learn
 
-- How to make HTTP requests.
-- How to work around cross-domain scripting restrictions with JSONP.
-- How to use a lightweight micro-library to make working with Ajax and HTTP easier.
-- How to get and manipulate elements from another page on your site.
-- How to put it all together and write a working project with Ajax.
+- How to get, update, and send data from APIs.
+- What Ajax, XHR, and HTTP are and what they do.
+- How to transform data into different formats for use with APIs.
+- How to handle API authentication.
+- How to prevent your risk of cross-site scripting attacks from third-party APIs.
+- How to put it all together and use API data to create dynamic web content.
 
 {{<guide-formats>}}
 
@@ -36,9 +37,9 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 ## Learn by doing with a real JavaScript project
 
-<p class="no-margin-bottom"><img src="/img/projects/ajax-api-project.jpg" alt="" width="1200" height="820" class="no-margin-bottom aligncenter size-full wp-image-14037" /></p>
+<p class="no-margin-bottom"><img src="/img/projects/apis.jpg" alt="" width="1200" height="817" class="no-margin-bottom aligncenter"></p>
 
-Reinforce your learning and build your portfolio by using Ajax on a real project. Together, we’ll use API content to dynamically create a photo gallery.
+Reinforce your learning and build your portfolio by using APIs on a real project. Together, we’ll use API content to dynamically create some web content.
 
 {{<bonuses>}}
 

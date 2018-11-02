@@ -57,8 +57,8 @@ productDetails:
         url: "/browser-storage/"
     ajaxHttp:
         id: "22689"
-        description: "Learn how to make HTTP requests, asynchronously grab HTML from another page, and more."
-        url: "/ajax-and-http/"
+        description: "Learn how to work with APIs and integrate them into your sites and apps."
+        url: "/apis/"
     polyfills:
         id: ""
         description: "Making your scripts work across browsers can be tough. Learn how to make it way easier."
