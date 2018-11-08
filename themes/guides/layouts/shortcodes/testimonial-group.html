@@ -1,0 +1,11 @@
+{{ if eq (.Get "group") "learn" }}
+	{{ partial "testimonials-learn.html" }}
+{{ else if eq (.Get "group") "slack" }}
+	{{ partial "testimonials-slack.html" }}
+{{ else if eq (.Get "group") "purchase" }}
+	{{ partial "testimonials-purchase.html" }}
+{{ else if eq (.Get "group") "faq" }}
+	{{ partial "testimonials-faq.html" }}
+{{ else if eq (.Get "group") "homepage" }}
+	{{ partial "testimonials-homepage.html" }}
+{{ end }}

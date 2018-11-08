@@ -31,7 +31,7 @@ AND, you'll automatically get any new pocket guides I release in the future, com
 
 {{<guide-formats>}}
 
-<div class="padding-top-large padding-bottom-large">{{<testimonial for="chrisBaughman" photo="true">}}</div>
+{{<testimonial-group group="learn">}}
 
 {{<bonuses>}}
 
@@ -39,7 +39,7 @@ AND, you'll automatically get any new pocket guides I release in the future, com
 
 {{<pricing-link>}}
 
-<div class="padding-top-large padding-bottom-large">{{<testimonial for="davidBuchholz" photo="true">}}</div>
+{{<testimonial-group group="slack">}}
 
 {{<guide-skills>}}
 
@@ -68,18 +68,12 @@ AND, you'll automatically get any new pocket guides I release in the future, com
 
 {{%/purchase-box%}}
 
-<div class="padding-top-large padding-bottom">{{<testimonial for="kieranBarker" photo="true">}}</div>
-
-<div class="padding-bottom">{{<testimonial for="scottTirrell" photo="true">}}</div>
-
-<div class="padding-bottom">{{<testimonial for="patriciaParker" photo="true">}}</div>
-
-<div class="padding-bottom-large">{{<testimonial for="jeremyGreen" photo="true">}}</div>
+{{<testimonial-group group="purchase">}}
 
 {{<guide-faq>}}
 
 {{<pricing-link>}}
 
-<div class="padding-top-large padding-bottom-large">{{<testimonial for="mojtabaSeyedi" photo="true">}}</div>
+{{<testimonial-group group="faq">}}
 
 {{<not-ready-yet>}}

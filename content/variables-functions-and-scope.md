@@ -35,7 +35,7 @@ What are arrow functions? What's function hoisting? What's the difference betwee
 
 {{<guide-formats>}}
 
-<div class="padding-top-large padding-bottom-large">{{<testimonial for="chrisBaughman" photo="true">}}</div>
+{{<testimonial-group group="learn">}}
 
 ## Learn by doing with a real JavaScript project
 
@@ -49,7 +49,7 @@ Reinforce your learning and build your portfolio by applying JavaScript best pra
 
 {{<pricing-link>}}
 
-<div class="padding-top-large padding-bottom-large">{{<testimonial for="davidBuchholz" photo="true">}}</div>
+{{<testimonial-group group="slack">}}
 
 {{<guide-skills>}}
 
@@ -71,18 +71,12 @@ Get everything you need to start mastering modern vanilla JavaScript:
 
 {{%/purchase-box%}}
 
-<div class="padding-top-large padding-bottom">{{<testimonial for="kieranBarker" photo="true">}}</div>
-
-<div class="padding-bottom">{{<testimonial for="scottTirrell" photo="true">}}</div>
-
-<div class="padding-bottom">{{<testimonial for="patriciaParker" photo="true">}}</div>
-
-<div class="padding-bottom-large">{{<testimonial for="jeremyGreen" photo="true">}}</div>
+{{<testimonial-group group="purchase">}}
 
 {{<guide-faq>}}
 
 {{<pricing-link>}}
 
-<div class="padding-top-large padding-bottom-large">{{<testimonial for="mojtabaSeyedi" photo="true">}}</div>
+{{<testimonial-group group="faq">}}
 
 {{<not-ready-yet>}}

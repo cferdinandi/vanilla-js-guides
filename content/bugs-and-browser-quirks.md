@@ -26,7 +26,7 @@ Making your scripts work across browsers can be tough. Learn how to make it way 
 
 {{<guide-formats>}}
 
-<div class="padding-top-large padding-bottom-large">{{<testimonial for="chrisBaughman" photo="true">}}</div>
+{{<testimonial-group group="learn">}}
 
 ## Learn by doing with a real JavaScript project
 
@@ -62,18 +62,12 @@ Get everything you need to start mastering cross-browser compatibility with vani
 
 {{%/purchase-box%}}
 
-<div class="padding-top-large padding-bottom">{{<testimonial for="kieranBarker" photo="true">}}</div>
-
-<div class="padding-bottom">{{<testimonial for="scottTirrell" photo="true">}}</div>
-
-<div class="padding-bottom">{{<testimonial for="patriciaParker" photo="true">}}</div>
-
-<div class="padding-bottom-large">{{<testimonial for="jeremyGreen" photo="true">}}</div>
+{{<testimonial-group group="purchase">}}
 
 {{<guide-faq>}}
 
 {{<pricing-link>}}
 
-<div class="padding-top-large padding-bottom-large">{{<testimonial for="mojtabaSeyedi" photo="true">}}</div>
+{{<testimonial-group group="faq">}}
 
 {{<not-ready-yet>}}

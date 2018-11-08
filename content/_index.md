@@ -32,9 +32,7 @@ description: ""
 {{%/md%}}
 </div>
 
-<div class="padding-top-large padding-bottom">{{<testimonial for="patriciaParker" photo="true">}}</div>
-
-<div class="padding-bottom-large">{{<testimonial for="chrisBaughman" photo="true">}}</div>
+{{<testimonial-group group="homepage">}}
 
 {{<guide-skills>}}
 
