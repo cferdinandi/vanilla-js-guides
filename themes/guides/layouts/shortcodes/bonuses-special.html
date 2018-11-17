@@ -1,14 +1,23 @@
-<!-- <h2>&#x2744;&#xfe0f; Exclusive New Year's Sale Bonus Gifts</h2>
+{{ if .Get "bundle" }}
+{{ if and (ge (now.Format "20060102") 20181122) (lt (now.Format "20060102") 20181126) }}
+{{ if lt (now.Format "20060102") 20181124 }}
+<h2>🦃 Exclusive Black Friday Sale Bonus Gifts</h2>
+{{ else }}
+<h2>🔥 Exclusive Cyber Monday Sale Bonus Gifts</h2>
+{{ end }}
 
-<p>If you buy from now through January 2, you'll also get **$785.45 worth of bonus gifts and special discounts** for other learning resources.</p>
+<p>If you buy a pocket guide or course bundle {{ if lt (now.Format "20060102") 20181125 }}from now through Monday{{ end }}, you'll also get over <strong>$740 worth of bonus gifts and special discounts</strong> for other learning resources.{{ if eq (now.Format "20060102") 20181126 }} This offer ends today, so don't wait!{{ end }}</p>
 
 <ul>
 	<li>Get over your fear of command line and save 30% with <a href="https://terminal.training/">Remy Sharp's Terminal Training course</a>.</li>
 	<li>Deep dive into <a href="https://javascriptforwp.com/">JavaScript for WordPress</a> and the WP API with Zac Gordon and save 20%.</li>
+	<li>Learn the essentials of React from Chris Buecheler and save 60% on his <a href="https://closebrace.com/categories/five-minute-react">Five-Minute React course</a>.</li>
 	<li>Finally wrap your head around <a href="http://d3svg.com/">D3 and SVG with Ben Clinkinbeard</a> and get 20% off.</li>
 	<li>Want to make more money as a freelancer? Save 30% on Jonathan Stark's exceptional book, <a href="https://expensiveproblem.com/hbin">Hourly Billing is Nuts</a>.</li>
 	<li>Learn how to get more clients and grow your consulting business with 20% off of any of <a href="https://philipmorganconsulting.com">Philip Morgan's books or services</a>.</li>
 	<li>Get a free copy of my <a href="https://gomakethings.com/career-guide/">Web Developer Career Guide</a> and take your career to the next level.</li>
 	<li>Speed up your slow WordPress site with a free copy of my guide and toolkit, <a href="https://gomakethings.com/wicked-fast-websites/">Wicked Fast Websites</a>.</li>
-	<li>Refactor your body with 25% off of a personalized training and nutrition plan tailored for web developers from <a href="https://devlifts.io/">DevLifts</a>.</li>
-</ul> -->
+	<li>Refactor your body with 50% off of any fitness plan from <a href="https://devlifts.io/">DevLifts</a>. Made for developers, by developers.</li>
+</ul>
+{{ end }}
+{{ end }}

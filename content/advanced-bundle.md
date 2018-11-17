@@ -12,7 +12,7 @@ description: ""
 
 <img class="aligncenter" style="width: 88%;" src="/img/guides/advanced-bundle.jpg">
 
-<span class="text-large">Get four advanced topic pocket guides, all of the source code and demos, the bonuses, and exclusive Slack access.</span>
+<span class="text-large">Get four advanced topic pocket guides, all of the source code and demos, and exclusive Slack access.</span>
 
 {{<cta for="guides-all">}}
 
@@ -34,7 +34,7 @@ description: ""
 
 {{<bonuses>}}
 
-{{<bonuses-special>}}
+{{<bonuses-special bundle="true">}}
 
 {{<pricing-link>}}
 

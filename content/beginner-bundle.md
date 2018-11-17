@@ -34,7 +34,7 @@ description: ""
 
 {{<bonuses>}}
 
-{{<bonuses-special>}}
+{{<bonuses-special bundle="true">}}
 
 {{<pricing-link>}}
 
