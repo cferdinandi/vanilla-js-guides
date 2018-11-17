@@ -52,7 +52,7 @@ description: ""
 
 {{<purchase-summary>}}
 - Browser Storage
-- Ajax/HTTP
+- APIs and JavaScript
 - Writing Vanilla JS Plugins
 - Web Apps
 {{</purchase-summary>}}
