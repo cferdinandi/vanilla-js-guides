@@ -38,7 +38,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 ## Learn by doing with a real JavaScript project
 
-<div class="margin-bottom"><iframe class="margin-bottom" src="https://player.vimeo.com/video/253356981?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<p class="no-margin-bottom"><img alt="A screenshot of a JavaScript accordion component" src="/img/projects/accordion-project.jpg"></p>
 
 Reinforce your learning and build your portfolio by using DOM manipulation techniques on a real project. Together, we'll build a show-and-hide/accordion script that reveals content when you click a link.
 
@@ -51,6 +51,12 @@ Reinforce your learning and build your portfolio by using DOM manipulation techn
 {{<testimonial-group group="slack">}}
 
 {{<guide-skills>}}
+
+## A Sample Lesson
+
+<iframe src="https://player.vimeo.com/video/253356808?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<em class="text-muted text-small">Looping over an array with the <code>Array.forEach()</code> method.</em>
 
 {{<guide-money-back>}}
 

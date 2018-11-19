@@ -53,6 +53,12 @@ Reinforce your learning and build your portfolio by applying JavaScript best pra
 
 {{<guide-skills>}}
 
+## A Sample Lesson
+
+<iframe src="https://player.vimeo.com/video/281700177?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<em class="text-muted text-small">What are fat arrow functions and how do they work?</em>
+
 {{<guide-money-back>}}
 
 {{<guide-about-me>}}

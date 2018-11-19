@@ -54,6 +54,12 @@ Reinforce your learning and build your portfolio by using string, array, and obj
 
 {{<guide-skills>}}
 
+## A Sample Lesson
+
+<iframe src="https://player.vimeo.com/video/263559526?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<em class="text-muted text-small">How to use the <code>Array.filter()</code> method to create a new array containing only items that match certain criteria.</em>
+
 {{<guide-money-back>}}
 
 {{<guide-about-me>}}

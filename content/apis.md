@@ -51,6 +51,12 @@ Reinforce your learning and build your portfolio by using APIs on a real project
 
 {{<guide-skills>}}
 
+## A Sample Lesson
+
+<iframe src="https://player.vimeo.com/video/301324058?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<em class="text-muted text-small">How to parse the data APIs send back into a usable format with the <code>JSON.parse()</code> method.</em>
+
 {{<guide-money-back>}}
 
 {{<guide-about-me>}}
