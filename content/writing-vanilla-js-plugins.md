@@ -51,6 +51,12 @@ Reinforce your learning and build your portfolio by creating a real JavaScript p
 
 {{<guide-skills>}}
 
+## A Sample Lesson
+
+<iframe src="https://player.vimeo.com/video/311555126?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<em class="text-muted text-small">How to let users update and modify your plugin without touching the core code.</em>
+
 {{<guide-money-back>}}
 
 {{<guide-about-me>}}
