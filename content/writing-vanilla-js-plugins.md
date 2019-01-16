@@ -63,7 +63,7 @@ Get everything you need to start writing flexible, modular plugins with vanilla 
 
 {{<cta for="guide-buy">}}
 
-{{<purchase-link product="writingPlugins">}}
+{{<purchase-link product="writingPlugins" ready="true">}}
 
 {{<purchase-upsell upsell="advanced">}}
 
