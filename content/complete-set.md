@@ -66,6 +66,8 @@ AND, you'll automatically get any new pocket guides I release in the future, com
 
 {{<purchase-link bundle="complete" product="complete">}}
 
+{{<team-license product="complete">}}
+
 {{%/purchase-box%}}
 
 {{<testimonial-group group="purchase">}}

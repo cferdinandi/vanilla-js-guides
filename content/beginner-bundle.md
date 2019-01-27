@@ -61,6 +61,8 @@ description: ""
 
 {{<purchase-link ready="true" bundle="beginner" product="beginner">}}
 
+{{<team-license product="beginner">}}
+
 {{%/purchase-box%}}
 
 {{<testimonial-group group="purchase">}}

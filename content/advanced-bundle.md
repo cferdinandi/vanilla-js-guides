@@ -61,6 +61,8 @@ description: ""
 
 {{<purchase-link bundle="advanced" product="advanced">}}
 
+{{<team-license product="advanced">}}
+
 {{%/purchase-box%}}
 
 {{<testimonial-group group="purchase">}}

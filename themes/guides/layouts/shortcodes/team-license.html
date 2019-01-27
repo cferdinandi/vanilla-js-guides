@@ -1,0 +1,18 @@
+{{ $product := index .Site.Data.products.teamLicense ( .Get "product" ) }}
+{{ $.Scratch.Set "product" ( .Get "product" ) }}
+
+## Team License
+
+Want to share these guides and videos with your team? A team license gives access to a group of people at a steep discount.
+
+Team Licenses include everything in the ebook and video package. Perfect for bringing junior developers and new hires up to speed.
+
+<div class="row margin-bottom">
+	{{- range $index, $price := index $product "price" -}}
+	<div class="grid-third">
+		<a class="btn btn-large btn-block margin-bottom-small edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]={{ add $index 1 }}">{{ $price.people }} People - <span data-price='guides-{{ $.Scratch.Get "product" }}' data-product="team{{ $price.people }}">{{ $price.price | safeHTML }}</span></a>
+	</div>
+	{{- end -}}
+</div>
+
+<p class="text-small"><em>Licenses don't expire, and can be filled whenever you want. They cannot be transferred or resold.</em></p>

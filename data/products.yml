@@ -21,6 +21,71 @@ price:
         video: "<del>$194</del> $135"
         both: "<del>$207</del> $145"
 
+teamLicense:
+    complete:
+        id: "34998"
+        price:
+            -
+                people: 5
+                price: "$790"
+            -
+                people: 10
+                price: "$1,580"
+            -
+                people: 15
+                price: "$2,370"
+            -
+                people: 20
+                price: "$3,170"
+            -
+                people: 30
+                price: "$4,750"
+            -
+                people: 40
+                price: "$6,330"
+    beginner:
+        id: "35001"
+        price:
+            -
+                people: 5
+                price: "$460"
+            -
+                people: 10
+                price: "$930"
+            -
+                people: 15
+                price: "$1,390"
+            -
+                people: 20
+                price: "$1,860"
+            -
+                people: 30
+                price: "$2,790"
+            -
+                people: 40
+                price: "$3,720"
+    advanced:
+        id: "35003"
+        price:
+            -
+                people: 5
+                price: "$320"
+            -
+                people: 10
+                price: "$650"
+            -
+                people: 15
+                price: "$970"
+            -
+                people: 20
+                price: "$1,300"
+            -
+                people: 30
+                price: "$1,950"
+            -
+                people: 40
+                price: "$2,610"
+
 # Product Details
 productDetails:
     complete:
