@@ -1,9 +1,9 @@
 /*!
- * guides v1.2.0: The theme for gomakethings.com
- * (c) 2018 Chris Ferdinandi
+ * guides v1.2.0
+ * The theme for gomakethings.com
+ * (c) 2019 Chris Ferdinandi
  * MIT License
  * http://github.com/cferdinandi/vanilla-js-guides
- * Open Source Credits: https://github.com/toddmotto/fluidvids, http://prismjs.com, https://github.com/filamentgroup/loadJS/, https://github.com/filamentgroup/loadCSS, https://github.com/bramstein/fontfaceobserver
  */
 
 /**

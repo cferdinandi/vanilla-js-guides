@@ -1,9 +1,9 @@
 /*!
- * guides v1.2.0: The theme for gomakethings.com
- * (c) 2018 Chris Ferdinandi
+ * guides v1.2.0
+ * The theme for gomakethings.com
+ * (c) 2019 Chris Ferdinandi
  * MIT License
  * http://github.com/cferdinandi/vanilla-js-guides
- * Open Source Credits: https://github.com/toddmotto/fluidvids, http://prismjs.com, https://github.com/filamentgroup/loadJS/, https://github.com/filamentgroup/loadCSS, https://github.com/bramstein/fontfaceobserver
  */
 
 /**
@@ -53,8 +53,7 @@ select,
 textarea,
 label,
 summary {
-  -ms-touch-action: manipulation;
-      touch-action: manipulation;
+  touch-action: manipulation;
 }
 
 /**
@@ -77,9 +76,7 @@ summary {
 html {
   overflow-y: scroll;
   /* 1 */
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-          text-size-adjust: 100%;
+  text-size-adjust: 100%;
   /* 2 */
 }
 
@@ -309,6 +306,18 @@ figure {
  * Sets font styles for entire site
  */
 /* line 6, src/sass/components/_typography.scss */
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  /* line 6, src/sass/components/_typography.scss */
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* line 14, src/sass/components/_typography.scss */
 body {
   background: #ffffff;
   border-top: 0.5em solid #e5e5e5;
@@ -319,19 +328,19 @@ body {
   overflow-x: hidden;
 }
 
-/* line 15, src/sass/components/_typography.scss */
+/* line 23, src/sass/components/_typography.scss */
 .fonts-loaded body {
   font-family: "PT Serif", serif;
 }
 
 @media (min-width: 38em) {
-  /* line 6, src/sass/components/_typography.scss */
+  /* line 14, src/sass/components/_typography.scss */
   body {
     line-height: 1.5625em;
   }
 }
 
-/* line 24, src/sass/components/_typography.scss */
+/* line 32, src/sass/components/_typography.scss */
 p {
   margin: 0 0 1.5625em;
 }
@@ -341,14 +350,13 @@ p {
  * 1. Remove the gray background on active links in IE 10.
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
-/* line 35, src/sass/components/_typography.scss */
+/* line 43, src/sass/components/_typography.scss */
 a, .link-block-styled {
   background-color: transparent;
   /* 1 */
   color: #0088cc;
   text-decoration: underline;
-  -webkit-text-decoration-skip: ink;
-          text-decoration-skip: ink;
+  text-decoration-skip: ink;
   /* 2 */
   text-decoration-skip-ink: auto;
   /* 2 */
@@ -358,27 +366,27 @@ a, .link-block-styled {
 	 */
 }
 
-/* line 46, src/sass/components/_typography.scss */
+/* line 54, src/sass/components/_typography.scss */
 a:active, .link-block-styled:active, a:hover, .link-block-styled:hover, .link-block:hover .link-block-styled {
   outline: 0;
 }
 
-/* line 51, src/sass/components/_typography.scss */
+/* line 59, src/sass/components/_typography.scss */
 a:active, .link-block-styled:active, a:focus, .link-block-styled:focus, a:hover, .link-block-styled:hover, .link-block:hover .link-block-styled {
   color: #005580;
 }
 
-/* line 58, src/sass/components/_typography.scss */
+/* line 66, src/sass/components/_typography.scss */
 a:visited, .link-block-styled:visited {
   color: #800080;
 }
 
-/* line 64, src/sass/components/_typography.scss */
+/* line 72, src/sass/components/_typography.scss */
 .link-no-underline, .nav-secondary a, .nav-secondary .link-block-styled {
   text-decoration: none;
 }
 
-/* line 67, src/sass/components/_typography.scss */
+/* line 75, src/sass/components/_typography.scss */
 .link-no-underline:active, .nav-secondary a:active, .nav-secondary .link-block-styled:active, .link-no-underline:focus, .nav-secondary a:focus, .nav-secondary .link-block-styled:focus, .link-no-underline:hover, .nav-secondary a:hover, .nav-secondary .link-block-styled:hover, .nav-secondary .link-block:hover .link-block-styled, .link-block:hover .nav-secondary .link-block-styled {
   text-decoration: underline;
 }
@@ -386,13 +394,13 @@ a:visited, .link-block-styled:visited {
 /**
  * Remove default link styling
  */
-/* line 79, src/sass/components/_typography.scss */
+/* line 87, src/sass/components/_typography.scss */
 .link-plain, .link-plain:visited {
   color: #272727;
   text-decoration: none;
 }
 
-/* line 85, src/sass/components/_typography.scss */
+/* line 93, src/sass/components/_typography.scss */
 .link-plain:active, .link-plain:focus, .link-plain:hover {
   color: #0088cc;
 }
@@ -400,7 +408,7 @@ a:visited, .link-block-styled:visited {
 /**
  * Creates block-level links
  */
-/* line 98, src/sass/components/_typography.scss */
+/* line 106, src/sass/components/_typography.scss */
 a.link-block, .link-block.link-block-styled {
   color: #272727;
   display: block;
@@ -410,14 +418,14 @@ a.link-block, .link-block.link-block-styled {
 /**
  * List styling
  */
-/* line 117, src/sass/components/_typography.scss */
+/* line 125, src/sass/components/_typography.scss */
 ul,
 ol {
   margin: 0 0 1.5625em 2em;
   padding: 0;
 }
 
-/* line 123, src/sass/components/_typography.scss */
+/* line 131, src/sass/components/_typography.scss */
 ul ul,
 ul ol,
 ol ol,
@@ -425,43 +433,43 @@ ol ul {
   margin-bottom: 0;
 }
 
-/* line 130, src/sass/components/_typography.scss */
+/* line 138, src/sass/components/_typography.scss */
 li {
   margin-bottom: 0.5em;
 }
 
 @media (min-width: 38em) {
-  /* line 130, src/sass/components/_typography.scss */
+  /* line 138, src/sass/components/_typography.scss */
   li {
     margin-bottom: 0.25em;
   }
 }
 
-/* line 137, src/sass/components/_typography.scss */
+/* line 145, src/sass/components/_typography.scss */
 .list-spaced li {
   margin-bottom: 1em;
 }
 
 @media (min-width: 38em) {
-  /* line 137, src/sass/components/_typography.scss */
+  /* line 145, src/sass/components/_typography.scss */
   .list-spaced li {
     margin-bottom: 0.6875em;
   }
 }
 
-/* line 146, src/sass/components/_typography.scss */
+/* line 154, src/sass/components/_typography.scss */
 dl,
 dd {
   margin: 0;
   padding: 0;
 }
 
-/* line 152, src/sass/components/_typography.scss */
+/* line 160, src/sass/components/_typography.scss */
 dd {
   margin-bottom: 1.5625em;
 }
 
-/* line 156, src/sass/components/_typography.scss */
+/* line 164, src/sass/components/_typography.scss */
 dt {
   font-weight: bold;
 }
@@ -470,7 +478,7 @@ dt {
  * Removes list styling.
  * For semantic reasons, should only be used on unordered lists.
  */
-/* line 164, src/sass/components/_typography.scss */
+/* line 172, src/sass/components/_typography.scss */
 .list-unstyled {
   margin-left: 0;
   list-style: none;
@@ -479,7 +487,7 @@ dt {
 /**
  * Display lists on a single line.
  */
-/* line 173, src/sass/components/_typography.scss */
+/* line 181, src/sass/components/_typography.scss */
 .list-inline {
   list-style: none;
   margin-left: -0.5em;
@@ -487,7 +495,7 @@ dt {
   padding: 0;
 }
 
-/* line 179, src/sass/components/_typography.scss */
+/* line 187, src/sass/components/_typography.scss */
 .list-inline li {
   display: inline-block;
   margin-left: 0.5em;
@@ -495,19 +503,19 @@ dt {
 }
 
 @media (max-width: 38em) {
-  /* line 186, src/sass/components/_typography.scss */
+  /* line 194, src/sass/components/_typography.scss */
   .list-inline.list-inline-responsive li {
     display: block;
   }
 }
 
-/* line 192, src/sass/components/_typography.scss */
+/* line 200, src/sass/components/_typography.scss */
 .list-inline-spaced {
   margin-left: -1.3125em;
   margin-right: -1.3125em;
 }
 
-/* line 196, src/sass/components/_typography.scss */
+/* line 204, src/sass/components/_typography.scss */
 .list-inline-spaced li {
   display: inline-block;
   margin-left: 1.3125em;
@@ -515,10 +523,24 @@ dt {
 }
 
 /**
+ * @bugfix Prevent webkit from removing list semantics
+ * 1. Add a non-breaking space
+ * 2. Make sure it doesn't mess up the DOM flow
+ */
+/* line 218, src/sass/components/_typography.scss */
+.list-unstyled > li:before,
+.list-inline > li:before {
+  content: "\200B";
+  /* 1 */
+  position: absolute;
+  /* 2 */
+}
+
+/**
  * Heading styling for h1 through h6 elements.
  * Heading class lets you use one heading type for semantics, but style it as another heading type.
  */
-/* line 209, src/sass/components/_typography.scss */
+/* line 230, src/sass/components/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   line-height: 1.2;
@@ -527,7 +549,7 @@ h1, h2, h3, h4, h5, h6 {
   word-wrap: break-word;
 }
 
-/* line 217, src/sass/components/_typography.scss */
+/* line 238, src/sass/components/_typography.scss */
 h1,
 .h1 {
   font-size: 1.5em;
@@ -535,32 +557,32 @@ h1,
 }
 
 @media (min-width: 38em) {
-  /* line 217, src/sass/components/_typography.scss */
+  /* line 238, src/sass/components/_typography.scss */
   h1,
   .h1 {
     font-size: 1.75em;
   }
 }
 
-/* line 227, src/sass/components/_typography.scss */
+/* line 248, src/sass/components/_typography.scss */
 h2,
 .h2 {
   font-size: 1.3125em;
 }
 
-/* line 232, src/sass/components/_typography.scss */
+/* line 253, src/sass/components/_typography.scss */
 h3,
 .h3 {
   font-size: 1.1875em;
 }
 
-/* line 237, src/sass/components/_typography.scss */
+/* line 258, src/sass/components/_typography.scss */
 h4, h5, h6,
 .h4, .h5, .h6 {
   font-size: 1em;
 }
 
-/* line 242, src/sass/components/_typography.scss */
+/* line 263, src/sass/components/_typography.scss */
 h4,
 .h4 {
   text-transform: uppercase;
@@ -573,7 +595,7 @@ h4,
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 256, src/sass/components/_typography.scss */
+/* line 277, src/sass/components/_typography.scss */
 hr {
   border: 0;
   border-top: 1px solid #e5e5e5;
@@ -585,22 +607,22 @@ hr {
   /* 2 */
 }
 
-/* line 265, src/sass/components/_typography.scss */
+/* line 286, src/sass/components/_typography.scss */
 .line-secondary {
   width: 50%;
 }
 
-/* line 269, src/sass/components/_typography.scss */
+/* line 290, src/sass/components/_typography.scss */
 .line-clear {
   border-top-color: transparent;
 }
 
-/* line 273, src/sass/components/_typography.scss */
+/* line 294, src/sass/components/_typography.scss */
 .line-heading {
   position: relative;
 }
 
-/* line 276, src/sass/components/_typography.scss */
+/* line 297, src/sass/components/_typography.scss */
 .line-heading:after {
   background-color: #ffffff;
   content: attr(data-heading);
@@ -610,27 +632,26 @@ hr {
   position: absolute;
   top: -1em;
   text-align: center;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
   width: 70%;
 }
 
 @media (min-width: 28em) {
-  /* line 290, src/sass/components/_typography.scss */
+  /* line 311, src/sass/components/_typography.scss */
   .line-heading[data-heading-small]:after {
     content: attr(data-heading-small);
   }
 }
 
 @media (min-width: 38em) {
-  /* line 296, src/sass/components/_typography.scss */
+  /* line 317, src/sass/components/_typography.scss */
   .line-heading[data-heading-medium]:after {
     content: attr(data-heading-medium);
   }
 }
 
 @media (min-width: 60em) {
-  /* line 302, src/sass/components/_typography.scss */
+  /* line 323, src/sass/components/_typography.scss */
   .line-heading[data-heading-large]:after {
     content: attr(data-heading-large);
   }
@@ -639,7 +660,7 @@ hr {
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
-/* line 311, src/sass/components/_typography.scss */
+/* line 332, src/sass/components/_typography.scss */
 b,
 strong {
   font-weight: inherit;
@@ -648,7 +669,7 @@ strong {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 319, src/sass/components/_typography.scss */
+/* line 340, src/sass/components/_typography.scss */
 b,
 strong {
   font-weight: bolder;
@@ -658,7 +679,7 @@ strong {
  * 1. Remove the bottom border in Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 328, src/sass/components/_typography.scss */
+/* line 349, src/sass/components/_typography.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -671,7 +692,7 @@ abbr[title] {
 /**
  * Address styling not present in Safari and Chrome.
  */
-/* line 337, src/sass/components/_typography.scss */
+/* line 358, src/sass/components/_typography.scss */
 dfn {
   font-style: italic;
 }
@@ -679,7 +700,7 @@ dfn {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 344, src/sass/components/_typography.scss */
+/* line 365, src/sass/components/_typography.scss */
 mark {
   background: #fbf9c9;
   color: #272727;
@@ -688,7 +709,7 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 354, src/sass/components/_typography.scss */
+/* line 375, src/sass/components/_typography.scss */
 small {
   font-size: 80%;
 }
@@ -696,7 +717,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 361, src/sass/components/_typography.scss */
+/* line 382, src/sass/components/_typography.scss */
 sub,
 sup {
   font-size: 75%;
@@ -705,12 +726,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 369, src/sass/components/_typography.scss */
+/* line 390, src/sass/components/_typography.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 373, src/sass/components/_typography.scss */
+/* line 394, src/sass/components/_typography.scss */
 sub {
   bottom: -0.25em;
 }
@@ -718,7 +739,7 @@ sub {
 /**
  * Blockquotes
  */
-/* line 382, src/sass/components/_typography.scss */
+/* line 403, src/sass/components/_typography.scss */
 blockquote {
   border-left: 0.25em solid #e5e5e5;
   font-style: italic;
@@ -727,20 +748,20 @@ blockquote {
   padding-right: 1em;
 }
 
-/* line 390, src/sass/components/_typography.scss */
+/* line 411, src/sass/components/_typography.scss */
 blockquote cite {
   color: #808080;
   font-size: 0.9375em;
   padding-top: 1em;
 }
 
-/* line 397, src/sass/components/_typography.scss */
+/* line 418, src/sass/components/_typography.scss */
 blockquote,
 q {
   quotes: none;
 }
 
-/* line 402, src/sass/components/_typography.scss */
+/* line 423, src/sass/components/_typography.scss */
 blockquote:before,
 blockquote:after,
 q:before,
@@ -776,9 +797,7 @@ pre {
   margin: 0 0 1.5625em;
   overflow: auto;
   padding: 0.8125em;
-  -moz-tab-size: 4;
-    -o-tab-size: 4;
-       tab-size: 4;
+  tab-size: 4;
   white-space: pre-wrap;
   word-break: break-all;
 }
@@ -1866,8 +1885,11 @@ td {
 }
 
 /* line 269, src/sass/components/_overrides.scss */
-.clearfix:after, .container:after,
-.row:after, .nav-wrap:after {
+
+.clearfix:after,
+.container:after,
+.row:after,
+.nav-wrap:after {
   clear: both;
 }
 
@@ -1898,23 +1920,21 @@ td {
 	 * Underline all links
 	 */
   /* line 30, src/sass/components/_print.scss */
-  a, .link-block-styled,
-  a:visited,
-  .link-block-styled:visited {
+  a, .link-block-styled, a:visited, .link-block-styled:visited {
     text-decoration: underline;
   }
   /**
 	 * Show URL after links
 	 */
   /* line 38, src/sass/components/_print.scss */
-  a[href]:after, [href].link-block-styled:after {
+  a[href]:after, .link-block-styled[href]:after {
     content: " (" attr(href) ")";
   }
   /**
 	 * Don't show URL for internal links
 	 */
   /* line 45, src/sass/components/_print.scss */
-  a[href^="#"]:after, [href^="#"].link-block-styled:after {
+  a[href^="#"]:after, .link-block-styled[href^="#"]:after {
     content: "";
   }
   /**
