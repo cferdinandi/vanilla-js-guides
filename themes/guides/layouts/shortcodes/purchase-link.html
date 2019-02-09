@@ -1,37 +1,23 @@
-{{ $product := index .Site.Data.products.productDetails ( .Get "product" ) }}
-{{ $.Scratch.Set "price" .Site.Data.products.price.guides }}
-{{ if .Get "bundle" }}
-	{{ if eq ( .Get "bundle" ) "complete" }}
-		{{ $.Scratch.Set "price" .Site.Data.products.price.guidesComplete }}
-	{{ else if eq ( .Get "bundle" ) "beginner" }}
-		{{ $.Scratch.Set "price" .Site.Data.products.price.guidesBeginner }}
-	{{ else if eq ( .Get "bundle" ) "advanced" }}
-		{{ $.Scratch.Set "price" .Site.Data.products.price.guidesAdvanced }}
-	{{ end }}
-{{ end }}
-{{ $price := ( $.Scratch.Get "price" ) }}
-{{ if .Get "novideo" }}
-<p><a class="btn btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=1">Buy it now for just <span data-price="guides-{{ if .Get "bundle" }}{{ .Get "bundle" }}{{ else }}individual{{ end }}" data-product="ebook">{{ ( $price.ebook | safeHTML ) }}</span></a></p>
-{{ else }}
-{{ if not (.Get "ready") }}<p><em><strong>Want to save {{ if .Get "bundle" }}an additional {{ end }}30%?</strong> Pre-order the video series while it's in development to get {{ if .Get "bundle" }}an additional {{ end }}30% off the launch price.</em></p>{{ end }}
+{{- $product := index .Site.Data.products.productDetails ( .Get "product" ) -}}
+{{- $.Scratch.Set "price" .Site.Data.products.price.guides -}}
+{{- if .Get "bundle" -}}
+	{{- if eq ( .Get "bundle" ) "complete" -}}
+		{{- $.Scratch.Set "price" .Site.Data.products.price.guidesComplete -}}
+	{{- else if eq ( .Get "bundle" ) "beginner" -}}
+		{{- $.Scratch.Set "price" .Site.Data.products.price.guidesBeginner -}}
+	{{- else if eq ( .Get "bundle" ) "advanced" -}}
+		{{- $.Scratch.Set "price" .Site.Data.products.price.guidesAdvanced -}}
+	{{- end -}}
+{{- end -}}
+{{- $price := ( $.Scratch.Get "price" ) -}}
+
 <div class="row">
 	<div class="grid-half margin-bottom-small">
 		<a class="btn btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=1">Get the Ebook{{ if .Get "bundle" }}s{{ end }} - <span data-price="guides-{{ if .Get "bundle" }}{{ .Get "bundle" }}{{ else }}individual{{ end }}" data-product="ebook">{{ ( $price.ebook | safeHTML ) }}</span></a>
 	</div>
-	{{ if .Get "ready" }}<div class="grid-half margin-bottom-small">
-		<a class="btn btn-secondary btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=2">Get the Videos - <span data-price="guides-{{ if .Get "bundle" }}{{ .Get "bundle" }}{{ else }}individual{{ end }}" data-product="video">{{ ( $price.videoReady | safeHTML ) }}</span></a>
-	</div>{{ else }}
 	<div class="grid-half margin-bottom-small">
-		<a class="btn btn-secondary btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=2">Preorder the Videos - <span data-price="guides-{{ if .Get "bundle" }}{{ .Get "bundle" }}{{ else }}individual-preorder{{ end }}" data-product="video" >{{ ( $price.video | safeHTML ) }}</span></a>
-	</div>{{ end }}
+		<a class="btn btn-secondary btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=2">Get the Videos - <span data-price="guides-{{ if .Get "bundle" }}{{ .Get "bundle" }}{{ else }}individual{{ end }}" data-product="video">{{ ( $price.video | safeHTML ) }}</span></a>
+	</div>
 </div>
-{{ if .Get "ready" }}
-<p><a class="btn btn-tertiary btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=3">Get the Ebook{{ if .Get "bundle" }}s{{ end }} + the Videos - <span data-price="guides-{{ if .Get "bundle" }}{{ .Get "bundle" }}{{ else }}individual{{ end }}" data-product="both">{{ ( $price.bothReady | safeHTML ) }}</span></a></p>
-{{ else }}
-<p><a class="btn btn-tertiary btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=3">Get the Ebook{{ if .Get "bundle" }}s{{ end }} + Preorder the Videos - <span data-price="guides-{{ if .Get "bundle" }}{{ .Get "bundle" }}{{ else }}individual-preorder{{ end }}" data-product="both" >{{ ( $price.both | safeHTML ) }}</span></a></p>
-{{ end }}
-{{ end }}
 
-{{- if false -}}
-<p><strong>Want to share with your team?</strong> Email me at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?params=subject=Pocket%20Guide%20Team%20Pricing&body=Hi%2C%20I'm%20interested%20in%20team%20pricing%20for%20%7BPOCKET%20GUIDE%7D%20for%20%7BX%7D%20people.%20Thanks!">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> to get special team pricing.</p>
-{{- end -}}
+<p><a class="btn btn-tertiary btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=3">Get the Ebook{{ if .Get "bundle" }}s{{ end }} + the Videos - <span data-price="guides-{{ if .Get "bundle" }}{{ .Get "bundle" }}{{ else }}individual{{ end }}" data-product="both">{{ ( $price.both | safeHTML ) }}</span></a></p>

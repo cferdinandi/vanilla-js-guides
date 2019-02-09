@@ -2,24 +2,20 @@
 price:
     guides:
         ebook: "$29"
-        video: "<del>$69</del> $48"
-        both: "<del>$74</del> $52"
-        videoReady: "$69"
-        bothReady: "$74"
+        video: "$69"
+        both: "$74"
     guidesComplete:
-        ebook: "$179"
-        video: "<del>$387</del> $329"
-        both: "<del>$415</del> $352"
+        ebook: "$159"
+        video: "$384"
+        both: "$409"
     guidesBeginner:
-        ebook: "$99"
-        video: "$194"
+        ebook: "$79"
+        video: "$189"
         both: "$207"
-        videoReady: "$194"
-        bothReady: "$207"
     guidesAdvanced:
-        ebook: "$99"
-        video: "<del>$194</del> $135"
-        both: "<del>$207</del> $145"
+        ebook: "$79"
+        video: "$189"
+        both: "$207"
 
 teamLicense:
     complete:
@@ -27,22 +23,22 @@ teamLicense:
         price:
             -
                 people: 5
-                price: "$790"
+                price: "$920"
             -
                 people: 10
-                price: "$1,580"
+                price: "$1,840"
             -
                 people: 15
-                price: "$2,370"
+                price: "$2,760"
             -
                 people: 20
-                price: "$3,170"
+                price: "$3,680"
             -
                 people: 30
-                price: "$4,750"
+                price: "$5,520"
             -
                 people: 40
-                price: "$6,330"
+                price: "$7,360"
     beginner:
         id: "35001"
         price:
@@ -69,22 +65,22 @@ teamLicense:
         price:
             -
                 people: 5
-                price: "$320"
+                price: "$460"
             -
                 people: 10
-                price: "$650"
+                price: "$930"
             -
                 people: 15
-                price: "$970"
+                price: "$1,390"
             -
                 people: 20
-                price: "$1,300"
+                price: "$1,860"
             -
                 people: 30
-                price: "$1,950"
+                price: "$2,790"
             -
                 people: 40
-                price: "$2,610"
+                price: "$3,720"
 
 # Product Details
 productDetails:

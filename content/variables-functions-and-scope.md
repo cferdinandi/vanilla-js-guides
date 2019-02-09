@@ -71,7 +71,7 @@ Get everything you need to start mastering modern vanilla JavaScript:
 
 {{<cta for="guide-buy">}}
 
-{{<purchase-link product="variablesFunctionsScope" ready="true">}}
+{{<purchase-link product="variablesFunctionsScope">}}
 
 {{<purchase-upsell upsell="beginner">}}
 

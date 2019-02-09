@@ -27,8 +27,8 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 - How to render dynamic content into the DOM.
 - How to detect changes to your data and selectively update content.
 - How to listen for user interactions and behaviors.
+- How to manage state and data reactivity.
 - How to handle URL routing with single page apps.
-- How to use placeholder content to improve perceived initial load time.
 - How to put it all together and write a working web app with vanilla JavaScript.
 
 {{<guide-formats>}}

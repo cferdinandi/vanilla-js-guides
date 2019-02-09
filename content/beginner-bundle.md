@@ -59,7 +59,7 @@ description: ""
 
 {{<cta for="guide-buy">}}
 
-{{<purchase-link ready="true" bundle="beginner" product="beginner">}}
+{{<purchase-link bundle="beginner" product="beginner">}}
 
 {{<team-license product="beginner">}}
 

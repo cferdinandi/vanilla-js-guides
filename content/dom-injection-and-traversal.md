@@ -70,7 +70,7 @@ Get everything you need to start mastering DOM injection and traversal with vani
 
 {{<cta for="guide-buy">}}
 
-{{<purchase-link product="domInjectionTraversal" ready="true">}}
+{{<purchase-link product="domInjectionTraversal">}}
 
 {{<purchase-upsell upsell="beginner">}}
 

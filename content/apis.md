@@ -69,7 +69,7 @@ Get everything you need to start mastering Ajax with vanilla JavaScript:
 
 {{<cta for="guide-buy">}}
 
-{{<purchase-link product="ajaxHttp" ready="true">}}
+{{<purchase-link product="ajaxHttp">}}
 
 {{<purchase-upsell upsell="advanced">}}
 
