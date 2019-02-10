@@ -58,6 +58,8 @@ Reinforce your learning and build your portfolio by using DOM manipulation techn
 
 <em class="text-muted text-small">Looping over an array with the <code>Array.forEach()</code> method.</em>
 
+{{<sample>}}
+
 {{<guide-money-back>}}
 
 {{<guide-about-me>}}

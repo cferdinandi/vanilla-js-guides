@@ -57,6 +57,8 @@ Reinforce your learning and build your portfolio by working on a real project. T
 
 <em class="text-muted text-small">How to create and update the DOM based on the current state of your data.</em>
 
+{{<sample>}}
+
 {{<guide-money-back>}}
 
 {{<guide-about-me>}}

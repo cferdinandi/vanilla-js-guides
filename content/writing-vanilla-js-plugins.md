@@ -57,6 +57,8 @@ Reinforce your learning and build your portfolio by creating a real JavaScript p
 
 <em class="text-muted text-small">How to let users update and modify your plugin without touching the core code.</em>
 
+{{<sample>}}
+
 {{<guide-money-back>}}
 
 {{<guide-about-me>}}

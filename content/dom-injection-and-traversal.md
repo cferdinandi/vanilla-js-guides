@@ -58,6 +58,8 @@ Reinforce your learning and build your portfolio by using DOM injection and trav
 
 <em class="text-muted text-small">How to inject an element before another one using the <code>Element.before()</code> method.</em>
 
+{{<sample>}}
+
 {{<guide-money-back>}}
 
 {{<guide-about-me>}}

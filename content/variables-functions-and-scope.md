@@ -59,6 +59,8 @@ Reinforce your learning and build your portfolio by applying JavaScript best pra
 
 <em class="text-muted text-small">What are fat arrow functions and how do they work?</em>
 
+{{<sample>}}
+
 {{<guide-money-back>}}
 
 {{<guide-about-me>}}

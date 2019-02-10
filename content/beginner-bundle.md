@@ -42,6 +42,14 @@ description: ""
 
 {{<guide-skills>}}
 
+## A Sample Lesson
+
+<iframe src="https://player.vimeo.com/video/253356808?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<em class="text-muted text-small">Looping over an array with the <code>Array.forEach()</code> method.</em>
+
+{{<sample>}}
+
 {{<guide-money-back>}}
 
 {{<guide-about-me>}}

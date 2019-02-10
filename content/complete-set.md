@@ -43,6 +43,14 @@ AND, you'll automatically get any new pocket guides I release in the future, com
 
 {{<guide-skills>}}
 
+## A Sample Lesson
+
+<iframe src="https://player.vimeo.com/video/298072239?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<em class="text-muted text-small">How to set, get, and delete data with the Local Storage API.</em>
+
+{{<sample>}}
+
 {{<guide-money-back>}}
 
 {{<guide-about-me>}}

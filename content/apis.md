@@ -57,6 +57,8 @@ Reinforce your learning and build your portfolio by using APIs on a real project
 
 <em class="text-muted text-small">How to parse the data APIs send back into a usable format with the <code>JSON.parse()</code> method.</em>
 
+{{<sample>}}
+
 {{<guide-money-back>}}
 
 {{<guide-about-me>}}

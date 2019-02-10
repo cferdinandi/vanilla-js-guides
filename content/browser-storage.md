@@ -55,6 +55,8 @@ Reinforce your learning and build your portfolio by using browser storage on a r
 
 <em class="text-muted text-small">How to set, get, and delete data with the Local Storage API.</em>
 
+{{<sample>}}
+
 {{<guide-money-back>}}
 
 {{<guide-about-me>}}

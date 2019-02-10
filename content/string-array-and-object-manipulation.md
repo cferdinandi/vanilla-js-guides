@@ -60,6 +60,8 @@ Reinforce your learning and build your portfolio by using string, array, and obj
 
 <em class="text-muted text-small">How to use the <code>Array.filter()</code> method to create a new array containing only items that match certain criteria.</em>
 
+{{<sample>}}
+
 {{<guide-money-back>}}
 
 {{<guide-about-me>}}
