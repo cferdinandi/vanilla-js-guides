@@ -51,6 +51,12 @@ Reinforce your learning and build your portfolio by working on a real project. T
 
 {{<guide-skills>}}
 
+## A Sample Lesson
+
+<iframe src="https://player.vimeo.com/video/316200825?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<em class="text-muted text-small">How to create and update the DOM based on the current state of your data.</em>
+
 {{<guide-money-back>}}
 
 {{<guide-about-me>}}
