@@ -1,5 +1,13 @@
-{{ $product := index .Site.Data.products.teamLicense ( .Get "product" ) }}
-{{ $.Scratch.Set "product" ( .Get "product" ) }}
+{{- $product := index .Site.Data.products.teamLicense ( .Get "product" ) -}}
+{{- $.Scratch.Set "type" ( printf "guides-%s" ( .Get "product" ) ) -}}
+
+
+{{- $data := getJSON $.Site.Params.api -}}
+{{- $apiPrices := index $data "prices" -}}
+{{- $apiPrice := "" -}}
+{{- if isset $apiPrices ($.Scratch.Get "type") -}}
+	{{- $apiPrice := index $apiPrices ($.Scratch.Get "type") -}}
+{{- end -}}
 
 ## Team License
 
@@ -9,8 +17,15 @@ Team Licenses include everything in the ebook and video package. Perfect for bri
 
 <div class="row margin-bottom">
 	{{- range $index, $price := index $product "price" -}}
+
+	{{- $.Scratch.Set "product" ( printf "team%d" $price.people ) -}}
+	{{- $apiProductPrice := "" -}}
+	{{- if isset $apiPrices ($.Scratch.Get "product") -}}
+		{{- $apiProductPrice := index $apiPrices ($.Scratch.Get "product") -}}
+	{{- end -}}
+
 	<div class="grid-third">
-		<a class="btn btn-large btn-block margin-bottom-small edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]={{ add $index 1 }}">{{ $price.people }} People - <span data-price='guides-{{ $.Scratch.Get "product" }}' data-product="team{{ $price.people }}">{{ $price.price | safeHTML }}</span></a>
+		<a class="btn btn-large btn-block margin-bottom-small edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]={{ add $index 1 }}">{{ $price.people }} People - {{ if ne $apiProductPrice "" }}{{ $apiProductPrice | safeHTML }}{{ else }}{{ $price.price | safeHTML }}{{ end }}</a>
 	</div>
 	{{- end -}}
 </div>
