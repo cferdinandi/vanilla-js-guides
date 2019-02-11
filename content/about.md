@@ -24,5 +24,5 @@ I want to help you master vanilla JavaScript, without all of the painful false s
 {{<guide-faq>}}
 
 <div class="padding-top">
-	{{<mailchimp intro>}}
+	{{<mailchimp intro="true">}}
 </div>

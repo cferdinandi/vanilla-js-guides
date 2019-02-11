@@ -4,10 +4,16 @@ baseURL: "https://vanillajsguides.com"
 # Customer parameters
 params:
   description: "Short, focused vanilla JS ebooks and video courses made for beginners. Start building real JavaScript projects in under an hour."
+  api: "https://gomakethings.com/api/data.json"
   rssURL: "https://gomakethings.com/feed/index.xml"
   rssLimit: 7
   studentURL: "https://courses.gomakethings.com"
   minify: true
+
+# Caches
+caches:
+  getjson:
+    maxAge: "10m"
 
 # The language code for the site
 languageCode: "en-us"

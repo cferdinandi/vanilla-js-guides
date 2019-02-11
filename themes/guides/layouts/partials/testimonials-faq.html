@@ -1,7 +1,44 @@
-<div class="padding-top-large padding-bottom-large">
-	<div data-testimonial="mojtabaSeyedi"></div>
-</div>
+{{- $data := getJSON $.Site.Params.api -}}
+{{- $testimonials := index $data "testimonials" -}}
 
-<div class="padding-bottom-large">
-	<div data-testimonial="jeremyGreen"></div>
+{{- if isset $testimonials "mojtabaSeyedi" -}}
+{{- $testimonial := index $testimonials "mojtabaSeyedi" -}}
+<div class="padding-top-large padding-bottom">
+	<div class="row">
+		<div class="grid-third">
+			<img class="aligncenter margin-bottom-small img-circle" height="150" width="150" src="https://gomakethings.com{{ index $testimonial "photo" }}">
+		</div>
+		<div class="grid-two-thirds">
+			<blockquote>
+				{{ index $testimonial "quote" | safeHTML }}
+				{{- if isset $testimonial "url" -}}
+				<cite>- <a href="{{ index $testimonial "url" }}">{{ index $testimonial "name" }}</a></cite>
+				{{- else -}}
+				<cite>- {{ index $testimonial "name" }}</cite>
+				{{- end -}}
+			</blockquote>
+		</div>
+	</div>
 </div>
+{{- end -}}
+
+{{- if isset $testimonials "jeremyGreen" -}}
+{{- $testimonial := index $testimonials "jeremyGreen" -}}
+<div class="padding-bottom-large">
+	<div class="row">
+		<div class="grid-third">
+			<img class="aligncenter margin-bottom-small img-circle" height="150" width="150" src="https://gomakethings.com{{ index $testimonial "photo" }}">
+		</div>
+		<div class="grid-two-thirds">
+			<blockquote>
+				{{ index $testimonial "quote" | safeHTML }}
+				{{- if isset $testimonial "url" -}}
+				<cite>- <a href="{{ index $testimonial "url" }}">{{ index $testimonial "name" }}</a></cite>
+				{{- else -}}
+				<cite>- {{ index $testimonial "name" }}</cite>
+				{{- end -}}
+			</blockquote>
+		</div>
+	</div>
+</div>
+{{- end -}}
