@@ -1,7 +1,6 @@
-<h2>About the Instructor</h2>
-
-<div class="clearfix margin-bottom"><img src="{{ "/img/chris-ferdinandi-high-res.jpg" | absURL }}" alt="Chris Ferdinandi" width="175" height="175" class="img-circle alignleft margin-bottom">
-
-<p>Hi, I’m Chris Ferdinandi. I write vanilla JavaScript plugins that are used by organizations like Apple, Harvard Business School, and CNN.</p>
-
-<p>I want to help you master vanilla JavaScript, without all of the painful false starts and roadblocks I encountered when I was learning.</p></div>
+{{- $data := getJSON $.Site.Params.api -}}
+{{- $ctas := index $data "ctas" -}}
+{{- if isset $ctas "bio" -}}
+<h2 id="about">About the Instructor</h2>
+{{ index $ctas "bio" | safeHTML }}
+{{- end -}}
