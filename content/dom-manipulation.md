@@ -54,7 +54,7 @@ Reinforce your learning and build your portfolio by using DOM manipulation techn
 
 ## A Sample Lesson
 
-<iframe src="https://player.vimeo.com/video/253356808?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/334766136?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 <em class="text-muted text-small">Looping over an array with the <code>Array.forEach()</code> method.</em>
 
