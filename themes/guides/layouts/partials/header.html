@@ -34,6 +34,7 @@
 		<style type="text/css">
 			{{ if eq $.Site.Params.minify true }}{{ readFile "/themes/guides/static/css/main.min.css" | safeCSS }}{{ else }}{{ readFile "/themes/guides/static/css/main.css" | safeCSS }}{{ end }}
 		</style>
+		{{- if ne $.Site.Params.font "" -}}<link href="{{ $.Site.Params.font }}" rel="stylesheet">{{- end -}}
 
 		<!-- Feature Detection -->
 		<script>

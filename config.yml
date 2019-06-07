@@ -5,6 +5,7 @@ baseURL: "https://vanillajsguides.com"
 params:
   description: "Short, focused vanilla JS ebooks and video courses made for beginners. Start building real JavaScript projects in under an hour."
   api: "https://gomakethings.com/api/data.json"
+  font: "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&display=swap"
   rssURL: "https://gomakethings.com/feed/index.xml"
   rssLimit: 7
   studentURL: "https://courses.gomakethings.com"
