@@ -100,6 +100,14 @@ productDetails:
     id: "22585"
     description: "Learn how to get DOM elements and do awesome stuff with them."
     url: "/dom-manipulation/"
+  arraysObjects:
+    id: "22696"
+    description: "Master modern methods for editing and transforming arrays and objects."
+    url: "/arrays-and-objects/"
+  stringsNumbers:
+    id: "36577"
+    description: "Transform and edit strings and numbers for use in modern websites and web apps."
+    url: "/strings-and-numbers/"
   stringArrayObject:
     id: "22696"
     description: "Transform and edit strings, arrays, and objects to make working with them easier and more productive."
