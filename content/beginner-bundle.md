@@ -12,7 +12,7 @@ description: ""
 
 <img class="aligncenter" style="width: 88%;" src="/img/guides/beginner-bundle.jpg">
 
-<span class="text-large">Get four essential pocket guides, all of the source code and demos, and exclusive Slack access.</span>
+<span class="text-large">Get five essential pocket guides, all of the source code and demos, and exclusive Slack access.</span>
 
 {{<cta for="guides-all">}}
 
