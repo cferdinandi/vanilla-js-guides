@@ -23,43 +23,43 @@ teamLicense:
     price:
       -
         people: 5
-        price: "$920"
+        price: "$1,030"
       -
         people: 10
-        price: "$1,840"
+        price: "$2,065"
       -
         people: 15
-        price: "$2,760"
+        price: "$3,090"
       -
         people: 20
-        price: "$3,680"
+        price: "$4,130"
       -
         people: 30
-        price: "$5,520"
+        price: "$6,195"
       -
         people: 40
-        price: "$7,360"
+        price: "$8,260"
   beginner:
     id: "35001"
     price:
       -
         people: 5
-        price: "$460"
+        price: "$580"
       -
         people: 10
-        price: "$930"
+        price: "$1,165"
       -
         people: 15
-        price: "$1,390"
+        price: "$1,745"
       -
         people: 20
-        price: "$1,860"
+        price: "$2,330"
       -
         people: 30
-        price: "$2,790"
+        price: "$3,495"
       -
         people: 40
-        price: "$3,720"
+        price: "$4,660"
   advanced:
     id: "35003"
     price:
