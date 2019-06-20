@@ -4,6 +4,10 @@ price:
     ebook: "$29"
     video: "$69"
     both: "$74"
+  projects:
+    ebook: "$19"
+    video: "$39"
+    both: "$44"
   guidesComplete:
     ebook: "$179"
     video: "$429"

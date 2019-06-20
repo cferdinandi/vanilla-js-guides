@@ -1,0 +1,92 @@
+{{- $product := .Site.Data.products.productDetails -}}
+{{- if eq ( .Get "package" ) "bundles" -}}
+- **[The Complete Set.]({{ $product.complete.url }})** {{ $product.complete.description }}</span>
+- **[The Beginner's Bundle.]({{ $product.beginner.url }})** {{ $product.beginner.description }}</span>
+- **[The Advanced Bundle.]({{ $product.advanced.url }})** {{ $product.advanced.description }}</span>
+{{- end -}}
+
+{{- if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "beginner" ) -}}
+<div class="row">
+	<div class="grid-third margin-bottom text-center">
+		<a href="{{ $product.domManipulation.url }}">
+			<img alt="" style="max-width: 8em;" src="/img/covers/dom-manipulation.jpg"><br>
+			<strong>DOM Manipulation</strong>
+		</a><br>
+		<span class="text-small">{{ $product.domManipulation.description }}</span>
+	</div>
+	<div class="grid-third margin-bottom text-center">
+		<a href="{{ $product.stringsNumbers.url }}">
+			<img alt="" style="max-width: 8em;" src="/img/covers/strings-numbers.jpg"><br>
+			<strong>Strings & Numbers</strong>
+		</a><br>
+		<span class="text-small">{{ $product.stringsNumbers.description }}</span>
+	</div>
+	<div class="grid-third margin-bottom text-center">
+		<a href="{{ $product.arraysObjects.url }}">
+			<img alt="" style="max-width: 8em;" src="/img/covers/arrays-objects.jpg"><br>
+			<strong>Arrays & Objects</strong>
+		</a><br>
+		<span class="text-small">{{ $product.arraysObjects.description }}</span>
+	</div>
+</div>
+<div class="row">
+	<div class="grid-third margin-bottom text-center">
+		<a href="{{ $product.variablesFunctionsScope.url }}">
+			<img alt="" style="max-width: 8em;" src="/img/covers/variables-functions-scope.jpg"><br>
+			<strong>Variables, Functions & Scope</strong>
+		</a><br>
+		<span class="text-small">{{ $product.variablesFunctionsScope.description }}</span>
+	</div>
+	<div class="grid-third margin-bottom text-center">
+		<a href="{{ $product.domInjectionTraversal.url }}">
+			<img alt="" style="max-width: 8em;" src="/img/covers/dom-injection.jpg"><br>
+			<strong>DOM Injection & Traversal</strong>
+		</a><br>
+		<span class="text-small">{{ $product.domInjectionTraversal.description }}</span>
+	</div>
+{{- if ne ( .Get "package" ) "complete" -}}
+</div>
+{{- end -}}
+{{- end -}}
+{{- if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "advanced" ) -}}
+{{- if ne ( .Get "package" ) "complete" -}}
+<div class="row">
+{{- end -}}
+	<div class="grid-third margin-bottom text-center">
+		<a href="{{ $product.browserStorage.url }}">
+			<img alt="" style="max-width: 8em;" src="/img/covers/browser-storage.jpg"><br>
+			<strong>Browser Storage</strong>
+		</a><br>
+		<span class="text-small">{{ $product.browserStorage.description }}</span>
+	</div>
+{{- if eq ( .Get "package" ) "complete" -}}
+</div>
+<div class="row">
+{{- end -}}
+	<div class="grid-third margin-bottom text-center">
+		<a href="{{ $product.ajaxHttp.url }}">
+			<img alt="" style="max-width: 8em;" src="/img/covers/apis.jpg"><br>
+			<strong>APIs & JavaScript</strong>
+		</a><br>
+		<span class="text-small">{{ $product.ajaxHttp.description }}</span>
+	</div>
+	<div class="grid-third margin-bottom text-center">
+		<a href="{{ $product.writingPlugins.url }}">
+			<img alt="" style="max-width: 8em;" src="/img/covers/writing-plugins.jpg"><br>
+			<strong>Writing Plugins</strong>
+		</a><br>
+		<span class="text-small">{{ $product.writingPlugins.description }}</span>
+	</div>
+{{- if ne ( .Get "package" ) "complete" -}}
+</div>
+<div class="row">
+{{- end -}}
+	<div class="grid-third margin-bottom text-center">
+		<a href="{{ $product.webApps.url }}">
+			<img alt="" style="max-width: 8em;" src="/img/covers/web-apps.jpg"><br>
+			<strong>Web Apps</strong>
+		</a><br>
+		<span class="text-small">{{ $product.webApps.description }}</span>
+	</div>
+</div>
+{{- end -}}
