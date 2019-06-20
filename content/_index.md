@@ -18,8 +18,6 @@ description: ""
 
 ## Bundles
 
-*Now available as team licenses.*
-
 <div class="list-spaced">
 {{%md%}}
 {{<product-list package="bundles">}}

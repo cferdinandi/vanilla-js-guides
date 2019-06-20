@@ -77,6 +77,8 @@ Get everything you need to start mastering modern vanilla JavaScript:
 
 {{<purchase-upsell upsell="beginner">}}
 
+{{<team-license>}}
+
 {{%/purchase-box%}}
 
 {{<testimonial-group group="purchase">}}

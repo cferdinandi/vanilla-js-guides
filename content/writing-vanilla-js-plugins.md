@@ -75,6 +75,8 @@ Get everything you need to start writing flexible, modular plugins with vanilla 
 
 {{<purchase-upsell upsell="advanced">}}
 
+{{<team-license>}}
+
 {{%/purchase-box%}}
 
 {{<testimonial-group group="purchase">}}

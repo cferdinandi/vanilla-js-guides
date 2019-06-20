@@ -75,6 +75,8 @@ Get everything you need to start mastering Ajax with vanilla JavaScript:
 
 {{<purchase-upsell upsell="advanced">}}
 
+{{<team-license>}}
+
 {{%/purchase-box%}}
 
 {{<testimonial-group group="purchase">}}

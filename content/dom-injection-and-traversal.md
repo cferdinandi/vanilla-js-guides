@@ -76,6 +76,8 @@ Get everything you need to start mastering DOM injection and traversal with vani
 
 {{<purchase-upsell upsell="beginner">}}
 
+{{<team-license>}}
+
 {{%/purchase-box%}}
 
 {{<testimonial-group group="purchase">}}
