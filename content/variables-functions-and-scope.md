@@ -45,8 +45,6 @@ Reinforce your learning and build your portfolio by applying JavaScript best pra
 
 {{<bonuses>}}
 
-{{<bonuses-special>}}
-
 {{<pricing-link>}}
 
 {{<testimonial-group group="slack">}}

@@ -44,8 +44,6 @@ Reinforce your learning and build your portfolio by using DOM injection and trav
 
 {{<bonuses>}}
 
-{{<bonuses-special>}}
-
 {{<pricing-link>}}
 
 {{<testimonial-group group="slack">}}

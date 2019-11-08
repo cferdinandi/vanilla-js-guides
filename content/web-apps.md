@@ -43,8 +43,6 @@ Reinforce your learning and build your portfolio by working on a real project. T
 
 {{<bonuses>}}
 
-{{<bonuses-special>}}
-
 {{<pricing-link>}}
 
 {{<testimonial-group group="slack">}}

@@ -10,6 +10,10 @@
 
 .bg-muted {
 	background-color: lighten( $color-gray-light, 7% );
+
+	@media (prefers-color-scheme: dark) {
+		background-color: lighten( $color-black, 7% );
+	}
 }
 
 

@@ -43,8 +43,6 @@ Reinforce your learning and build your portfolio by creating a real JavaScript p
 
 {{<bonuses>}}
 
-{{<bonuses-special>}}
-
 {{<pricing-link>}}
 
 {{<testimonial-group group="slack">}}

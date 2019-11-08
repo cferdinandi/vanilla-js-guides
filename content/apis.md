@@ -43,8 +43,6 @@ Reinforce your learning and build your portfolio by using APIs on a real project
 
 {{<bonuses>}}
 
-{{<bonuses-special>}}
-
 {{<pricing-link>}}
 
 {{<testimonial-group group="slack">}}

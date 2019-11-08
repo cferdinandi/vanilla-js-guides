@@ -43,8 +43,6 @@ Reinforce your learning and build your portfolio by using modern array and objec
 
 {{<bonuses>}}
 
-{{<bonuses-special>}}
-
 {{<pricing-link>}}
 
 {{<testimonial-group group="slack">}}
