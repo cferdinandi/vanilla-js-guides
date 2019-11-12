@@ -1,21 +1,22 @@
-{{- $product := index .Site.Data.products.productDetails ( .Get "product" ) -}}
-{{- $.Scratch.Set "price" .Site.Data.products.price.guides -}}
+{{- $data := getJSON $.Site.Params.api -}}
+
+{{- $product := index $data.products.guideDetails ( .Get "product" ) -}}
+{{- $.Scratch.Set "price" $data.products.guides -}}
 {{- $.Scratch.Set "type" "guides-individual" -}}
 {{- if .Get "bundle" -}}
 	{{- if eq ( .Get "bundle" ) "complete" -}}
-		{{- $.Scratch.Set "price" .Site.Data.products.price.guidesComplete -}}
+		{{- $.Scratch.Set "price" $data.products.guidesComplete -}}
 		{{- $.Scratch.Set "type" "guides-complete" -}}
 	{{- else if eq ( .Get "bundle" ) "beginner" -}}
-		{{- $.Scratch.Set "price" .Site.Data.products.price.guidesBeginner -}}
+		{{- $.Scratch.Set "price" $data.products.guidesBeginner -}}
 		{{- $.Scratch.Set "type" "guides-beginner" -}}
 	{{- else if eq ( .Get "bundle" ) "advanced" -}}
-		{{- $.Scratch.Set "price" .Site.Data.products.price.guidesAdvanced -}}
+		{{- $.Scratch.Set "price" $data.products.guidesAdvanced -}}
 		{{- $.Scratch.Set "type" "guides-advanced" -}}
 	{{- end -}}
 {{- end -}}
 {{- $price := ( $.Scratch.Get "price" ) -}}
 
-{{- $data := getJSON $.Site.Params.api -}}
 {{- $apiPrices := index $data "prices" -}}
 {{- $apiPrice := "" -}}
 {{- if isset $apiPrices ($.Scratch.Get "type") -}}

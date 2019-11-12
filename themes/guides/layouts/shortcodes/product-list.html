@@ -1,4 +1,5 @@
-{{ $product := .Site.Data.products.productDetails }}
+{{- $data := getJSON $.Site.Params.api -}}
+{{ $product := $data.products.guideDetails }}
 {{ if eq ( .Get "package" ) "bundles" }}
 - **[The Complete Set.]({{ $product.complete.url }})** {{ $product.complete.description }}
 - **[The Beginner's Bundle.]({{ $product.beginner.url }})** {{ $product.beginner.description }}
