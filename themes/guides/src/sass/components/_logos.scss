@@ -1,0 +1,14 @@
+/**
+ * @section Logos
+ */
+
+@media (prefers-color-scheme: dark) {
+	#logo-chobani,
+	#logo-10up,
+	#logo-boston-globe {
+		path {
+			fill: $color-white;
+		}
+	}
+
+}

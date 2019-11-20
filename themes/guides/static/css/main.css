@@ -185,10 +185,17 @@ img {
   /* 2 */
 }
 
+@media (prefers-color-scheme: dark) {
+  /* line 147, src/sass/components/_normalize.scss */
+  img {
+    opacity: 0.8;
+  }
+}
+
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-/* line 155, src/sass/components/_normalize.scss */
+/* line 159, src/sass/components/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -196,7 +203,7 @@ svg:not(:root) {
 /**
  * Address inconsistent margin.
  */
-/* line 162, src/sass/components/_normalize.scss */
+/* line 166, src/sass/components/_normalize.scss */
 figure {
   margin: 0;
 }
@@ -205,7 +212,7 @@ figure {
  * @workaround Remove focus from <main> element when using tabindex="-1" hack for skipnav link
  * @link https://code.google.com/p/chromium/issues/detail?id=37721
  */
-/* line 170, src/sass/components/_normalize.scss */
+/* line 174, src/sass/components/_normalize.scss */
 [tabindex="-1"]:focus {
   outline: none;
 }
@@ -340,7 +347,16 @@ body {
   }
 }
 
-/* line 32, src/sass/components/_typography.scss */
+@media (prefers-color-scheme: dark) {
+  /* line 14, src/sass/components/_typography.scss */
+  body {
+    background: #272727;
+    border-top-color: #808080;
+    color: #ffffff;
+  }
+}
+
+/* line 38, src/sass/components/_typography.scss */
 p {
   margin: 0 0 1.5625em;
 }
@@ -350,7 +366,7 @@ p {
  * 1. Remove the gray background on active links in IE 10.
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
-/* line 43, src/sass/components/_typography.scss */
+/* line 49, src/sass/components/_typography.scss */
 a, .link-block-styled {
   background-color: transparent;
   /* 1 */
@@ -366,27 +382,42 @@ a, .link-block-styled {
 	 */
 }
 
-/* line 54, src/sass/components/_typography.scss */
+/* line 60, src/sass/components/_typography.scss */
 a:active, .link-block-styled:active, a:hover, .link-block-styled:hover, .link-block:hover .link-block-styled {
   outline: 0;
 }
 
-/* line 59, src/sass/components/_typography.scss */
+/* line 65, src/sass/components/_typography.scss */
 a:active, .link-block-styled:active, a:focus, .link-block-styled:focus, a:hover, .link-block-styled:hover, .link-block:hover .link-block-styled {
   color: #005580;
 }
 
-/* line 66, src/sass/components/_typography.scss */
+/* line 72, src/sass/components/_typography.scss */
 a:visited, .link-block-styled:visited {
   color: #800080;
 }
 
-/* line 72, src/sass/components/_typography.scss */
+@media (prefers-color-scheme: dark) {
+  /* line 49, src/sass/components/_typography.scss */
+  a, .link-block-styled {
+    color: #73cffa;
+  }
+  /* line 79, src/sass/components/_typography.scss */
+  a:active, .link-block-styled:active, a:focus, .link-block-styled:focus, a:hover, .link-block-styled:hover, .link-block:hover .link-block-styled {
+    color: #29b6f7;
+  }
+  /* line 85, src/sass/components/_typography.scss */
+  a:visited, .link-block-styled:visited {
+    color: #debfde;
+  }
+}
+
+/* line 92, src/sass/components/_typography.scss */
 .link-no-underline, .nav-secondary a, .nav-secondary .link-block-styled {
   text-decoration: none;
 }
 
-/* line 75, src/sass/components/_typography.scss */
+/* line 95, src/sass/components/_typography.scss */
 .link-no-underline:active, .nav-secondary a:active, .nav-secondary .link-block-styled:active, .link-no-underline:focus, .nav-secondary a:focus, .nav-secondary .link-block-styled:focus, .link-no-underline:hover, .nav-secondary a:hover, .nav-secondary .link-block-styled:hover, .nav-secondary .link-block:hover .link-block-styled, .link-block:hover .nav-secondary .link-block-styled {
   text-decoration: underline;
 }
@@ -394,13 +425,13 @@ a:visited, .link-block-styled:visited {
 /**
  * Remove default link styling
  */
-/* line 87, src/sass/components/_typography.scss */
+/* line 107, src/sass/components/_typography.scss */
 .link-plain, .link-plain:visited {
   color: #272727;
   text-decoration: none;
 }
 
-/* line 93, src/sass/components/_typography.scss */
+/* line 113, src/sass/components/_typography.scss */
 .link-plain:active, .link-plain:focus, .link-plain:hover {
   color: #0088cc;
 }
@@ -408,24 +439,31 @@ a:visited, .link-block-styled:visited {
 /**
  * Creates block-level links
  */
-/* line 106, src/sass/components/_typography.scss */
+/* line 126, src/sass/components/_typography.scss */
 a.link-block, .link-block.link-block-styled {
   color: #272727;
   display: block;
   text-decoration: none;
 }
 
+@media (prefers-color-scheme: dark) {
+  /* line 126, src/sass/components/_typography.scss */
+  a.link-block, .link-block.link-block-styled {
+    color: #ffffff;
+  }
+}
+
 /**
  * List styling
  */
-/* line 125, src/sass/components/_typography.scss */
+/* line 149, src/sass/components/_typography.scss */
 ul,
 ol {
   margin: 0 0 1.5625em 2em;
   padding: 0;
 }
 
-/* line 131, src/sass/components/_typography.scss */
+/* line 155, src/sass/components/_typography.scss */
 ul ul,
 ul ol,
 ol ol,
@@ -433,43 +471,43 @@ ol ul {
   margin-bottom: 0;
 }
 
-/* line 138, src/sass/components/_typography.scss */
+/* line 162, src/sass/components/_typography.scss */
 li {
   margin-bottom: 0.5em;
 }
 
 @media (min-width: 38em) {
-  /* line 138, src/sass/components/_typography.scss */
+  /* line 162, src/sass/components/_typography.scss */
   li {
     margin-bottom: 0.25em;
   }
 }
 
-/* line 145, src/sass/components/_typography.scss */
+/* line 169, src/sass/components/_typography.scss */
 .list-spaced li {
   margin-bottom: 1em;
 }
 
 @media (min-width: 38em) {
-  /* line 145, src/sass/components/_typography.scss */
+  /* line 169, src/sass/components/_typography.scss */
   .list-spaced li {
     margin-bottom: 0.6875em;
   }
 }
 
-/* line 154, src/sass/components/_typography.scss */
+/* line 178, src/sass/components/_typography.scss */
 dl,
 dd {
   margin: 0;
   padding: 0;
 }
 
-/* line 160, src/sass/components/_typography.scss */
+/* line 184, src/sass/components/_typography.scss */
 dd {
   margin-bottom: 1.5625em;
 }
 
-/* line 164, src/sass/components/_typography.scss */
+/* line 188, src/sass/components/_typography.scss */
 dt {
   font-weight: bold;
 }
@@ -478,7 +516,7 @@ dt {
  * Removes list styling.
  * For semantic reasons, should only be used on unordered lists.
  */
-/* line 172, src/sass/components/_typography.scss */
+/* line 196, src/sass/components/_typography.scss */
 .list-unstyled {
   margin-left: 0;
   list-style: none;
@@ -487,7 +525,7 @@ dt {
 /**
  * Display lists on a single line.
  */
-/* line 181, src/sass/components/_typography.scss */
+/* line 205, src/sass/components/_typography.scss */
 .list-inline {
   list-style: none;
   margin-left: -0.5em;
@@ -495,7 +533,7 @@ dt {
   padding: 0;
 }
 
-/* line 187, src/sass/components/_typography.scss */
+/* line 211, src/sass/components/_typography.scss */
 .list-inline li {
   display: inline-block;
   margin-left: 0.5em;
@@ -503,19 +541,19 @@ dt {
 }
 
 @media (max-width: 38em) {
-  /* line 194, src/sass/components/_typography.scss */
+  /* line 218, src/sass/components/_typography.scss */
   .list-inline.list-inline-responsive li {
     display: block;
   }
 }
 
-/* line 200, src/sass/components/_typography.scss */
+/* line 224, src/sass/components/_typography.scss */
 .list-inline-spaced {
   margin-left: -1.3125em;
   margin-right: -1.3125em;
 }
 
-/* line 204, src/sass/components/_typography.scss */
+/* line 228, src/sass/components/_typography.scss */
 .list-inline-spaced li {
   display: inline-block;
   margin-left: 1.3125em;
@@ -527,7 +565,7 @@ dt {
  * 1. Add a non-breaking space
  * 2. Make sure it doesn't mess up the DOM flow
  */
-/* line 218, src/sass/components/_typography.scss */
+/* line 242, src/sass/components/_typography.scss */
 .list-unstyled > li:before,
 .list-inline > li:before {
   content: "\200B";
@@ -540,7 +578,7 @@ dt {
  * Heading styling for h1 through h6 elements.
  * Heading class lets you use one heading type for semantics, but style it as another heading type.
  */
-/* line 230, src/sass/components/_typography.scss */
+/* line 254, src/sass/components/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   line-height: 1.2;
@@ -549,7 +587,7 @@ h1, h2, h3, h4, h5, h6 {
   word-wrap: break-word;
 }
 
-/* line 238, src/sass/components/_typography.scss */
+/* line 262, src/sass/components/_typography.scss */
 h1,
 .h1 {
   font-size: 1.5em;
@@ -557,32 +595,32 @@ h1,
 }
 
 @media (min-width: 38em) {
-  /* line 238, src/sass/components/_typography.scss */
+  /* line 262, src/sass/components/_typography.scss */
   h1,
   .h1 {
     font-size: 1.75em;
   }
 }
 
-/* line 248, src/sass/components/_typography.scss */
+/* line 272, src/sass/components/_typography.scss */
 h2,
 .h2 {
   font-size: 1.3125em;
 }
 
-/* line 253, src/sass/components/_typography.scss */
+/* line 277, src/sass/components/_typography.scss */
 h3,
 .h3 {
   font-size: 1.1875em;
 }
 
-/* line 258, src/sass/components/_typography.scss */
+/* line 282, src/sass/components/_typography.scss */
 h4, h5, h6,
 .h4, .h5, .h6 {
   font-size: 1em;
 }
 
-/* line 263, src/sass/components/_typography.scss */
+/* line 287, src/sass/components/_typography.scss */
 h4,
 .h4 {
   text-transform: uppercase;
@@ -595,7 +633,7 @@ h4,
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 277, src/sass/components/_typography.scss */
+/* line 301, src/sass/components/_typography.scss */
 hr {
   border: 0;
   border-top: 1px solid #e5e5e5;
@@ -607,22 +645,29 @@ hr {
   /* 2 */
 }
 
-/* line 286, src/sass/components/_typography.scss */
+@media (prefers-color-scheme: dark) {
+  /* line 301, src/sass/components/_typography.scss */
+  hr {
+    border-top-color: #808080;
+  }
+}
+
+/* line 314, src/sass/components/_typography.scss */
 .line-secondary {
   width: 50%;
 }
 
-/* line 290, src/sass/components/_typography.scss */
+/* line 318, src/sass/components/_typography.scss */
 .line-clear {
   border-top-color: transparent;
 }
 
-/* line 294, src/sass/components/_typography.scss */
+/* line 322, src/sass/components/_typography.scss */
 .line-heading {
   position: relative;
 }
 
-/* line 297, src/sass/components/_typography.scss */
+/* line 325, src/sass/components/_typography.scss */
 .line-heading:after {
   background-color: #ffffff;
   content: attr(data-heading);
@@ -636,22 +681,29 @@ hr {
   width: 70%;
 }
 
+@media (prefers-color-scheme: dark) {
+  /* line 325, src/sass/components/_typography.scss */
+  .line-heading:after {
+    background: #272727;
+  }
+}
+
 @media (min-width: 28em) {
-  /* line 311, src/sass/components/_typography.scss */
+  /* line 343, src/sass/components/_typography.scss */
   .line-heading[data-heading-small]:after {
     content: attr(data-heading-small);
   }
 }
 
 @media (min-width: 38em) {
-  /* line 317, src/sass/components/_typography.scss */
+  /* line 349, src/sass/components/_typography.scss */
   .line-heading[data-heading-medium]:after {
     content: attr(data-heading-medium);
   }
 }
 
 @media (min-width: 60em) {
-  /* line 323, src/sass/components/_typography.scss */
+  /* line 355, src/sass/components/_typography.scss */
   .line-heading[data-heading-large]:after {
     content: attr(data-heading-large);
   }
@@ -660,7 +712,7 @@ hr {
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
-/* line 332, src/sass/components/_typography.scss */
+/* line 364, src/sass/components/_typography.scss */
 b,
 strong {
   font-weight: inherit;
@@ -669,7 +721,7 @@ strong {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 340, src/sass/components/_typography.scss */
+/* line 372, src/sass/components/_typography.scss */
 b,
 strong {
   font-weight: bolder;
@@ -679,7 +731,7 @@ strong {
  * 1. Remove the bottom border in Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 349, src/sass/components/_typography.scss */
+/* line 381, src/sass/components/_typography.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -692,7 +744,7 @@ abbr[title] {
 /**
  * Address styling not present in Safari and Chrome.
  */
-/* line 358, src/sass/components/_typography.scss */
+/* line 390, src/sass/components/_typography.scss */
 dfn {
   font-style: italic;
 }
@@ -700,16 +752,24 @@ dfn {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 365, src/sass/components/_typography.scss */
+/* line 397, src/sass/components/_typography.scss */
 mark {
   background: #fbf9c9;
   color: #272727;
 }
 
+@media (prefers-color-scheme: dark) {
+  /* line 397, src/sass/components/_typography.scss */
+  mark {
+    background: transparent;
+    color: #ffffff;
+  }
+}
+
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 375, src/sass/components/_typography.scss */
+/* line 410, src/sass/components/_typography.scss */
 small {
   font-size: 80%;
 }
@@ -717,7 +777,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 382, src/sass/components/_typography.scss */
+/* line 417, src/sass/components/_typography.scss */
 sub,
 sup {
   font-size: 75%;
@@ -726,12 +786,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 390, src/sass/components/_typography.scss */
+/* line 425, src/sass/components/_typography.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 394, src/sass/components/_typography.scss */
+/* line 429, src/sass/components/_typography.scss */
 sub {
   bottom: -0.25em;
 }
@@ -739,7 +799,7 @@ sub {
 /**
  * Blockquotes
  */
-/* line 403, src/sass/components/_typography.scss */
+/* line 438, src/sass/components/_typography.scss */
 blockquote {
   border-left: 0.25em solid #e5e5e5;
   font-style: italic;
@@ -748,20 +808,20 @@ blockquote {
   padding-right: 1em;
 }
 
-/* line 411, src/sass/components/_typography.scss */
+/* line 446, src/sass/components/_typography.scss */
 blockquote cite {
   color: #808080;
   font-size: 0.9375em;
   padding-top: 1em;
 }
 
-/* line 418, src/sass/components/_typography.scss */
+/* line 453, src/sass/components/_typography.scss */
 blockquote,
 q {
   quotes: none;
 }
 
-/* line 423, src/sass/components/_typography.scss */
+/* line 458, src/sass/components/_typography.scss */
 blockquote:before,
 blockquote:after,
 q:before,
@@ -789,7 +849,14 @@ code {
   word-wrap: break-word;
 }
 
-/* line 20, src/sass/components/_code.scss */
+@media (prefers-color-scheme: dark) {
+  /* line 14, src/sass/components/_code.scss */
+  code {
+    color: #ded7d9;
+  }
+}
+
+/* line 24, src/sass/components/_code.scss */
 pre {
   background-color: #f7f7f7;
   display: block;
@@ -802,7 +869,14 @@ pre {
   word-break: break-all;
 }
 
-/* line 31, src/sass/components/_code.scss */
+@media (prefers-color-scheme: dark) {
+  /* line 24, src/sass/components/_code.scss */
+  pre {
+    background-color: #393939;
+  }
+}
+
+/* line 39, src/sass/components/_code.scss */
 pre code {
   background-color: transparent;
   border: 0;
@@ -832,7 +906,29 @@ pre code {
   .chroma .mo {
     color: #905;
   }
-  /* line 26, src/sass/components/_chroma.scss */
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  /* line 10, src/sass/components/_chroma.scss */
+  .chroma .err,
+  .chroma .kc,
+  .chroma .no,
+  .chroma .py,
+  .chroma .nt,
+  .chroma .ss,
+  .chroma .m,
+  .chroma .mb,
+  .chroma .mf,
+  .chroma .mh,
+  .chroma .mi,
+  .chroma .il,
+  .chroma .mo {
+    color: #bfbfbf;
+  }
+}
+
+@media screen {
+  /* line 30, src/sass/components/_chroma.scss */
   .chroma .k,
   .chroma .kd,
   .chroma .kn,
@@ -843,7 +939,24 @@ pre code {
   .chroma .s {
     color: #07a;
   }
-  /* line 37, src/sass/components/_chroma.scss */
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  /* line 30, src/sass/components/_chroma.scss */
+  .chroma .k,
+  .chroma .kd,
+  .chroma .kn,
+  .chroma .kp,
+  .chroma .kr,
+  .chroma .kt,
+  .chroma .nb,
+  .chroma .s {
+    color: #95dbfb;
+  }
+}
+
+@media screen {
+  /* line 45, src/sass/components/_chroma.scss */
   .chroma .n,
   .chroma .na,
   .chroma .nc,
@@ -862,7 +975,32 @@ pre code {
   .chroma .sx {
     color: #690;
   }
-  /* line 56, src/sass/components/_chroma.scss */
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  /* line 45, src/sass/components/_chroma.scss */
+  .chroma .n,
+  .chroma .na,
+  .chroma .nc,
+  .chroma .ne,
+  .chroma .l,
+  .chroma .ld,
+  .chroma .sa,
+  .chroma .sb,
+  .chroma .sc,
+  .chroma .dl,
+  .chroma .s1,
+  .chroma .s2,
+  .chroma .se,
+  .chroma .sh,
+  .chroma .si,
+  .chroma .sx {
+    color: #c5d99c;
+  }
+}
+
+@media screen {
+  /* line 68, src/sass/components/_chroma.scss */
   .chroma .bp,
   .chroma .nd,
   .chroma .nl,
@@ -877,19 +1015,64 @@ pre code {
   .chroma .cpf {
     color: slategray;
   }
-  /* line 71, src/sass/components/_chroma.scss */
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  /* line 68, src/sass/components/_chroma.scss */
+  .chroma .bp,
+  .chroma .nd,
+  .chroma .nl,
+  .chroma .sd,
+  .chroma .p,
+  .chroma .c,
+  .chroma .ch,
+  .chroma .cm,
+  .chroma .c1,
+  .chroma .cs,
+  .chroma .cp,
+  .chroma .cpf {
+    color: #e5e5e5;
+  }
+}
+
+@media screen {
+  /* line 87, src/sass/components/_chroma.scss */
   .chroma .ni,
   .chroma .o {
     color: #a67f59;
     background: rgba(255, 255, 255, 0.5);
   }
-  /* line 77, src/sass/components/_chroma.scss */
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  /* line 87, src/sass/components/_chroma.scss */
+  .chroma .ni,
+  .chroma .o {
+    background: transparent;
+    color: #e5e5e5;
+  }
+}
+
+@media screen {
+  /* line 98, src/sass/components/_chroma.scss */
   .chroma .nf,
   .chroma .fm,
   .chroma .ow {
     color: #dd4a68;
   }
-  /* line 84, src/sass/components/_chroma.scss */
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  /* line 98, src/sass/components/_chroma.scss */
+  .chroma .nf,
+  .chroma .fm,
+  .chroma .ow {
+    color: #deb6be;
+  }
+}
+
+@media screen {
+  /* line 109, src/sass/components/_chroma.scss */
   .chroma .nv,
   .chroma .vc,
   .chroma .vg,
@@ -898,15 +1081,30 @@ pre code {
   .chroma .sr {
     color: #e90;
   }
-  /* line 94, src/sass/components/_chroma.scss */
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  /* line 109, src/sass/components/_chroma.scss */
+  .chroma .nv,
+  .chroma .vc,
+  .chroma .vg,
+  .chroma .vi,
+  .chroma .vm,
+  .chroma .sr {
+    color: #ede1ca;
+  }
+}
+
+@media screen {
+  /* line 123, src/sass/components/_chroma.scss */
   .chroma .nn {
     opacity: .7;
   }
-  /* line 99, src/sass/components/_chroma.scss */
+  /* line 128, src/sass/components/_chroma.scss */
   .chroma .ge {
     font-style: italic;
   }
-  /* line 102, src/sass/components/_chroma.scss */
+  /* line 131, src/sass/components/_chroma.scss */
   .chroma .gs {
     font-weight: bold;
   }
@@ -939,14 +1137,32 @@ pre code {
   color: #ffffff;
 }
 
-/* line 28, src/sass/components/_buttons.scss */
+@media (prefers-color-scheme: dark) {
+  /* line 23, src/sass/components/_buttons.scss */
+  .btn, .btn:visited {
+    background-color: #fdd4d5;
+    border-color: #fdd4d5;
+    color: #000000;
+  }
+}
+
+/* line 34, src/sass/components/_buttons.scss */
 .btn:hover, .btn:focus, .btn:active, .btn.active {
   background-color: #cb070e;
   border-color: #cb070e;
   color: #ffffff;
 }
 
-/* line 43, src/sass/components/_buttons.scss */
+@media (prefers-color-scheme: dark) {
+  /* line 34, src/sass/components/_buttons.scss */
+  .btn:hover, .btn:focus, .btn:active, .btn.active {
+    background-color: #fdbbbd;
+    border-color: #fdbbbd;
+    color: #000000;
+  }
+}
+
+/* line 55, src/sass/components/_buttons.scss */
 a.btn, .btn.link-block-styled {
   text-decoration: none;
 }
@@ -954,37 +1170,73 @@ a.btn, .btn.link-block-styled {
 /**
  * Secondary buttons
  */
-/* line 51, src/sass/components/_buttons.scss */
+/* line 63, src/sass/components/_buttons.scss */
 .btn-secondary {
   background-color: #343d4d;
   border-color: #343d4d;
 }
 
-/* line 56, src/sass/components/_buttons.scss */
+@media (prefers-color-scheme: dark) {
+  /* line 63, src/sass/components/_buttons.scss */
+  .btn-secondary {
+    background-color: #d2d7e1;
+    border-color: #d2d7e1;
+    color: #000000;
+  }
+}
+
+/* line 74, src/sass/components/_buttons.scss */
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active {
   background-color: #15191f;
   border-color: #15191f;
 }
 
+@media (prefers-color-scheme: dark) {
+  /* line 74, src/sass/components/_buttons.scss */
+  .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active {
+    background-color: #c3cad6;
+    border-color: #c3cad6;
+    color: #000000;
+  }
+}
+
 /**
  * Tertiary buttons
  */
-/* line 75, src/sass/components/_buttons.scss */
+/* line 97, src/sass/components/_buttons.scss */
 .btn-tertiary {
   background-color: #0088cc;
   border-color: #0088cc;
 }
 
-/* line 80, src/sass/components/_buttons.scss */
+@media (prefers-color-scheme: dark) {
+  /* line 97, src/sass/components/_buttons.scss */
+  .btn-tertiary {
+    background-color: #cceeff;
+    border-color: #cceeff;
+    color: #000000;
+  }
+}
+
+/* line 108, src/sass/components/_buttons.scss */
 .btn-tertiary:hover, .btn-tertiary:focus, .btn-tertiary:active, .btn-tertiary.active {
   background-color: #005580;
   border-color: #005580;
 }
 
+@media (prefers-color-scheme: dark) {
+  /* line 108, src/sass/components/_buttons.scss */
+  .btn-tertiary:hover, .btn-tertiary:focus, .btn-tertiary:active, .btn-tertiary.active {
+    background-color: #b3e6ff;
+    border-color: #b3e6ff;
+    color: #000000;
+  }
+}
+
 /**
  * Active state
  */
-/* line 99, src/sass/components/_buttons.scss */
+/* line 133, src/sass/components/_buttons.scss */
 .btn:active,
 .btn.active {
   box-shadow: inset 0 0.15625em 0.25em rgba(0, 0, 0, 0.15), 0 1px 0.15625em rgba(0, 0, 0, 0.05);
@@ -994,7 +1246,7 @@ a.btn, .btn.link-block-styled {
 /**
  * Disabled state
  */
-/* line 109, src/sass/components/_buttons.scss */
+/* line 143, src/sass/components/_buttons.scss */
 .btn.disabled,
 .btn[disabled] {
   box-shadow: none;
@@ -1006,7 +1258,7 @@ a.btn, .btn.link-block-styled {
 /**
  * Button size
  */
-/* line 121, src/sass/components/_buttons.scss */
+/* line 155, src/sass/components/_buttons.scss */
 .btn-large {
   font-size: 1em;
   line-height: normal;
@@ -1016,7 +1268,7 @@ a.btn, .btn.link-block-styled {
 /**
  * Block-level buttons
  */
-/* line 131, src/sass/components/_buttons.scss */
+/* line 165, src/sass/components/_buttons.scss */
 .btn-block,
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
@@ -1031,7 +1283,7 @@ input[type="button"].btn-block {
 /**
  * General styles
  */
-/* line 146, src/sass/components/_buttons.scss */
+/* line 180, src/sass/components/_buttons.scss */
 .btn,
 button,
 html input[type="button"],
@@ -1050,7 +1302,7 @@ input[type="submit"] {
 /**
  * Remove right margin on last element and inputs
  */
-/* line 167, src/sass/components/_buttons.scss */
+/* line 201, src/sass/components/_buttons.scss */
 .btn:last-child,
 input.btn {
   margin-right: 0;
@@ -1102,10 +1354,22 @@ textarea {
   padding: 0.3125em;
 }
 
+@media (prefers-color-scheme: dark) {
+  /* line 30, src/sass/components/_forms.scss */
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    background-color: #e5e5e5;
+    color: #272727;
+  }
+}
+
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-/* line 44, src/sass/components/_forms.scss */
+/* line 49, src/sass/components/_forms.scss */
 button {
   overflow: visible;
 }
@@ -1116,13 +1380,13 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 54, src/sass/components/_forms.scss */
+/* line 59, src/sass/components/_forms.scss */
 button,
 select {
   text-transform: none;
 }
 
-/* line 59, src/sass/components/_forms.scss */
+/* line 64, src/sass/components/_forms.scss */
 input,
 textarea,
 select {
@@ -1134,7 +1398,7 @@ select {
 }
 
 @media (min-width: 38em) {
-  /* line 59, src/sass/components/_forms.scss */
+  /* line 64, src/sass/components/_forms.scss */
   input,
   textarea,
   select {
@@ -1142,28 +1406,37 @@ select {
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  /* line 64, src/sass/components/_forms.scss */
+  input,
+  textarea,
+  select {
+    border-color: #808080;
+  }
+}
+
 /**
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-/* line 77, src/sass/components/_forms.scss */
+/* line 86, src/sass/components/_forms.scss */
 optgroup {
   font-weight: bold;
 }
 
-/* line 81, src/sass/components/_forms.scss */
+/* line 90, src/sass/components/_forms.scss */
 form button,
 form .button {
   margin-bottom: 1.1875em;
 }
 
-/* line 86, src/sass/components/_forms.scss */
+/* line 95, src/sass/components/_forms.scss */
 textarea {
   height: 12em;
   overflow: auto;
 }
 
-/* line 91, src/sass/components/_forms.scss */
+/* line 100, src/sass/components/_forms.scss */
 [type="image"],
 [type="checkbox"],
 [type="radio"] {
@@ -1180,13 +1453,13 @@ textarea {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 107, src/sass/components/_forms.scss */
+/* line 116, src/sass/components/_forms.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-/* line 112, src/sass/components/_forms.scss */
+/* line 121, src/sass/components/_forms.scss */
 input:focus,
 textarea:focus {
   border-color: rgba(82, 168, 236, 0.8);
@@ -1195,7 +1468,7 @@ textarea:focus {
   outline: thin dotted \9;
 }
 
-/* line 120, src/sass/components/_forms.scss */
+/* line 129, src/sass/components/_forms.scss */
 [type="file"]:focus,
 [type="checkbox"]:focus,
 select:focus {
@@ -1207,7 +1480,7 @@ select:focus {
 /**
  * Remove the inner border and padding in Firefox.
  */
-/* line 132, src/sass/components/_forms.scss */
+/* line 141, src/sass/components/_forms.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -1219,7 +1492,7 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-/* line 144, src/sass/components/_forms.scss */
+/* line 153, src/sass/components/_forms.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -1231,7 +1504,7 @@ button:-moz-focusring,
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-/* line 156, src/sass/components/_forms.scss */
+/* line 165, src/sass/components/_forms.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -1242,7 +1515,7 @@ button:-moz-focusring,
 /**
  * Inline inputs
  */
-/* line 165, src/sass/components/_forms.scss */
+/* line 174, src/sass/components/_forms.scss */
 .input-inline {
   display: inline-block;
   vertical-align: middle;
@@ -1256,7 +1529,7 @@ button:-moz-focusring,
   * 1. Correct the odd appearance in Chrome and Safari.
   * 2. Correct the outline style in Safari.
   */
-/* line 190, src/sass/components/_forms.scss */
+/* line 199, src/sass/components/_forms.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -1269,7 +1542,7 @@ button:-moz-focusring,
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 200, src/sass/components/_forms.scss */
+/* line 209, src/sass/components/_forms.scss */
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -1278,7 +1551,7 @@ button:-moz-focusring,
 /**
  * Create rounded search bar
  */
-/* line 209, src/sass/components/_forms.scss */
+/* line 218, src/sass/components/_forms.scss */
 .input-search {
   width: 85%;
   padding-left: 0.9375em;
@@ -1288,7 +1561,7 @@ button:-moz-focusring,
 }
 
 @media (min-width: 38em) {
-  /* line 209, src/sass/components/_forms.scss */
+  /* line 218, src/sass/components/_forms.scss */
   .input-search {
     width: 65%;
   }
@@ -1297,7 +1570,7 @@ button:-moz-focusring,
 /**
  * Special styling for search icon as button
  */
-/* line 225, src/sass/components/_forms.scss */
+/* line 234, src/sass/components/_forms.scss */
 .btn-search {
   display: inline;
   color: #808080;
@@ -1307,19 +1580,33 @@ button:-moz-focusring,
   margin-bottom: 0;
 }
 
-/* line 233, src/sass/components/_forms.scss */
+/* line 242, src/sass/components/_forms.scss */
 .btn-search svg {
   fill: #808080;
 }
 
-/* line 237, src/sass/components/_forms.scss */
+@media (prefers-color-scheme: dark) {
+  /* line 242, src/sass/components/_forms.scss */
+  .btn-search svg {
+    fill: #272727;
+  }
+}
+
+/* line 250, src/sass/components/_forms.scss */
 .btn-search:hover {
   color: #5a5a5a;
 }
 
-/* line 240, src/sass/components/_forms.scss */
+/* line 253, src/sass/components/_forms.scss */
 .btn-search:hover svg {
   fill: #5a5a5a;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* line 253, src/sass/components/_forms.scss */
+  .btn-search:hover svg {
+    fill: #000000;
+  }
 }
 
 /**
@@ -1370,6 +1657,14 @@ button:-moz-focusring,
   border: 1px solid #e5e5e5;
   margin-bottom: 1.5625em;
   padding: 1em 1.5em;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* line 6, src/sass/components/_callouts.scss */
+  .callout {
+    background-color: transparent;
+    border-color: #808080;
+  }
 }
 
 /**
@@ -1424,6 +1719,18 @@ button:-moz-focusring,
 }
 
 /**
+ * @section Logos
+ */
+@media (prefers-color-scheme: dark) {
+  /* line 9, src/sass/components/_logos.scss */
+  #logo-chobani path,
+  #logo-10up path,
+  #logo-boston-globe path {
+    fill: #ffffff;
+  }
+}
+
+/**
  * @section Honeypot
  * Styling for honeypot fields
  */
@@ -1458,45 +1765,6 @@ th {
 td {
   border-top: 1px solid #e5e5e5;
   vertical-align: top;
-}
-
-/**
- * Adds zebra striping
- */
-/* line 35, src/sass/components/_tables.scss */
-.table-striped tbody tr:nth-child(odd) {
-  background-color: #f7f7f7;
-}
-
-/**
- * Pure CSS responsive tables
- * Adds label to each cell using the [data-label] attribute
- * @link https://techblog.livingsocial.com/blog/2015/04/06/responsive-tables-in-pure-css/
- */
-@media (max-width: 38em) {
-  /* line 57, src/sass/components/_tables.scss */
-  .table-responsive thead {
-    display: none;
-    visibility: hidden;
-  }
-  /* line 62, src/sass/components/_tables.scss */
-  .table-responsive tr {
-    border-top: 1px solid #ededed;
-    display: block;
-    padding: 0.5em;
-  }
-  /* line 68, src/sass/components/_tables.scss */
-  .table-responsive td {
-    border: 0;
-    display: block;
-    padding: 0.25em;
-  }
-  /* line 73, src/sass/components/_tables.scss */
-  .table-responsive td:before {
-    content: attr(data-label);
-    display: block;
-    font-weight: bold;
-  }
 }
 
 /**
@@ -1546,12 +1814,26 @@ td {
   color: #272727;
 }
 
-/* line 54, src/sass/components/_nav-main.scss */
+@media (prefers-color-scheme: dark) {
+  /* line 49, src/sass/components/_nav-main.scss */
+  .logo, .logo:visited {
+    color: #ffffff;
+  }
+}
+
+/* line 58, src/sass/components/_nav-main.scss */
 .logo:active, .logo:focus, .logo:hover {
   color: #0088cc;
 }
 
-/* line 61, src/sass/components/_nav-main.scss */
+@media (prefers-color-scheme: dark) {
+  /* line 58, src/sass/components/_nav-main.scss */
+  .logo:active, .logo:focus, .logo:hover {
+    color: #73cffa;
+  }
+}
+
+/* line 69, src/sass/components/_nav-main.scss */
 .logo .icon {
   height: 0.8em;
   width: 0.8em;
@@ -1560,7 +1842,7 @@ td {
 /**
  * The nav menu
  */
-/* line 71, src/sass/components/_nav-main.scss */
+/* line 79, src/sass/components/_nav-main.scss */
 .nav {
   list-style: none;
   margin: 0 -0.5em;
@@ -1571,13 +1853,13 @@ td {
 }
 
 @media (min-width: 60em) {
-  /* line 71, src/sass/components/_nav-main.scss */
+  /* line 79, src/sass/components/_nav-main.scss */
   .nav {
     text-align: right;
   }
 }
 
-/* line 91, src/sass/components/_nav-main.scss */
+/* line 99, src/sass/components/_nav-main.scss */
 .nav li {
   display: inline-block;
   float: none;
@@ -1585,13 +1867,20 @@ td {
   margin-right: 0.5em;
 }
 
-/* line 107, src/sass/components/_nav-main.scss */
+/* line 106, src/sass/components/_nav-main.scss */
 .nav a, .nav .link-block-styled {
   color: #808080;
   text-decoration: none;
 }
 
-/* line 115, src/sass/components/_nav-main.scss */
+@media (prefers-color-scheme: dark) {
+  /* line 106, src/sass/components/_nav-main.scss */
+  .nav a, .nav .link-block-styled {
+    color: #e5e5e5;
+  }
+}
+
+/* line 118, src/sass/components/_nav-main.scss */
 .nav a:hover, .nav .link-block-styled:hover, .nav .link-block:hover .link-block-styled, .link-block:hover .nav .link-block-styled,
 .nav a:active,
 .nav .link-block-styled:active,
@@ -1601,6 +1890,19 @@ td {
 .nav .active .link-block-styled {
   border-bottom: 0.125em solid #fa7176;
   color: #272727;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* line 118, src/sass/components/_nav-main.scss */
+  .nav a:hover, .nav .link-block-styled:hover, .nav .link-block:hover .link-block-styled, .link-block:hover .nav .link-block-styled,
+  .nav a:active,
+  .nav .link-block-styled:active,
+  .nav a:focus,
+  .nav .link-block-styled:focus,
+  .nav .active a,
+  .nav .active .link-block-styled {
+    color: #ffffff;
+  }
 }
 
 /**
@@ -1676,7 +1978,14 @@ td {
   color: #808080;
 }
 
-/* line 66, src/sass/components/_overrides.scss */
+@media (prefers-color-scheme: dark) {
+  /* line 62, src/sass/components/_overrides.scss */
+  .text-muted {
+    color: #e5e5e5;
+  }
+}
+
+/* line 70, src/sass/components/_overrides.scss */
 .text-muted-light, .btn del {
   color: #b2b2b2;
 }
@@ -1684,7 +1993,7 @@ td {
 /**
  * Font weight
  */
-/* line 75, src/sass/components/_overrides.scss */
+/* line 79, src/sass/components/_overrides.scss */
 .text-normal {
   font-weight: normal;
   font-style: normal;
@@ -1693,18 +2002,18 @@ td {
 /**
  * Text alignment
  */
-/* line 85, src/sass/components/_overrides.scss */
+/* line 89, src/sass/components/_overrides.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 89, src/sass/components/_overrides.scss */
+/* line 93, src/sass/components/_overrides.scss */
 .text-right {
   text-align: right;
 }
 
 @media (min-width: 60em) {
-  /* line 94, src/sass/components/_overrides.scss */
+  /* line 98, src/sass/components/_overrides.scss */
   .text-right-large {
     text-align: right;
   }
@@ -1713,7 +2022,7 @@ td {
 /**
  * Floats
  */
-/* line 112, src/sass/components/_overrides.scss */
+/* line 116, src/sass/components/_overrides.scss */
 .float-center {
   float: none;
   margin-left: auto;
@@ -1723,42 +2032,42 @@ td {
 /**
  * Margins
  */
-/* line 127, src/sass/components/_overrides.scss */
+/* line 131, src/sass/components/_overrides.scss */
 .no-margin-top {
   margin-top: 0;
 }
 
-/* line 131, src/sass/components/_overrides.scss */
+/* line 135, src/sass/components/_overrides.scss */
 .no-margin-bottom {
   margin-bottom: 0;
 }
 
-/* line 135, src/sass/components/_overrides.scss */
+/* line 139, src/sass/components/_overrides.scss */
 .margin-top {
   margin-top: 1.5625em;
 }
 
-/* line 139, src/sass/components/_overrides.scss */
+/* line 143, src/sass/components/_overrides.scss */
 .margin-bottom {
   margin-bottom: 1.5625em;
 }
 
-/* line 143, src/sass/components/_overrides.scss */
+/* line 147, src/sass/components/_overrides.scss */
 .margin-bottom-small, .error {
   margin-bottom: 0.5em;
 }
 
-/* line 147, src/sass/components/_overrides.scss */
+/* line 151, src/sass/components/_overrides.scss */
 .margin-bottom-large {
   margin-bottom: 2em;
 }
 
-/* line 151, src/sass/components/_overrides.scss */
+/* line 155, src/sass/components/_overrides.scss */
 .margin-bottom-negative {
   margin-bottom: -1.75em;
 }
 
-/* line 155, src/sass/components/_overrides.scss */
+/* line 159, src/sass/components/_overrides.scss */
 .margin-right {
   margin-right: 0.25em;
 }
@@ -1766,62 +2075,62 @@ td {
 /**
  * Padding
  */
-/* line 164, src/sass/components/_overrides.scss */
+/* line 168, src/sass/components/_overrides.scss */
 .no-padding-top {
   padding-top: 0;
 }
 
-/* line 168, src/sass/components/_overrides.scss */
+/* line 172, src/sass/components/_overrides.scss */
 .no-padding-bottom {
   padding-bottom: 0;
 }
 
-/* line 172, src/sass/components/_overrides.scss */
+/* line 176, src/sass/components/_overrides.scss */
 .padding-top {
   padding-top: 1.5625em;
 }
 
-/* line 176, src/sass/components/_overrides.scss */
+/* line 180, src/sass/components/_overrides.scss */
 .padding-top-xsmall {
   padding-top: 0.25em;
 }
 
-/* line 180, src/sass/components/_overrides.scss */
+/* line 184, src/sass/components/_overrides.scss */
 .padding-top-small {
   padding-top: 0.5em;
 }
 
-/* line 184, src/sass/components/_overrides.scss */
+/* line 188, src/sass/components/_overrides.scss */
 .padding-top-medium {
   padding-top: 1em;
 }
 
-/* line 188, src/sass/components/_overrides.scss */
+/* line 192, src/sass/components/_overrides.scss */
 .padding-top-large {
   padding-top: 2em;
 }
 
-/* line 192, src/sass/components/_overrides.scss */
+/* line 196, src/sass/components/_overrides.scss */
 .padding-top-xlarge {
   padding-top: 3em;
 }
 
-/* line 196, src/sass/components/_overrides.scss */
+/* line 200, src/sass/components/_overrides.scss */
 .padding-bottom {
   padding-bottom: 1.5625em;
 }
 
-/* line 200, src/sass/components/_overrides.scss */
+/* line 204, src/sass/components/_overrides.scss */
 .padding-bottom-small {
   padding-bottom: 0.5em;
 }
 
-/* line 204, src/sass/components/_overrides.scss */
+/* line 208, src/sass/components/_overrides.scss */
 .padding-bottom-large {
   padding-bottom: 2em;
 }
 
-/* line 208, src/sass/components/_overrides.scss */
+/* line 212, src/sass/components/_overrides.scss */
 .padding-bottom-xlarge {
   padding-bottom: 3em;
 }
@@ -1834,7 +2143,7 @@ td {
  * @link https://github.com/h5bp/html5-boilerplate/blob/master/dist/css/main.css
  * @link http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  */
-/* line 222, src/sass/components/_overrides.scss */
+/* line 226, src/sass/components/_overrides.scss */
 .screen-reader {
   border: 0;
   clip: rect(0 0 0 0);
@@ -1852,7 +2161,7 @@ td {
  * @link https://github.com/h5bp/html5-boilerplate/blob/master/dist/css/main.css
  * @link https://www.drupal.org/node/897638
  */
-/* line 239, src/sass/components/_overrides.scss */
+/* line 243, src/sass/components/_overrides.scss */
 .screen-reader-focusable:active,
 .screen-reader-focusable:focus {
   clip: auto;
@@ -1869,7 +2178,7 @@ td {
  * @affected IE 8/9/10
  * @link http://juicystudio.com/article/screen-readers-display-none.php
  */
-/* line 255, src/sass/components/_overrides.scss */
+/* line 259, src/sass/components/_overrides.scss */
 [hidden], template, .tarpit {
   display: none;
   visibility: hidden;
@@ -1880,7 +2189,7 @@ td {
  * The space content is one way to avoid an Opera bug when the `contenteditable` attribute is included anywhere else in the document.
  * @link https://github.com/h5bp/html5-boilerplate/blob/master/dist/css/main.css
  */
-/* line 267, src/sass/components/_overrides.scss */
+/* line 271, src/sass/components/_overrides.scss */
 .clearfix:before, .container:before,
 .row:before, .nav-wrap:before,
 .clearfix:after,
@@ -1891,7 +2200,7 @@ td {
   content: " ";
 }
 
-/* line 273, src/sass/components/_overrides.scss */
+/* line 277, src/sass/components/_overrides.scss */
 
 .clearfix:after,
 .container:after,

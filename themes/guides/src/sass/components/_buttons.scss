@@ -23,6 +23,12 @@
 	&,
 	&:visited {
 		color: $color-white;
+
+		@media (prefers-color-scheme: dark) {
+			background-color: lighten( $color-secondary, 20% );
+			border-color: lighten( $color-secondary, 20% );
+			color: $color-black-dark;
+		}
 	}
 
 	&:hover,
@@ -33,6 +39,12 @@
 		border-color: darken( $color-secondary, 30% );
 		color: $color-white;
 		// text-decoration: none;
+
+		@media (prefers-color-scheme: dark) {
+			background-color: lighten( $color-secondary, 15% );
+			border-color: lighten( $color-secondary, 15% );
+			color: $color-black-dark;
+		}
 	}
 
 	del {
@@ -53,14 +65,24 @@ a.btn {
 	border-color: $color-tertiary;
 	// color: $color-white;
 
+	@media (prefers-color-scheme: dark) {
+		background-color: lighten( $color-tertiary, 60% );
+		border-color: lighten( $color-tertiary, 60% );
+		color: $color-black-dark;
+	}
+
 	&:hover,
 	&:focus,
 	&:active,
 	&.active {
 		background-color: darken( $color-tertiary, 15% );
 		border-color: darken( $color-tertiary, 15% );
-		// color: $color-white;
-		// text-decoration: none;
+
+		@media (prefers-color-scheme: dark) {
+			background-color: lighten( $color-tertiary, 55% );
+			border-color: lighten( $color-tertiary, 55% );
+			color: $color-black-dark;
+		}
 	}
 
 	// del {
@@ -77,6 +99,12 @@ a.btn {
 	border-color: $color-primary;
 	// color: $color-white;
 
+	@media (prefers-color-scheme: dark) {
+		background-color: lighten( $color-primary, 50% );
+		border-color: lighten( $color-primary, 50% );
+		color: $color-black-dark;
+	}
+
 	&:hover,
 	&:focus,
 	&:active,
@@ -85,6 +113,12 @@ a.btn {
 		border-color: darken( $color-primary, 15% );
 		// color: $color-white;
 		// text-decoration: none;
+
+		@media (prefers-color-scheme: dark) {
+			background-color: lighten( $color-primary, 45% );
+			border-color: lighten( $color-primary, 45% );
+			color: $color-black-dark;
+		}
 	}
 
 	// del {

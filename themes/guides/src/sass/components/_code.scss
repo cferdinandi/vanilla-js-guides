@@ -15,6 +15,10 @@ code {
 	color: $color-code;
 	padding: calc-em(4px);
 	word-wrap: break-word;
+
+	@media (prefers-color-scheme: dark) {
+		color: $color-code-dark;
+	}
 }
 
 pre {
@@ -27,6 +31,10 @@ pre {
 	tab-size: 4;
 	white-space: pre-wrap;
 	word-break: break-all;
+
+	@media (prefers-color-scheme: dark) {
+		background-color: lighten( $color-black, 7% );
+	}
 
 	code {
 		background-color: transparent;
