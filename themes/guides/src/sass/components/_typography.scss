@@ -447,6 +447,10 @@ blockquote {
 		color: $color-gray-dark;
 		font-size: calc-em(15px);
 		padding-top: calc-em(16px);
+
+		@media (prefers-color-scheme: dark) {
+			color: $color-gray-light;
+		}
 	}
 }
 

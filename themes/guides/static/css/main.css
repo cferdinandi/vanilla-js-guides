@@ -815,13 +815,20 @@ blockquote cite {
   padding-top: 1em;
 }
 
-/* line 453, src/sass/components/_typography.scss */
+@media (prefers-color-scheme: dark) {
+  /* line 446, src/sass/components/_typography.scss */
+  blockquote cite {
+    color: #e5e5e5;
+  }
+}
+
+/* line 457, src/sass/components/_typography.scss */
 blockquote,
 q {
   quotes: none;
 }
 
-/* line 458, src/sass/components/_typography.scss */
+/* line 462, src/sass/components/_typography.scss */
 blockquote:before,
 blockquote:after,
 q:before,
