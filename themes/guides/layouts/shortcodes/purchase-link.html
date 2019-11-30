@@ -18,10 +18,11 @@
 {{- $price := ( $.Scratch.Get "price" ) -}}
 
 {{- $apiPrices := index $data "prices" -}}
-{{- $apiPrice := "" -}}
+{{- $.Scratch.Set "apiPrice" "" -}}
 {{- if isset $apiPrices ($.Scratch.Get "type") -}}
-	{{- $apiPrice := index $apiPrices ($.Scratch.Get "type") -}}
+	{{- $.Scratch.Set "apiPrice" (index $apiPrices ($.Scratch.Get "type")) -}}
 {{- end -}}
+{{- $apiPrice := $.Scratch.Get "apiPrice" -}}
 
 <div class="row">
 	<div class="grid-half margin-bottom-small">
