@@ -8,12 +8,18 @@
 
 {{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "beginner" ) }}
 0. **[DOM Manipulation.]({{ $product.domManipulation.url }})** {{ $product.domManipulation.description }}
-0. **[Strings and Numbers.]({{ $product.stringsNumbers.url }})** {{ $product.stringsNumbers.description }}
-0. **[Arrays and Objects.]({{ $product.arraysObjects.url }})** {{ $product.arraysObjects.description }}
+0. **[Strings & Numbers.]({{ $product.stringsNumbers.url }})** {{ $product.stringsNumbers.description }}
+0. **[Arrays & Objects.]({{ $product.arraysObjects.url }})** {{ $product.arraysObjects.description }}
 0. **[Variables, Functions, and Scope.]({{ $product.variablesFunctionsScope.url }})** {{ $product.variablesFunctionsScope.description }}
 0. **[DOM Injection and Traversal.]({{ $product.domInjectionTraversal.url }})** {{ $product.domInjectionTraversal.description }}
 {{ end }}{{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "advanced" ) }}0. **[Browser Storage.]({{ $product.browserStorage.url }})** {{ $product.browserStorage.description }}
 0. **[APIs & JavaScript.]({{ $product.ajaxHttp.url }})** {{ $product.ajaxHttp.description }}
 0. **[Writing Plugins.]({{ $product.writingPlugins.url }})** {{ $product.writingPlugins.description }}
 0. **[Web Apps.]({{ $product.webApps.url }})** {{ $product.webApps.description }}
+{{ end }}
+
+{{ if eq ( .Get "package" ) "starter" }}
+0. **[DOM Manipulation.]({{ $product.domManipulation.url }})** {{ $product.domManipulation.description }}
+0. **[Arrays and Objects.]({{ $product.arraysObjects.url }})** {{ $product.arraysObjects.description }}
+0. **[APIs & JavaScript.]({{ $product.ajaxHttp.url }})** {{ $product.ajaxHttp.description }}
 {{ end }}

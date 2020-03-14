@@ -61,7 +61,7 @@ description: ""
 
 {{<purchase-summary>}}
 - Browser Storage
-- APIs and JavaScript
+- APIs & JavaScript
 - Writing Vanilla JS Plugins
 - Web Apps
 {{</purchase-summary>}}

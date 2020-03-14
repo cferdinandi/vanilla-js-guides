@@ -1,18 +1,19 @@
 ---
-title: "The Beginner's Bundle"
+title: "The Starter Bundle"
 date: 2018-01-16T10:05:20-05:00
-draft: false
+draft: true
 type: "guide"
 noTitle: true
 description: ""
+noIndex: true
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5">The Beginner's Bundle</h1>
-<p><span class="text-xlarge">Kick-start your journey to JavaScript.</span></p>
+<h1 class="no-padding-top no-margin-bottom h5">The Starter Bundle</h1>
+<p><span class="text-xlarge">The first step in your JavaScript journey.</span></p>
 
 <img class="aligncenter" style="width: 88%;" src="/img/guides/beginner-bundle.jpg">
 
-<span class="text-large">Get five essential pocket guides, all of the source code and demos, and exclusive Slack access.</span>
+<span class="text-large">Get three pocket guides, all of the source code and demos, and exclusive Slack access... **for FREE**.</span>
 
 {{<cta for="guides-all">}}
 
@@ -24,7 +25,7 @@ description: ""
 
 <div class="list-spaced">
 {{%md%}}
-{{<product-list package="beginner">}}
+{{<product-list package="starter">}}
 {{%/md%}}
 </div>
 
@@ -49,22 +50,16 @@ description: ""
 
 <em class="text-muted text-small">Looping over an array with the <code>Array.forEach()</code> method.</em>
 
-{{<sample>}}
-
-{{<guide-money-back>}}
-
 {{<guide-about-me>}}
 
 {{%purchase-box%}}
 
-**Get everything you need to kick-start your journey to vanilla JavaScript, and save over 30%.** If purchased individually, these pocket guides would cost a lot more.
+**Take the first step in your vanilla JavaScript journey.**
 
 {{<purchase-summary>}}
 - DOM Manipulation
-- Strings & Numbers
 - Arrays & Objects
-- Variables, Functions, & Scope
-- DOM Injection & Traversal
+- APIs & JavaScript
 {{</purchase-summary>}}
 
 {{<cta for="guide-buy">}}
