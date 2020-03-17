@@ -1,11 +1,12 @@
 ---
 title: "The Starter Bundle"
 date: 2018-01-16T10:05:20-05:00
-draft: true
+draft: false
 type: "guide"
 noTitle: true
 description: ""
 noIndex: true
+url: "/starter-bundle/"
 ---
 
 <h1 class="no-padding-top no-margin-bottom h5">The Starter Bundle</h1>
