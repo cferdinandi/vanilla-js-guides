@@ -1,5 +1,9 @@
 <div class="callout" id="ready-to-buy">
-	<h2>Ready to buy?</h2>
+	{{- if .Get "promo" -}}
+	<h2 id="ready-to-buy">Get Your Free Guides</h2>
+	{{- else -}}
+	<h2 id="ready-to-buy">Ready to buy?</h2>
+	{{- end -}}
 
-	{{.Inner}}
+	{{ .Inner }}
 </div>

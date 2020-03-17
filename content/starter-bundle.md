@@ -11,9 +11,7 @@ noIndex: true
 <h1 class="no-padding-top no-margin-bottom h5">The Starter Bundle</h1>
 <p><span class="text-xlarge">The first step in your JavaScript journey.</span></p>
 
-<img class="aligncenter" style="width: 88%;" src="/img/guides/beginner-bundle.jpg">
-
-<span class="text-large">Get three pocket guides, all of the source code and demos, and exclusive Slack access... **for FREE**.</span>
+<p><span class="text-large">{{%md%}}Get three pocket guides, all of the source code and demos, and exclusive Slack access... **for FREE**.{{%/md%}}</span></p>
 
 {{<cta for="guides-all">}}
 
@@ -52,7 +50,7 @@ noIndex: true
 
 {{<guide-about-me>}}
 
-{{%purchase-box%}}
+{{%purchase-box promo="true"%}}
 
 **Take the first step in your vanilla JavaScript journey.**
 
@@ -62,17 +60,15 @@ noIndex: true
 - APIs & JavaScript
 {{</purchase-summary>}}
 
-{{<cta for="guide-buy">}}
+*These guides would cost $237 if you purchased them individually.*
 
-{{<purchase-link bundle="beginner" product="beginner">}}
-
-{{<team-license>}}
+<a class="btn btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id=48036&edd_options[price_id]=3">Get the Ebooks + the Videos - FREE</a>
 
 {{%/purchase-box%}}
 
 {{<testimonial-group group="purchase">}}
 
-{{<guide-faq>}}
+{{<guide-faq-promo>}}
 
 {{<pricing-link>}}
 
