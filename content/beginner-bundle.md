@@ -71,7 +71,7 @@ description: ""
 
 {{<purchase-link bundle="beginner" product="beginner">}}
 
-{{<team-license>}}
+{{<sales-numbers>}}
 
 {{%/purchase-box%}}
 

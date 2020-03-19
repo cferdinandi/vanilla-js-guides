@@ -70,7 +70,7 @@ description: ""
 
 {{<purchase-link bundle="advanced" product="advanced">}}
 
-{{<team-license>}}
+{{<sales-numbers>}}
 
 {{%/purchase-box%}}
 

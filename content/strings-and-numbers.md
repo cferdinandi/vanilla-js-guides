@@ -74,7 +74,7 @@ Get everything you need to start transforming and editing strings and numbers wi
 
 {{<purchase-upsell upsell="beginner">}}
 
-{{<team-license>}}
+{{<sales-numbers>}}
 
 {{%/purchase-box%}}
 

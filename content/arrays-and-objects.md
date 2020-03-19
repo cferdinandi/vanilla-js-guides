@@ -73,7 +73,7 @@ Get everything you need to start mastering modern array and object methods with 
 
 {{<purchase-upsell upsell="beginner">}}
 
-{{<team-license>}}
+{{<sales-numbers>}}
 
 {{%/purchase-box%}}
 

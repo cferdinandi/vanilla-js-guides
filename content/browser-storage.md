@@ -71,7 +71,7 @@ Get everything you need to start mastering browser storage with vanilla JavaScri
 
 {{<purchase-upsell upsell="advanced">}}
 
-{{<team-license>}}
+{{<sales-numbers>}}
 
 {{%/purchase-box%}}
 

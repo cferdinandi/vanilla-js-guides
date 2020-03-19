@@ -74,7 +74,7 @@ Get everything you need to start mastering DOM manipulation with vanilla JavaScr
 
 {{<purchase-upsell upsell="beginner">}}
 
-{{<team-license>}}
+{{<sales-numbers>}}
 
 {{%/purchase-box%}}
 

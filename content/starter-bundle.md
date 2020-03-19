@@ -65,6 +65,8 @@ url: "/starter-bundle/"
 
 <a class="btn btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id=48036&edd_options[price_id]=3">Get the Ebooks + the Videos - FREE</a>
 
+{{<sales-numbers>}}
+
 {{%/purchase-box%}}
 
 {{<testimonial-group group="purchase">}}

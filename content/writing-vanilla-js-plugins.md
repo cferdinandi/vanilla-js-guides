@@ -73,7 +73,7 @@ Get everything you need to start writing flexible, modular plugins with vanilla 
 
 {{<purchase-upsell upsell="advanced">}}
 
-{{<team-license>}}
+{{<sales-numbers>}}
 
 {{%/purchase-box%}}
 
