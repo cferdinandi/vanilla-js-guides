@@ -5,7 +5,7 @@ baseURL: "https://vanillajsguides.com"
 params:
   description: "Short, focused vanilla JS ebooks and video courses made for beginners. Start building real JavaScript projects in under an hour."
   api: "https://gomakethings.com/api/data.json"
-  sales: "https://gomakethings.com/checkout/wp-json/gmt-edd/v1/sales?category=guides&start=08-01-2016&96gdGDPqokbFsy3Lbx7LwTBdYNDxpo4a=GbwzXPHRqqCDKyy38TYmAybvV8AZZUJHmuA8zKKMjJ2ZUXFG7LcCy2rLAMmU8HEZ"
+  sales: "https://gomakethings.com/checkout/wp-json/gmt-edd/v1/sales?category=guides&start=08-01-2016&round=10&96gdGDPqokbFsy3Lbx7LwTBdYNDxpo4a=GbwzXPHRqqCDKyy38TYmAybvV8AZZUJHmuA8zKKMjJ2ZUXFG7LcCy2rLAMmU8HEZ"
   font: "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&display=swap"
   rssURL: "https://gomakethings.com/feed/index.xml"
   rssLimit: 7
