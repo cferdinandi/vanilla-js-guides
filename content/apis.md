@@ -25,10 +25,10 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 ## What you'll learn
 
 - How to get, update, and send data from APIs.
-- What Ajax, XHR, and HTTP are and what they do.
-- How to transform data into different formats for use with APIs.
+- What Fetch, HTTP, and JavaScript Promises are and what they do.
+- How to parse and transform data into different formats for use with APIs.
 - How to handle API authentication.
-- How to prevent your risk of cross-site scripting attacks from third-party APIs.
+- How to minimize your risk of cross-site scripting attacks when using third-party APIs.
 - How to put it all together and use API data to create dynamic web content.
 
 {{<guide-formats>}}
@@ -51,9 +51,9 @@ Reinforce your learning and build your portfolio by using APIs on a real project
 
 ## A Sample Lesson
 
-<iframe src="https://player.vimeo.com/video/301324058?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/399355275?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-<em class="text-muted text-small">How to parse the data APIs send back into a usable format with the <code>JSON.parse()</code> method.</em>
+<em class="text-muted text-small">Learn the basics of working with the <code>fetch()</code> method.</em>
 
 {{<sample>}}
 
