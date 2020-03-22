@@ -16,6 +16,8 @@ description: ""
 
 This guide is short, focused, and made for beginners. Get hands-on learning and grow your portfolio with a real project using Ajax and HTTP requests.
 
+<p><mark>🔥 <em><strong>New!</strong> This guide has been completely redesigned with modern ES6 approaches, including Promises and <code>fetch()</code>.<em></mark></p>
+
 {{<cta for="guide">}}
 
 <div class="padding-bottom-small">{{<pricing-link>}}</div>
