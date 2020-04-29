@@ -62,7 +62,8 @@ AND, you'll automatically get any new pocket guides I release in the future, com
 
 {{<purchase-summary>}}
 - DOM Manipulation
-- String, Array, & Object Manipulation
+- String & Numbers
+- Arrays & Objects
 - Variables, Functions, & Scope
 - DOM Injection & Traversal
 - Browser Storage
