@@ -10,7 +10,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5">APIs and JavaScript</h1>
 <p><span class="text-xlarge">Learn how to work with APIs and integrate them into your sites and apps.</span></p>
 
-<img class="aligncenter" style="width: 88%;" src="/img/guides/apis.jpg">
+<img class="img-center" style="width: 88%;" src="/img/guides/apis.jpg">
 
 <span class="text-large">Learn the ins-and-outs of working with APIs and vanilla JS in about an&nbsp;hour.</span>
 
@@ -39,7 +39,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 ## Learn by doing with a real JavaScript project
 
-<p class="no-margin-bottom"><img src="/img/projects/apis.jpg" alt="" width="1200" height="817" class="no-margin-bottom aligncenter"></p>
+<p class="no-margin-bottom"><img src="/img/projects/apis.jpg" alt="" width="1200" height="817" class="no-margin-bottom img-center"></p>
 
 Reinforce your learning and build your portfolio by using APIs on a real project. Together, we’ll use API content to dynamically create some web content.
 
@@ -53,7 +53,7 @@ Reinforce your learning and build your portfolio by using APIs on a real project
 
 ## A Sample Lesson
 
-<iframe src="https://player.vimeo.com/video/399355275?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div class="fluid-vids margin-bottom-small"><iframe src="https://player.vimeo.com/video/399355275?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
 <em class="text-muted text-small">Learn the basics of working with the <code>fetch()</code> method.</em>
 

@@ -10,7 +10,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5">DOM Manipulation</h1>
 <p><span class="text-xlarge">Learn how to add dynamic features to that boring, static website.</span></p>
 
-<img class="aligncenter" style="width: 88%;" src="/img/guides/dom-manipulation.jpg">
+<img class="img-center" style="width: 88%;" src="/img/guides/dom-manipulation.jpg">
 
 <span class="text-large">Learn the ins-and-outs of vanilla JavaScript DOM manipulation in about an hour.</span>
 
@@ -52,7 +52,7 @@ Reinforce your learning and build your portfolio by using DOM manipulation techn
 
 ## A Sample Lesson
 
-<iframe src="https://player.vimeo.com/video/334766136?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div class="fluid-vids margin-bottom-small"><iframe src="https://player.vimeo.com/video/334766136?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
 <em class="text-muted text-small">Looping over an array with the <code>Array.forEach()</code> method.</em>
 

@@ -10,7 +10,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5">The Beginner's Bundle</h1>
 <p><span class="text-xlarge">Kick-start your journey to JavaScript.</span></p>
 
-<img class="aligncenter" style="width: 88%;" src="/img/guides/beginner-bundle.jpg">
+<img class="img-center" style="width: 88%;" src="/img/guides/beginner-bundle.jpg">
 
 <span class="text-large">Get five essential pocket guides, all of the source code and demos, and exclusive Slack access.</span>
 
@@ -45,7 +45,7 @@ description: ""
 
 ## A Sample Lesson
 
-<iframe src="https://player.vimeo.com/video/253356808?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="fluid-vids margin-bottom-small"><iframe src="https://player.vimeo.com/video/253356808?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 <em class="text-muted text-small">Looping over an array with the <code>Array.forEach()</code> method.</em>
 

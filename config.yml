@@ -24,7 +24,7 @@ languageCode: "en-us"
 title: "Vanilla JS Guides"
 
 # theme to use (located by default in /themes/THEMENAME/)
-theme: "guides"
+theme: "gmt"
 
 # Permalinks
 # See "content-management/permalinks"

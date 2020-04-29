@@ -10,7 +10,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5">Writing Plugins</h1>
 <p><span class="text-xlarge">Learn how to write JavaScript that scales and adapts to whatever you throw at it.</span></p>
 
-<img class="aligncenter" style="width: 88%;" src="/img/guides/writing-plugins.jpg">
+<img class="img-center" style="width: 88%;" src="/img/guides/writing-plugins.jpg">
 
 <span class="text-large">Learn the ins-and-outs of writing vanilla JavaScript plugins in about an hour.</span>
 
@@ -37,7 +37,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 ## Learn by doing with a real JavaScript project
 
-<p class="no-margin-bottom"><img src="/img/projects/writing-plugins-project-screenshot.jpg" alt="" width="1200" height="768" class="no-margin-bottom aligncenter size-full wp-image-14081" /></p>
+<p class="no-margin-bottom"><img src="/img/projects/writing-plugins-project-screenshot.jpg" alt="" width="1200" height="768" class="no-margin-bottom img-center size-full wp-image-14081" /></p>
 
 Reinforce your learning and build your portfolio by creating a real JavaScript plugin. Together, we'll take a script that mirrors input text and convert it into a flexible, developer-friendly plugin.
 
@@ -51,7 +51,7 @@ Reinforce your learning and build your portfolio by creating a real JavaScript p
 
 ## A Sample Lesson
 
-<iframe src="https://player.vimeo.com/video/311555126?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="fluid-vids margin-bottom-small"><iframe src="https://player.vimeo.com/video/311555126?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 <em class="text-muted text-small">How to let users update and modify your plugin without touching the core code.</em>
 

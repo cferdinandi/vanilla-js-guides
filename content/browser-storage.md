@@ -10,7 +10,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5">Browser Storage</h1>
 <p><span class="text-xlarge">Master local storage, get and set cookies, and grab data from query strings.</span></p>
 
-<img class="aligncenter" style="width: 88%;" src="/img/guides/browser-storage.jpg">
+<img class="img-center" style="width: 88%;" src="/img/guides/browser-storage.jpg">
 
 <span class="text-large">Learn the ins-and-outs of browser storage with vanilla JavaScript in about an hour.</span>
 
@@ -35,7 +35,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 ## Learn by doing with a real JavaScript project
 
-<p class="no-margin-bottom"><img src="/img/projects/autosave-form.jpg" alt="" width="1165" height="753" class="no-margin-bottom aligncenter size-full wp-image-14033" /></p>
+<p class="no-margin-bottom"><img src="/img/projects/autosave-form.jpg" alt="" width="1165" height="753" class="no-margin-bottom img-center size-full wp-image-14033" /></p>
 
 Reinforce your learning and build your portfolio by using browser storage on a real project. Together, we'll build a form that automatically saves your data as you type.
 
@@ -49,7 +49,7 @@ Reinforce your learning and build your portfolio by using browser storage on a r
 
 ## A Sample Lesson
 
-<iframe src="https://player.vimeo.com/video/298072239?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="fluid-vids margin-bottom-small"><iframe src="https://player.vimeo.com/video/298072239?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 <em class="text-muted text-small">How to set, get, and delete data with the Local Storage API.</em>
 

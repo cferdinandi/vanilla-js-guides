@@ -10,7 +10,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5">DOM Injection and Traversal</h1>
 <p><span class="text-xlarge">Learn how to move through the DOM and add content with the ease.</span></p>
 
-<img class="aligncenter" style="width: 88%;" src="/img/guides/dom-injection-and-traversal.jpg">
+<img class="img-center" style="width: 88%;" src="/img/guides/dom-injection-and-traversal.jpg">
 
 <span class="text-large">Learn the ins-and-outs of vanilla JavaScript DOM injection and traversal in about an hour.</span>
 
@@ -38,7 +38,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 ## Learn by doing with a real JavaScript project
 
-<p class="no-margin-bottom"><img src="/img/projects/lazy-load-project.jpg" alt="" width="1200" height="1005" class="no-margin-bottom aligncenter size-full wp-image-14077" /></p>
+<p class="no-margin-bottom"><img src="/img/projects/lazy-load-project.jpg" alt="" width="1200" height="1005" class="no-margin-bottom img-center size-full wp-image-14077" /></p>
 
 Reinforce your learning and build your portfolio by using DOM injection and traversal techniques on a real project. Together, we'll build an lazy loader script that only loads images into the DOM after they come into the viewport.
 
@@ -52,7 +52,7 @@ Reinforce your learning and build your portfolio by using DOM injection and trav
 
 ## A Sample Lesson
 
-<iframe src="https://player.vimeo.com/video/296508931?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="fluid-vids margin-bottom-small"><iframe src="https://player.vimeo.com/video/296508931?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 <em class="text-muted text-small">How to inject an element before another one using the <code>Element.before()</code> method.</em>
 

@@ -9,7 +9,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5">The Complete Set</h1>
 <p><span class="text-xlarge">Everything you need to master JavaScript.</span></p>
 
-<img class="aligncenter" style="width: 88%;" src="/img/guides/complete-set.jpg">
+<img class="img-center" style="width: 88%;" src="/img/guides/complete-set.jpg">
 
 <span class="text-large">Get every pocket guide, all of the source code and demos, and exclusive Slack access.</span>
 
@@ -46,7 +46,7 @@ AND, you'll automatically get any new pocket guides I release in the future, com
 
 ## A Sample Lesson
 
-<iframe src="https://player.vimeo.com/video/298072239?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="fluid-vids margin-bottom-small"><iframe src="https://player.vimeo.com/video/298072239?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 <em class="text-muted text-small">How to set, get, and delete data with the Local Storage API.</em>
 

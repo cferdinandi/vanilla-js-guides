@@ -10,7 +10,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5">The Advanced Bundle</h1>
 <p><span class="text-xlarge">Take your vanilla JavaScript skills to the next level.</span></p>
 
-<img class="aligncenter" style="width: 88%;" src="/img/guides/advanced-bundle.jpg">
+<img class="img-center" style="width: 88%;" src="/img/guides/advanced-bundle.jpg">
 
 <span class="text-large">Get four advanced topic pocket guides, all of the source code and demos, and exclusive Slack access.</span>
 
@@ -45,7 +45,7 @@ description: ""
 
 ## A Sample Lesson
 
-<iframe src="https://player.vimeo.com/video/311555126?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="fluid-vids margin-bottom-small"><iframe src="https://player.vimeo.com/video/311555126?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 <em class="text-muted text-small">How to let users update and modify your plugin without touching the core code.</em>
 
