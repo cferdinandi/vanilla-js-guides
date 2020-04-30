@@ -27,6 +27,10 @@
 		document.addEventListener('click', buyNowHandler, false);
 	}
 
+	/**
+	 *
+	 * @param {Function} callback
+	 */
 	var mailchimp = function (callback) {
 
 

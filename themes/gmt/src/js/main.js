@@ -1,7 +1,7 @@
-import './main-components/_matches-polyfill.js';
-import './main-components/add-to-cart.js';
-import mailchimp from './main-components/mailchimp.js';
-import pricingParity from './main-components/pricing-parity.js';
+import '../../../../../gmt-theme/dist/js/_matches.polyfill.js';
+import '../../../../../gmt-theme/dist/js/add-to-cart.js';
+import mailchimp from '../../../../../gmt-theme/dist/js/mailchimp.js';
+import pricingParity from '../../../../../gmt-theme/dist/js/pricing-parity.js';
 
 // Mailchimp form
 if (document.querySelector('#mailchimp-form')) {
