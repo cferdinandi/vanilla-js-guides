@@ -34,13 +34,11 @@
 		<style type="text/css">
 			{{ if eq $.Site.Params.minify true }}{{ readFile "/themes/gmt/static/css/main.min.css" | safeCSS }}{{ else }}{{ readFile "/themes/gmt/static/css/main.css" | safeCSS }}{{ end }}
 		</style>
+		<link rel="stylesheet" href="https://gomakethings.com/css/fonts.css" media="print" onload="this.media='all'">
 
-		<!-- Font loading -->
+		<!-- Font Loading -->
 		<script>
-			(function () {
-				var font = '{{ $.Site.Params.font }}';
-				{{ if eq $.Site.Params.minify true }}{{ readFile "/themes/gmt/static/js/fonts.min.js" | safeJS }}{{ else }}{{ readFile "/themes/gmt/static/js/fonts.js" | safeJS }}{{ end }}
-			})();
+			{{ if eq $.Site.Params.minify true }}{{ readFile "/themes/gmt/static/js/fonts.min.js" | safeJS }}{{ else }}{{ readFile "/themes/gmt/static/js/fonts.js" | safeJS }}{{ end }}
 		</script>
 	</head>
 
