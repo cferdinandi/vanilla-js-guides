@@ -32,7 +32,6 @@
 
 		<!-- Stylesheet -->
 		<style type="text/css">
-			{{ if eq $.Site.Params.minify true }}{{ readFile "/themes/gmt/static/css/fonts.min.css" | safeCSS }}{{ else }}{{ readFile "/themes/gmt/static/css/fonts.css" | safeCSS }}{{ end }}
 			{{ if eq $.Site.Params.minify true }}{{ readFile "/themes/gmt/static/css/main.min.css" | safeCSS }}{{ else }}{{ readFile "/themes/gmt/static/css/main.css" | safeCSS }}{{ end }}
 		</style>
 
