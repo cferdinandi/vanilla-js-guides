@@ -7,8 +7,8 @@ noTitle: true
 description: ""
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5">Variables, Functions, and Scope</h1>
-<p><span class="text-xlarge">Learn how to structure your code like a JavaScript pro.</span></p>
+<h1 class="no-padding-top no-margin-bottom h5 text-sans">Variables, Functions, and Scope</h1>
+<p><span class="text-xlarge text-serif">Learn how to structure your code like a JavaScript pro.</span></p>
 
 <img class="img-center" style="width: 88%;" src="/img/guides/variables-functions-scope.jpg">
 

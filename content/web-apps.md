@@ -7,8 +7,8 @@ noTitle: true
 description: ""
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5">Web Apps</h1>
-<p><span class="text-xlarge">Build interactive web apps and single page apps without libraries or frameworks.</span></p>
+<h1 class="no-padding-top no-margin-bottom h5 text-sans">Web Apps</h1>
+<p><span class="text-xlarge text-serif">Build interactive web apps and single page apps without libraries or frameworks.</span></p>
 
 <img class="img-center" style="width: 88%;" src="/img/guides/web-apps.jpg">
 

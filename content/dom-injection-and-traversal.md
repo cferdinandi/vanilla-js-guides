@@ -7,8 +7,8 @@ noTitle: true
 description: ""
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5">DOM Injection and Traversal</h1>
-<p><span class="text-xlarge">Learn how to move through the DOM and add content with the ease.</span></p>
+<h1 class="no-padding-top no-margin-bottom h5 text-sans">DOM Injection and Traversal</h1>
+<p><span class="text-xlarge text-serif">Learn how to move through the DOM and add content with the ease.</span></p>
 
 <img class="img-center" style="width: 88%;" src="/img/guides/dom-injection-and-traversal.jpg">
 

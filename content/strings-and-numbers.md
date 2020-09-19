@@ -7,8 +7,8 @@ noTitle: true
 description: ""
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5">Strings and Numbers</h1>
-<p><span class="text-xlarge">Transform and edit strings and numbers for use in modern websites and web apps.</span></p>
+<h1 class="no-padding-top no-margin-bottom h5 text-sans">Strings and Numbers</h1>
+<p><span class="text-xlarge text-serif">Transform and edit strings and numbers for use in modern websites and web apps.</span></p>
 
 <img class="img-center" style="width: 88%;" src="/img/guides/strings-numbers.jpg">
 

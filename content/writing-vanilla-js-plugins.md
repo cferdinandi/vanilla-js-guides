@@ -7,8 +7,8 @@ noTitle: true
 description: ""
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5">Writing Plugins</h1>
-<p><span class="text-xlarge">Learn how to write JavaScript that scales and adapts to whatever you throw at it.</span></p>
+<h1 class="no-padding-top no-margin-bottom h5 text-sans">Writing Plugins</h1>
+<p><span class="text-xlarge text-serif">Learn how to write JavaScript that scales and adapts to whatever you throw at it.</span></p>
 
 <img class="img-center" style="width: 88%;" src="/img/guides/writing-plugins.jpg">
 

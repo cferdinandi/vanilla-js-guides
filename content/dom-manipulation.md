@@ -7,8 +7,8 @@ noTitle: true
 description: ""
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5">DOM Manipulation</h1>
-<p><span class="text-xlarge">Learn how to add dynamic features to that boring, static website.</span></p>
+<h1 class="no-padding-top no-margin-bottom h5 text-sans">DOM Manipulation</h1>
+<p><span class="text-xlarge text-serif">Learn how to add dynamic features to that boring, static website.</span></p>
 
 <img class="img-center" style="width: 88%;" src="/img/guides/dom-manipulation.jpg">
 

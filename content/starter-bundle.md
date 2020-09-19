@@ -9,8 +9,8 @@ noIndex: true
 url: "/starter-bundle/"
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5">The Starter Bundle</h1>
-<p><span class="text-xlarge">The first step in your JavaScript journey.</span></p>
+<h1 class="no-padding-top no-margin-bottom h5 text-sans">The Starter Bundle</h1>
+<p><span class="text-xlarge text-serif">The first step in your JavaScript journey.</span></p>
 
 <p><span class="text-large">{{%md%}}Get three pocket guides, all of the source code and demos, and exclusive Slack access... **for FREE**.{{%/md%}}</span></p>
 

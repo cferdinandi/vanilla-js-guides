@@ -7,8 +7,8 @@ noTitle: true
 description: ""
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5">The Beginner's Bundle</h1>
-<p><span class="text-xlarge">Kick-start your journey to JavaScript.</span></p>
+<h1 class="no-padding-top no-margin-bottom h5 text-sans">The Beginner's Bundle</h1>
+<p><span class="text-xlarge text-serif">Kick-start your journey to JavaScript.</span></p>
 
 <img class="img-center" style="width: 88%;" src="/img/guides/beginner-bundle.jpg">
 

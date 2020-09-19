@@ -7,8 +7,8 @@ noTitle: true
 description: ""
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5">APIs and JavaScript</h1>
-<p><span class="text-xlarge">Learn how to work with APIs and integrate them into your sites and apps.</span></p>
+<h1 class="no-padding-top no-margin-bottom h5 text-sans">APIs and JavaScript</h1>
+<p><span class="text-xlarge text-serif">Learn how to work with APIs and integrate them into your sites and apps.</span></p>
 
 <img class="img-center" style="width: 88%;" src="/img/guides/apis.jpg">
 

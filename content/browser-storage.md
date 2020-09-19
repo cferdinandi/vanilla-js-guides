@@ -7,8 +7,8 @@ noTitle: true
 description: ""
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5">Browser Storage</h1>
-<p><span class="text-xlarge">Master local storage, get and set cookies, and grab data from query strings.</span></p>
+<h1 class="no-padding-top no-margin-bottom h5 text-sans">Browser Storage</h1>
+<p><span class="text-xlarge text-serif">Master local storage, get and set cookies, and grab data from query strings.</span></p>
 
 <img class="img-center" style="width: 88%;" src="/img/guides/browser-storage.jpg">
 

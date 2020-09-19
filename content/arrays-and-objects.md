@@ -7,8 +7,8 @@ noTitle: true
 description: ""
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5">Arrays and Objects</h1>
-<p><span class="text-xlarge">Master modern methods for editing and transforming arrays and objects.</span></p>
+<h1 class="no-padding-top no-margin-bottom h5 text-sans">Arrays and Objects</h1>
+<p><span class="text-xlarge text-serif">Master modern methods for editing and transforming arrays and objects.</span></p>
 
 <img class="img-center" style="width: 88%;" src="/img/guides/arrays-objects.jpg">
 
