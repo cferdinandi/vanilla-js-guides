@@ -33,7 +33,7 @@ AND, you'll automatically get any new pocket guides I release in the future, com
 
 {{<testimonial-group group="learn">}}
 
-{{<bonuses>}}
+{{<bonuses bundle="true">}}
 
 {{<cta for="bonusesGuides">}}
 {{<cta for="bonusesList">}}

@@ -32,7 +32,7 @@ description: ""
 
 {{<testimonial-group group="learn">}}
 
-{{<bonuses>}}
+{{<bonuses bundle="true">}}
 
 {{<cta for="bonusesGuides">}}
 {{<cta for="bonusesList">}}
