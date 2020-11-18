@@ -24,13 +24,18 @@
 {{- end -}}
 {{- $apiPrice := $.Scratch.Get "apiPrice" -}}
 
+{{- $.Scratch.Set "apiDiscount" "" -}}
+{{- if and (ne (.Scratch.Get "apiPrice") "") (isset (.Scratch.Get "apiPrice") "discount") -}}
+	{{- .Scratch.Set "apiDiscount" (index (.Scratch.Get "apiPrice") "discount") -}}
+{{- end -}}
+
 <div class="row">
 	<div class="grid-half margin-bottom-small">
-		<a class="btn btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=1">Get the Ebook{{ if .Get "bundle" }}s{{ end }} - {{ if ne $apiPrice "" }}{{ index $apiPrice "ebook" | safeHTML }}{{ else }}{{ $price.ebook | safeHTML }}{{ end }}</a>
+		<a class="btn btn-large btn-block edd-buy-now-button" href='https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=1{{ if ne (.Scratch.Get "apiDiscount") "" }}&discount={{ .Scratch.Get "apiDiscount" }}{{ end }}'>Get the Ebook{{ if .Get "bundle" }}s{{ end }} - {{ if ne $apiPrice "" }}{{ index $apiPrice "ebook" | safeHTML }}{{ else }}{{ $price.ebook | safeHTML }}{{ end }}</a>
 	</div>
 	<div class="grid-half margin-bottom-small">
-		<a class="btn btn-secondary btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=2">Get the Videos - {{ if ne $apiPrice "" }}{{ index $apiPrice "video" | safeHTML }}{{ else }}{{ $price.video | safeHTML }}{{ end }}</a>
+		<a class="btn btn-secondary btn-large btn-block edd-buy-now-button" href='https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=2{{ if ne (.Scratch.Get "apiDiscount") "" }}&discount={{ .Scratch.Get "apiDiscount" }}{{ end }}'>Get the Videos - {{ if ne $apiPrice "" }}{{ index $apiPrice "video" | safeHTML }}{{ else }}{{ $price.video | safeHTML }}{{ end }}</a>
 	</div>
 </div>
 
-<p><a class="btn btn-tertiary btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=3">Get the Ebook{{ if .Get "bundle" }}s{{ end }} + the Videos - {{ if ne $apiPrice "" }}{{ index $apiPrice "both" | safeHTML }}{{ else }}{{ $price.both | safeHTML }}{{ end }}</a></p>
+<p><a class="btn btn-tertiary btn-large btn-block edd-buy-now-button" href='https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=3{{ if ne (.Scratch.Get "apiDiscount") "" }}&discount={{ .Scratch.Get "apiDiscount" }}{{ end }}'>Get the Ebook{{ if .Get "bundle" }}s{{ end }} + the Videos - {{ if ne $apiPrice "" }}{{ index $apiPrice "both" | safeHTML }}{{ else }}{{ $price.both | safeHTML }}{{ end }}</a></p>
