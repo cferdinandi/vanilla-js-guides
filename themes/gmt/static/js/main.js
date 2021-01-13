@@ -212,11 +212,8 @@
 		// Render the pricing parity message
 		var renderPricingParity = function (data) {
 
-			// Make sure we have data to render
+			// Make sure we have data and a template to render
 			if (!data || !template) return;
-
-			// Convert data to JSON
-			data = JSON.parse(data);
 
 			// Make sure discount exists
 			if (data.status === 'no_discount') return;
@@ -236,42 +233,12 @@
 
 		};
 
-		// Get the pricing parity message via Ajax
-		var getPricingParity = function () {
-
-			// Set up our HTTP request
-			var xhr = new XMLHttpRequest();
-			if (!('responseType' in xhr)) return;
-
-			// Setup our listener to process compeleted requests
-			xhr.onreadystatechange = function () {
-				// Only run if the request is complete
-				if (xhr.readyState !== 4) return;
-
-				// Process our return data
-				if (xhr.status === 200) {
-
-					// Save the content to sessionStorage
-					sessionStorage.setItem('gmt-pricing-parity', xhr.response);
-
-					// Render it
-					renderPricingParity(xhr.response);
-
-				}
-			};
-
-			// Create and send a GET request
-			xhr.open('GET', endpoint);
-			xhr.send();
-
-		};
-
 		// Get and render pricing parity info
-		var pricing = sessionStorage.getItem('gmt-pricing-parity');
-		if (typeof pricing === 'string') {
-			renderPricingParity(pricing);
+		var pricing = sessionStorage.getItem('gmt-location-pricing');
+		if (pricing) {
+			renderPricingParity(JSON.parse(pricing));
 		} else {
-			getPricingParity();
+			getPricingPairty();
 		}
 
 	};
