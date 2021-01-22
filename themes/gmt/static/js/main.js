@@ -233,12 +233,30 @@
 
 		};
 
+		// Get the pricing parity message via Ajax
+		var getPricingParity = function () {
+			fetch(endpoint).then(function (response) {
+				if (response.ok) {
+					return response.json();
+				}
+				return Promise.reject(response);
+			}).then(function (data) {
+
+				// Save the content to sessionStorage
+				sessionStorage.setItem('gmt-location-pricing', JSON.stringify(data));
+
+				// Render it
+				renderPricingParity(data);
+
+			});
+		};
+
 		// Get and render pricing parity info
 		var pricing = sessionStorage.getItem('gmt-location-pricing');
 		if (pricing) {
 			renderPricingParity(JSON.parse(pricing));
 		} else {
-			getPricingPairty();
+			getPricingParity();
 		}
 
 	};
