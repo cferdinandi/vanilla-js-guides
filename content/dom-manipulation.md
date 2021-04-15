@@ -10,7 +10,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">DOM Manipulation</h1>
 <p><span class="text-xlarge text-serif">Learn how to add dynamic features to that boring, static website.</span></p>
 
-<img class="img-center" style="width: 88%;" src="/img/guides/dom-manipulation.jpg">
+<img class="img-center img-hero" src="/img/guides/dom-manipulation.png">
 
 <span class="text-large">Learn the ins-and-outs of vanilla JavaScript DOM manipulation in about an hour.</span>
 
@@ -25,11 +25,12 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 ## What you'll learn
 
 - How to get elements in the DOM.
-- How to loop through arrays and objects.
+- How to loop through arrays, objects, NodeLists, and other _iterable_ items.
 - How to get, set, and remove classes.
-- How to manipulate styles.
-- How to get and set attributes.
+- How to manipulate, remove, and update styles.
+- How to get, set, and remove attributes.
 - How to listen for events in the DOM.
+- Techniques for improving event listener performance.
 - How to put it all together and write a working project with DOM manipulation.
 
 {{<guide-formats>}}
@@ -38,9 +39,9 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 ## Learn by doing with a real JavaScript project
 
-<p class="no-margin-bottom"><img alt="A screenshot of a JavaScript accordion component" src="/img/projects/accordion-project.jpg"></p>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/537327783?badge=0&amp;autopause=0&amp;loop=1&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
 
-Reinforce your learning and build your portfolio by using DOM manipulation techniques on a real project. Together, we'll build a show-and-hide/accordion script that reveals content when you click a link.
+Reinforce your learning and build your portfolio by using DOM manipulation techniques on a real project. Together, we'll build a password toggle script that toggles password visibility when you click a button.
 
 {{<bonuses>}}
 
@@ -52,9 +53,10 @@ Reinforce your learning and build your portfolio by using DOM manipulation techn
 
 ## A Sample Lesson
 
-<div class="fluid-vids margin-bottom-small"><iframe src="https://player.vimeo.com/video/334766136?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
-
-<em class="text-muted text-small">Looping over an array with the <code>Array.forEach()</code> method.</em>
+<figure>
+	<div class="fluid-vids no-margin-bottom"><iframe src="https://player.vimeo.com/video/522570894?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+	<figcaption>Looping over an array or NodeList with a <code>for...of</code> loop.</figcaption>
+</figure>
 
 {{<sample>}}
 

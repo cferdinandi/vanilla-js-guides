@@ -5,6 +5,6 @@
 		<li>The Pocket Guide <span class="text-small text-muted">({{ if .Get "novideo" }}in PDF, EPUB, MOBI, and HTML formats{{ else }}in ebook format, streaming HD video, or both{{ end }})</span></li>
 	{{ end }}
 	<li>The Source Code &amp; Demos</li>
-	<li>Exclusive Slack Access</li>
+	{{ if .Get "bundle" }}<li>Exclusive Slack Access</li>{{ end }}
 	<li>FREE Updates for Life</li>
 </ul>

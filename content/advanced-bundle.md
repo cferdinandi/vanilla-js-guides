@@ -10,7 +10,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">The Advanced Bundle</h1>
 <p><span class="text-xlarge text-serif">Take your vanilla JavaScript skills to the next level.</span></p>
 
-<img class="img-center" style="width: 88%;" src="/img/guides/advanced-bundle.jpg">
+<img class="img-center img-hero" src="/img/guides/advanced-bundle.png">
 
 <span class="text-large">Get four advanced topic pocket guides, all of the source code and demos, and exclusive Slack access.</span>
 
@@ -45,9 +45,10 @@ description: ""
 
 ## A Sample Lesson
 
-<div class="fluid-vids margin-bottom-small"><iframe src="https://player.vimeo.com/video/311555126?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-
-<em class="text-muted text-small">How to let users update and modify your plugin without touching the core code.</em>
+<figure>
+	<div class="fluid-vids no-margin-bottom"><iframe src="https://player.vimeo.com/video/536543823?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+	<figcaption>An introduction to how ES modules work in JavaScript.</figcaption>
+</figure>
 
 {{<sample>}}
 
@@ -61,9 +62,9 @@ description: ""
 
 {{<purchase-summary>}}
 - Browser Storage
-- APIs & JavaScript
-- Writing Vanilla JS Plugins
-- Web Apps
+- APIs & Asynchronous JS
+- Writing JS Libraries
+- ES Modules
 {{</purchase-summary>}}
 
 {{<cta for="guide-buy">}}

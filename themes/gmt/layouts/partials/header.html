@@ -34,6 +34,7 @@
 		<style type="text/css">
 			{{ readFile "/themes/gmt/static/css/fonts.css" | safeCSS }}
 			{{ if eq $.Site.Params.minify true }}{{ readFile "/themes/gmt/static/css/main.min.css" | safeCSS }}{{ else }}{{ readFile "/themes/gmt/static/css/main.css" | safeCSS }}{{ end }}
+			.img-hero{width:88%;}
 		</style>
 
 		<!-- Font Loading -->

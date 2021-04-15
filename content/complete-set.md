@@ -9,11 +9,11 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">The Complete Set</h1>
 <p><span class="text-xlarge text-serif">Everything you need to master JavaScript.</span></p>
 
-<img class="img-center" style="width: 88%;" src="/img/guides/complete-set.jpg">
+<img class="img-center img-hero" src="/img/guides/complete-set.png">
 
 <span class="text-large">Get every pocket guide, all of the source code and demos, and exclusive Slack access.</span>
 
-AND, you'll automatically get any new pocket guides I release in the future, completely free.
+You'll automatically get any new pocket guides I release in the future, completely&nbsp;free.
 
 {{<cta for="guides-all">}}
 
@@ -46,9 +46,10 @@ AND, you'll automatically get any new pocket guides I release in the future, com
 
 ## A Sample Lesson
 
-<div class="fluid-vids margin-bottom-small"><iframe src="https://player.vimeo.com/video/298072239?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-
-<em class="text-muted text-small">How to set, get, and delete data with the Local Storage API.</em>
+<figure>
+	<div class="fluid-vids no-margin-bottom"><iframe src="https://player.vimeo.com/video/531873765?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+	<figcaption>How to get data from an API with the <code>fetch()</code> method.</figcaption>
+</figure>
 
 {{<sample>}}
 
@@ -67,8 +68,9 @@ AND, you'll automatically get any new pocket guides I release in the future, com
 - Variables, Functions, & Scope
 - DOM Injection & Traversal
 - Browser Storage
-- Ajax/HTTP
-- Writing Vanilla JS Plugins
+- APIs & Asynchronous JS
+- Writing JS Libraries
+- ES Modules
 - Web Apps
 {{</purchase-summary>}}
 

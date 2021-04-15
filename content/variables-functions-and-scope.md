@@ -8,9 +8,9 @@ description: ""
 ---
 
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">Variables, Functions, and Scope</h1>
-<p><span class="text-xlarge text-serif">Learn how to structure your code like a JavaScript pro.</span></p>
+<p><span class="text-xlarge text-serif">Learn how to write and document code like a JavaScript pro.</span></p>
 
-<img class="img-center" style="width: 88%;" src="/img/guides/variables-functions-scope.jpg">
+<img class="img-center img-hero" src="/img/guides/variables-functions-and-scope.png">
 
 <span class="text-large">Learn the ins-and-outs of variables, functions, and JavaScript scope in about an hour.</span>
 
@@ -24,14 +24,16 @@ What are arrow functions? What's function hoisting? What's the difference betwee
 
 ## What you'll learn
 
+- How to set, use, and update variables.
+- The difference between `var`, `let`, and `const`, and when to choose one over the others.
+- Different ways to conditionally set variables.
 - The difference between function expressions and function declarations, and which one to use.
 - What function hoisting is, and whether or not it's a good thing.
 - How to scope your code, and why you want to.
-- How to conditionally set variables.
-- Useful techniques for passing variables into functions and defining default values.
-- The difference between functions and methods.
-- How to write ES6 arrow functions.
-- How to use ES6 `let` and `const` for defining variables.
+- How to pass data into functions with parameters and arguments.
+- How to define default function parameters.
+- How to use ES6 arrow functions, and some "gotchas" to look out for.
+- How to document your functions with JSDoc.
 
 {{<guide-formats>}}
 
@@ -39,9 +41,9 @@ What are arrow functions? What's function hoisting? What's the difference betwee
 
 ## Learn by doing with a real JavaScript project
 
-<p class="no-margin-bottom"><img src="/img/projects/lazy-load-project.jpg" alt="" width="1200" height="820" class="no-margin-bottom img-center size-full wp-image-14037" /></p>
+<p class="no-margin-bottom"><img src="/img/projects/variables-functions-and-scope.png" alt="" width="1080" height="647" class="no-margin-bottom img-center"></p>
 
-Reinforce your learning and build your portfolio by applying JavaScript best practices to a real project. Together, we’ll use everything you've learned about variables, functions, and scope to clean up a poorly written image lazy loading script.
+Reinforce your learning and build your portfolio by applying JavaScript best practices to a real project. Together, we’ll use everything you've learned about variables, functions, and scope to clean up a poorly written script.
 
 {{<bonuses>}}
 
@@ -53,9 +55,10 @@ Reinforce your learning and build your portfolio by applying JavaScript best pra
 
 ## A Sample Lesson
 
-<div class="fluid-vids margin-bottom-small"><iframe src="https://player.vimeo.com/video/281700177?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
-
-<em class="text-muted text-small">What are fat arrow functions and how do they work?</em>
+<figure>
+	<div class="fluid-vids no-margin-bottom"><iframe src="https://player.vimeo.com/video/527491295?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="06-parameters-and-arguments_04-rest-parameters"></iframe></div>
+	<figcaption>What are fat arrow functions and how do they work?</figcaption>
+</figure>
 
 {{<sample>}}
 

@@ -10,7 +10,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">Strings and Numbers</h1>
 <p><span class="text-xlarge text-serif">Transform and edit strings and numbers for use in modern websites and web apps.</span></p>
 
-<img class="img-center" style="width: 88%;" src="/img/guides/strings-numbers.jpg">
+<img class="img-center img-hero" src="/img/guides/strings-and-numbers.png">
 
 <span class="text-large">Learn the ins-and-outs of strings and numbers&mdash;and powerful math methods&mdash;in about an hour.</span>
 
@@ -25,11 +25,12 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 ## What you'll learn
 
 - How to add and remove leading and trailing characters from strings.
-- How to transform text to upper and lower case.
-- How to combine and split up strings.
+- How to transform text into upper and lower case.
+- How to combine, modify, and split up strings.
 - How to find and replace text inside a string.
 - How to convert strings to numbers.
 - How to perform simple and complex math with numbers.
+- How to convert and manipulate numbers into different formats.
 - How to put it all together and write a working project with modern string and number manipulation methods.
 
 {{<guide-formats>}}
@@ -38,7 +39,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 ## Learn by doing with a real JavaScript project
 
-<p class="no-margin-bottom"><img src="/img/projects/strings-numbers.jpg" alt="" width="1200" height="676" class="no-margin-bottom img-center"></p>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/537318831?badge=0&amp;autopause=0&amp;loop=1&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="A Tip Calculator App"></iframe></div>
 
 Reinforce your learning and build your portfolio by using modern string and number methods on a real project. Together, we'll build a tip calculator that you can use to figure out how much each person owes on a restaurant bill.
 
@@ -52,9 +53,10 @@ Reinforce your learning and build your portfolio by using modern string and numb
 
 ## A Sample Lesson
 
-<div class="fluid-vids margin-bottom-small"><iframe src="https://player.vimeo.com/video/340291586?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
-
-<em class="text-muted text-small">How to use the template literals to easily create multi-line strings, add dynamic content, and&nbsp;more.</em>
+<figure>
+	<div class="fluid-vids no-margin-bottom"><iframe src="https://player.vimeo.com/video/523926309?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+	<figcaption>How to use the template literals to easily create multi-line strings, add dynamic content, and&nbsp;more.</figcaption>
+</figure>
 
 {{<sample>}}
 
