@@ -8,9 +8,9 @@ description: ""
 ---
 
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">Browser Storage</h1>
-<p><span class="text-xlarge text-serif">Master local storage, get and set cookies, and grab data from query strings.</span></p>
+<p><span class="text-xlarge text-serif">Master local storage, get and set cookies, and create browser-based databases.</span></p>
 
-<img class="img-center" style="width: 88%;" src="/img/guides/browser-storage.jpg">
+<img class="img-center img-hero" src="/img/guides/browser-storage.png">
 
 <span class="text-large">Learn the ins-and-outs of browser storage with vanilla JavaScript in about an hour.</span>
 
@@ -25,8 +25,11 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 ## What you'll learn
 
 - How to set, get, and remove cookies.
-- How to store data in the browser with localStorage and sessionStorage.
-- How to get data from query strings.
+- How to store data in the browser with `window.localStorage` and `window.sessionStorage`.
+- How to handle objects and arrays with `window.localStorage` and `window.browserStorage`.
+- How to create expiration dates for `window.localStorage` items.
+- How to create a local database with indexedDB, and get, set, and delete data from it.
+- How to access and manipulate browser storage data with your browser's developer&nbsp;tools.
 - How to put it all together and write a working project with browser storage.
 
 {{<guide-formats>}}
@@ -35,7 +38,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 ## Learn by doing with a real JavaScript project
 
-<p class="no-margin-bottom"><img src="/img/projects/autosave-form.jpg" alt="" width="1165" height="753" class="no-margin-bottom img-center size-full wp-image-14033" /></p>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/537337239?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="400" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
 
 Reinforce your learning and build your portfolio by using browser storage on a real project. Together, we'll build a form that automatically saves your data as you type.
 
@@ -49,9 +52,10 @@ Reinforce your learning and build your portfolio by using browser storage on a r
 
 ## A Sample Lesson
 
-<div class="fluid-vids margin-bottom-small"><iframe src="https://player.vimeo.com/video/298072239?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-
-<em class="text-muted text-small">How to set, get, and delete data with the Local Storage API.</em>
+<figure>
+	<div class="fluid-vids no-margin-bottom"><iframe src="https://player.vimeo.com/video/529144692?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+	<figcaption>What IndexedDB is and how it works.</figcaption>
+</figure>
 
 {{<sample>}}
 

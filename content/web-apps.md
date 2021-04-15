@@ -10,13 +10,15 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">Web Apps</h1>
 <p><span class="text-xlarge text-serif">Build interactive web apps and single page apps without libraries or frameworks.</span></p>
 
-<img class="img-center" style="width: 88%;" src="/img/guides/web-apps.jpg">
+<img class="img-center img-hero" src="/img/guides/state-based-ui.png">
 
 <span class="text-large">Learn the ins-and-outs of writing web apps with vanilla JavaScript in about an hour.</span>
 
 This guide is short, focused, and made for beginners. Get hands-on learning and grow your portfolio building a real, working web app.
 
-{{<cta for="guide">}}
+<!-- {{<cta for="guide">}} -->
+
+<p><mark><em><strong>NOTE:</strong> this guide is being updated to focus on state-based UI, with a deep dive into when and why you might want to use it and how it works under-the-hood. This will be a free update for anyone who purchases the Web Apps pocket guide.</em></mark></p>
 
 <div class="padding-bottom-small">{{<pricing-link>}}</div>
 
@@ -37,7 +39,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 ## Learn by doing with a real JavaScript project
 
-<p class="no-margin-bottom"><img src="/img/projects/whos-driving.png" class="no-margin-bottom img-center size-full wp-image-14033" /></p>
+<!-- <p class="no-margin-bottom"><img src="/img/projects/whos-driving.png" class="no-margin-bottom img-center size-full wp-image-14033" /></p> -->
 
 Reinforce your learning and build your portfolio by working on a real project. Together, we'll build a web app that that let's you randomly pick who's going to drive from a group of friends.
 
@@ -71,7 +73,7 @@ Get everything you need to start building web apps with vanilla JavaScript:
 
 {{<purchase-link product="webApps">}}
 
-{{<purchase-upsell upsell="advanced">}}
+<!-- {{<purchase-upsell upsell="expert">}} -->
 
 {{<sales-numbers>}}
 

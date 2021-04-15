@@ -45,9 +45,10 @@ url: "/starter-bundle/"
 
 ## A Sample Lesson
 
-<div class="fluid-vids margin-bottom-small"><iframe src="https://player.vimeo.com/video/253356808?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-
-<em class="text-muted text-small">Looping over an array with the <code>Array.forEach()</code> method.</em>
+<figure>
+	<div class="fluid-vids no-margin-bottom"><iframe src="https://player.vimeo.com/video/522570894?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+	<figcaption>Looping over an array or NodeList with a <code>for...of</code> loop.</figcaption>
+</figure>
 
 {{<guide-about-me>}}
 
@@ -58,10 +59,10 @@ url: "/starter-bundle/"
 {{<purchase-summary>}}
 - DOM Manipulation
 - Arrays & Objects
-- APIs & JavaScript
+- APIs & Asynchronous JS
 {{</purchase-summary>}}
 
-*These guides would cost $237 if you purchased them individually.*
+*These guides would cost $297 if you purchased them individually.*
 
 <a class="btn btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id=48036&edd_options[price_id]=3">Get the Ebooks + the Videos - FREE</a>
 
