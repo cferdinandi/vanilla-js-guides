@@ -2,7 +2,7 @@
 	<em><strong>Want to save 30% and get exclusive Slack access?</strong>
 		{{ if eq ( .Get "upsell" ) "beginner" }}
 			Get this pocket guide as part of the <a href="/complete-set/">Complete Set</a> or <a href="/beginner-bundle/">Beginner's&nbsp;Bundle</a>.
-		{{ else }}
+		{{ else if ( .Get "upsell" ) "advanced" }}
 			Get this pocket guide as part of the <a href="/complete-set/">Complete Set</a> or <a href="/advanced-bundle/">Advanced&nbsp;Bundle</a>.
 		{{ end }}
 	</em>
