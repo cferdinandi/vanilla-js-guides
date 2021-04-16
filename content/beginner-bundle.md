@@ -60,7 +60,7 @@ description: ""
 
 **Get everything you need to kick-start your journey to vanilla JavaScript, and save over 30%.** If purchased individually, these pocket guides would cost a lot more.
 
-{{<purchase-summary>}}
+{{<purchase-summary bundle="true">}}
 - DOM Manipulation
 - Strings & Numbers
 - Arrays & Objects

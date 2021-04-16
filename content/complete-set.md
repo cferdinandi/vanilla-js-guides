@@ -61,7 +61,7 @@ You'll automatically get any new pocket guides I release in the future, complete
 
 **Get everything you need to master vanilla JavaScript, and save over 30%.** If purchased individually, these pocket guides would cost a lot more.
 
-{{<purchase-summary>}}
+{{<purchase-summary bundle="true">}}
 - DOM Manipulation
 - String & Numbers
 - Arrays & Objects
