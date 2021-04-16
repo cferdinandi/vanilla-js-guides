@@ -1,8 +1,8 @@
 <ul>
 	{{ if .Inner }}
-		<li>The Pocket Guides <span class="text-small text-muted">(in ebook format and streaming HD video)</span>{{ .Inner | markdownify }}</li>
+		<li>The Pocket Guides <span class="text-small text-muted">(in ebook format, streaming HD video, or both)</span>{{ .Inner | markdownify }}</li>
 	{{ else }}
-		<li>The Pocket Guide <span class="text-small text-muted">(in ebook format and streaming HD video)</span></li>
+		<li>The Pocket Guide <span class="text-small text-muted">(in ebook format, streaming HD video, or both)</span></li>
 	{{ end }}
 	<li>The Source Code &amp; Demos</li>
 	{{ if .Get "bundle" }}<li>Exclusive Slack Access</li>{{ end }}
