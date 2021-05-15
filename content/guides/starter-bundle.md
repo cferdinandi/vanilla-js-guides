@@ -1,18 +1,17 @@
 ---
-title: "The Beginner's Bundle"
+title: "The Starter Bundle"
 date: 2018-01-16T10:05:20-05:00
 draft: false
-type: "guide"
 noTitle: true
 description: ""
+noIndex: true
+url: "/starter-bundle/"
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5 text-sans">The Beginner's Bundle</h1>
-<p><span class="text-xlarge text-serif">Kick-start your journey to JavaScript.</span></p>
+<h1 class="no-padding-top no-margin-bottom h5 text-sans">The Starter Bundle</h1>
+<p><span class="text-xlarge text-serif">The first step in your JavaScript journey.</span></p>
 
-<img class="img-center img-hero" src="/img/guides/beginner-bundle.png">
-
-<span class="text-large">Get five essential pocket guides, all of the source code and demos, and exclusive Slack access.</span>
+<p><span class="text-large">{{%md%}}Get three pocket guides, including all of the source code and demos... **for FREE**.{{%/md%}}</span></p>
 
 {{<cta for="guides-all">}}
 
@@ -24,7 +23,7 @@ description: ""
 
 <div class="list-spaced">
 {{%md%}}
-{{<product-list package="beginner">}}
+{{<product-list package="starter">}}
 {{%/md%}}
 </div>
 
@@ -32,7 +31,7 @@ description: ""
 
 {{<testimonial-group group="learn">}}
 
-{{<bonuses bundle="true">}}
+{{<bonuses>}}
 
 {{<cta for="bonusesGuides">}}
 {{<cta for="bonusesList">}}
@@ -50,27 +49,21 @@ description: ""
 	<figcaption>Looping over an array or NodeList with a <code>for...of</code> loop.</figcaption>
 </figure>
 
-{{<sample>}}
-
-{{<guide-money-back>}}
-
 {{<guide-about-me>}}
 
-{{%purchase-box%}}
+{{%purchase-box promo="true"%}}
 
-**Get everything you need to kick-start your journey to vanilla JavaScript, and save over 30%.** If purchased individually, these pocket guides would cost a lot more.
+**Take the first step in your vanilla JavaScript journey.**
 
-{{<purchase-summary bundle="true">}}
+{{<purchase-summary>}}
 - DOM Manipulation
-- Strings & Numbers
 - Arrays & Objects
-- Variables, Functions, & Scope
-- DOM Injection & Traversal
+- APIs & Asynchronous JS
 {{</purchase-summary>}}
 
-{{<cta for="guide-buy">}}
+*These guides would cost $297 if you purchased them individually.*
 
-{{<purchase-link bundle="beginner" product="beginner">}}
+<a class="btn btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id=48036&edd_options[price_id]=3">Get the Ebooks + the Videos - FREE</a>
 
 {{<sales-numbers>}}
 
@@ -78,7 +71,7 @@ description: ""
 
 {{<testimonial-group group="purchase">}}
 
-{{<guide-faq>}}
+{{<guide-faq-promo>}}
 
 {{<pricing-link>}}
 
