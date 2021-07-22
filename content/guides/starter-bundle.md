@@ -21,7 +21,7 @@ url: "/starter-bundle/"
 
 ## What's included?
 
-<div class="list-spaced">
+<div class="list-spaced-small">
 {{%md%}}
 {{<product-list package="starter">}}
 {{%/md%}}

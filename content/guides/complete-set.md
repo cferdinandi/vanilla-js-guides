@@ -23,7 +23,7 @@ You'll automatically get any new pocket guides I release in the future, complete
 
 ## What's included?
 
-<div class="list-spaced">
+<div class="list-spaced-small">
 {{%md%}}
 {{<product-list package="complete">}}
 {{%/md%}}

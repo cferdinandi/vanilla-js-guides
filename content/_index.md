@@ -18,7 +18,7 @@ description: ""
 
 ## Bundles
 
-<div class="list-spaced">
+<div class="list-spaced-small">
 {{%md%}}
 {{<product-list package="bundles">}}
 {{%/md%}}
@@ -26,7 +26,7 @@ description: ""
 
 ## Individual Guides
 
-<div class="list-spaced">
+<div class="list-spaced-small">
 {{%md%}}
 {{<product-list package="complete">}}
 {{%/md%}}
