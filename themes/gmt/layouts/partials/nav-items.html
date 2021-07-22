@@ -1,1 +1,1 @@
-<li{{ if and (eq .Type "guides") (ne .URL "/teams/") }} aria-current="page"{{ end }}><a href="/">The Guides</a></li><li{{ if eq .URL "/teams/" }} aria-current="page"{{ end }}><a href="/teams">For Teams</a></li><li><a href="https://courses.gomakethings.com">Access Purchases &rarr;</a></li>
+<li><a{{ if and (eq .Type "guides") (ne .URL "/teams/") }} aria-current="page"{{ end }} href="/">The Guides</a></li><li><a{{ if eq .URL "/teams/" }} aria-current="page"{{ end }} href="/teams">For Teams</a></li><li><a href="https://courses.gomakethings.com">Access Purchases &rarr;</a></li>
