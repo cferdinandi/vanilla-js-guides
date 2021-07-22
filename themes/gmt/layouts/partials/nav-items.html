@@ -1,1 +1,1 @@
-<li{{ if eq .Type "guide" }} class="active"{{ end }}><a href="/">The Guides</a></li><li><a href="https://courses.gomakethings.com">Student Login &rarr;</a></li>
+<li{{ if and (eq .Type "guides") (ne .URL "/teams/") }} class="active"{{ end }}><a href="/">The Guides</a></li><li{{ if eq .URL "/teams/" }} class="active"{{ end }}><a href="/teams">For Teams</a></li><li><a href="https://courses.gomakethings.com">Access Purchases &rarr;</a></li>

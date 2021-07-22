@@ -30,7 +30,7 @@
 {{- end -}}
 
 <div class="row">
-	<div class="grid-half margin-bottom-small">
+	<div class="grid-half">
 		<a class="btn btn-large btn-block edd-buy-now-button" href='https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=1{{ if ne (.Scratch.Get "apiDiscount") "" }}&discount={{ .Scratch.Get "apiDiscount" }}{{ end }}'>Get the Ebook{{ if .Get "bundle" }}s{{ end }} - {{ if ne $apiPrice "" }}{{ index $apiPrice "ebook" | safeHTML }}{{ else }}{{ $price.ebook | safeHTML }}{{ end }}</a>
 	</div>
 	<div class="grid-half margin-bottom-small">
