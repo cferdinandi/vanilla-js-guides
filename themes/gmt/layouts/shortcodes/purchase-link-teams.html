@@ -1,4 +1,0 @@
-{{- $data := getJSON $.Site.Params.api -}}
-{{- $price := index $data.products.guidesTeams (.Get "price") -}}
-
-<a class="btn btn-large btn-block" href='mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Pocket%20Guides%20for%20Teams%3A%20{{ .Get "n" }}%20Spots&body=I%20would%20like%20to%20purchase%201%20spots%20for%20the%20Vanilla%20JS%20Pocket%20Guides%20for%20Teams.%20Please%20send%20an%20invoice%20to%20%7B%7Byour_email%7D%7D.'>{{ .Get "n" }} Spots - {{ $price }}</a>

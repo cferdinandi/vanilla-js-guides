@@ -1,6 +1,6 @@
 <ul>
 	{{ if .Inner }}
-		<li>The Pocket Guides <span class="text-small text-muted">({{ if .Get "teams" }}in ebook format and streaming HD video{{ else }}in ebook format, streaming HD video, or both{{ end }})</span>{{ .Inner | markdownify }}</li>
+		<li>The Pocket Guides <span class="text-small text-muted">(in ebook format, streaming HD video, or both)</span>{{ .Inner | markdownify }}</li>
 	{{ else }}
 		<li>The Pocket Guide <span class="text-small text-muted">(in ebook format, streaming HD video, or both)</span></li>
 	{{ end }}
