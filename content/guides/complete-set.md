@@ -71,7 +71,7 @@ You'll automatically get any new pocket guides I release in the future, complete
 - APIs & Asynchronous JS
 - Writing JS Libraries
 - ES Modules
-- Web Apps
+- State-Based UI
 {{</purchase-summary>}}
 
 {{<cta for="guide-buy">}}

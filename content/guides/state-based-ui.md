@@ -1,23 +1,21 @@
 ---
-title: "Web Apps"
+title: "State-Based UI"
 date: 2018-01-16T10:05:20-05:00
 draft: false
 noTitle: true
 description: ""
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5 text-sans">Web Apps</h1>
-<p><span class="text-xlarge text-serif">Build interactive web apps and single page apps without libraries or frameworks.</span></p>
+<h1 class="no-padding-top no-margin-bottom h5 text-sans">State-Based UI</h1>
+<p><span class="text-xlarge text-serif">Learn how to build fast and efficient interactive websites and web apps.</span></p>
 
 <img class="img-center img-hero" src="/img/guides/state-based-ui.png">
 
-<span class="text-large">Learn the ins-and-outs of writing web apps with vanilla JavaScript in about an hour.</span>
+<span class="text-large">Learn the ins-and-outs of state-based UI, data reactivity, and DOM diffing in about an hour.</span>
 
 This guide is short, focused, and made for beginners. Get hands-on learning and grow your portfolio building a real, working web app.
 
-<!-- {{<cta for="guide">}} -->
-
-<p><mark><em><strong>NOTE:</strong> this guide is being updated to focus on state-based UI, with a deep dive into when and why you might want to use it and how it works under-the-hood. This will be a free update for anyone who purchases the Web Apps pocket guide.</em></mark></p>
+{{<cta for="guide">}}
 
 <div class="padding-bottom-small">{{<pricing-link>}}</div>
 
@@ -25,12 +23,15 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 ## What you'll learn
 
-- How to render dynamic content into the DOM.
-- How to detect changes to your data and selectively update content.
-- How to listen for user interactions and behaviors.
-- How to manage state and data reactivity.
-- How to handle URL routing with single page apps.
-- How to put it all together and write a working web app with vanilla JavaScript.
+- What _state_ is in JavaScript.
+- What _state-based UI_ is, and when and why you might use it.
+- How to create simple state-based UI components.
+- What _data reactivity_ is.
+- Different approaches for making data reactive.
+- How to improve UI rendering performance with state-based UI and data reactivity.
+- What DOM diffing is, how it works, and why it's important.
+- What the virtual DOM is, and whether or not it's necessary.
+- How to reduce your risk of cross-site scripting (XSS) attacks.
 
 {{<guide-formats>}}
 
@@ -38,9 +39,9 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 ## Learn by doing with a real JavaScript project
 
-<!-- <p class="no-margin-bottom"><img src="/img/projects/whos-driving.png" class="no-margin-bottom img-center size-full wp-image-14033" /></p> -->
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/583525714?badge=0&amp;autopause=0&amp;loop=1&amp;player_id=0&amp;app_id=58479" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
 
-Reinforce your learning and build your portfolio by working on a real project. Together, we'll build a web app that that let's you randomly pick who's going to drive from a group of friends.
+Reinforce your learning and build your portfolio by working on a real project. Together, we'll build a web app that filters a list of dogs by age, size, and whether or not they get along with cats.
 
 {{<bonuses>}}
 
