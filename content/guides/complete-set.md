@@ -72,6 +72,7 @@ You'll automatically get any new pocket guides I release in the future, complete
 - Writing JS Libraries
 - ES Modules
 - State-Based UI
+- Token-Based Authentication
 {{</purchase-summary>}}
 
 {{<cta for="guide-buy">}}

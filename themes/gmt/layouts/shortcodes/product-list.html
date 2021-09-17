@@ -17,6 +17,7 @@
 0. **[Writing Libraries.]({{ $product.writingPlugins.url }})** {{ $product.writingPlugins.description }}
 0. **[ES Modules.]({{ $product.esModules.url }})** {{ $product.esModules.description }}
 {{ end }}{{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "expert" ) }}0. **[State-Based UI.]({{ $product.stateBasedUI.url }})** {{ $product.stateBasedUI.description }}
+0. **[Token-Based Authentication.]({{ $product.tokenBasedAuthentication.url }})** {{ $product.tokenBasedAuthentication.description }}
 {{ end }}
 
 {{ if eq ( .Get "package" ) "starter" }}
