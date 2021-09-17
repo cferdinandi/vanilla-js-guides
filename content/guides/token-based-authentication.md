@@ -65,7 +65,7 @@ Reinforce your learning and build your portfolio by creating a login flow for an
 
 {{%purchase-box%}}
 
-Get everything you need to start writing flexible, modular libraries with vanilla JavaScript:
+Get everything you need to start using token-based authentication with vanilla JavaScript:
 
 {{<purchase-summary>}}{{</purchase-summary>}}
 

@@ -1,17 +1,17 @@
 ---
-title: "The Advanced Bundle"
+title: "The Expert Bundle"
 date: 2018-01-16T10:05:20-05:00
 draft: false
 noTitle: true
 description: ""
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5 text-sans">The Advanced Bundle</h1>
-<p><span class="text-xlarge text-serif">Level-up your core JavaScript skills.</span></p>
+<h1 class="no-padding-top no-margin-bottom h5 text-sans">The Expert Bundle</h1>
+<p><span class="text-xlarge text-serif">Build fast, interactive sites and apps.</span></p>
 
-<img class="img-center img-hero" src="/img/guides/advanced-bundle.png">
+<img class="img-center img-hero" src="/img/guides/expert-bundle.png">
 
-<span class="text-large">Get four advanced topic pocket guides, all of the source code and demos, and exclusive Slack access.</span>
+<span class="text-large">Get three expert topic pocket guides, all of the source code and demos, and exclusive Slack access.</span>
 
 {{<cta for="guides-all">}}
 
@@ -23,7 +23,7 @@ description: ""
 
 <div class="list-spaced-small">
 {{%md%}}
-{{<product-list package="advanced">}}
+{{<product-list package="expert">}}
 {{%/md%}}
 </div>
 
@@ -45,8 +45,8 @@ description: ""
 ## A Sample Lesson
 
 <figure>
-	<div class="fluid-vids no-margin-bottom"><iframe src="https://player.vimeo.com/video/536543823?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
-	<figcaption>An introduction to how ES modules work in JavaScript.</figcaption>
+	<div class="fluid-vids no-margin-bottom"><iframe src="https://player.vimeo.com/video/606967326?h=579e8a5c15" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+	<figcaption>An introduction to how token-based authentication works.</figcaption>
 </figure>
 
 {{<sample>}}
@@ -60,15 +60,14 @@ description: ""
 **Get everything you need to kick-start your journey to vanilla JavaScript, and save 30%.** If purchased individually, these pocket guides would cost a lot more.
 
 {{<purchase-summary bundle="true">}}
-- Browser Storage
-- APIs & Asynchronous JS
-- Writing JS Libraries
-- ES Modules
+- State-Based UI
+- Serverless (_pre-order_)
+- Toke-Based Authentication
 {{</purchase-summary>}}
 
 {{<cta for="guide-buy">}}
 
-{{<purchase-link bundle="advanced" product="advanced">}}
+{{<purchase-link bundle="expert" product="expert">}}
 
 {{<sales-numbers>}}
 

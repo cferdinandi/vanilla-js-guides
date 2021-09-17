@@ -13,6 +13,9 @@
 	{{- else if eq ( .Get "bundle" ) "advanced" -}}
 		{{- $.Scratch.Set "price" $data.products.guidesAdvanced -}}
 		{{- $.Scratch.Set "type" "guides-advanced" -}}
+	{{- else if eq ( .Get "bundle" ) "expert" -}}
+		{{- $.Scratch.Set "price" $data.products.guidesExpert -}}
+		{{- $.Scratch.Set "type" "guides-expert" -}}
 	{{- end -}}
 {{- end -}}
 {{- $price := ( $.Scratch.Get "price" ) -}}
