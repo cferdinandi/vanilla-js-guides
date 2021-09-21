@@ -61,7 +61,7 @@ description: ""
 
 {{<purchase-summary bundle="true">}}
 - State-Based UI
-- Serverless (_pre-order_)
+- Serverless
 - Toke-Based Authentication
 {{</purchase-summary>}}
 

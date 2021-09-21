@@ -6,7 +6,7 @@ noTitle: true
 description: ""
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5 text-sans">Serverless (<em>Pre-Order</em>)</h1>
+<h1 class="no-padding-top no-margin-bottom h5 text-sans">Serverless</h1>
 <p><span class="text-xlarge text-serif">Create your own APIs, microservices, and client-side web apps.</span></p>
 
 <img class="img-center img-hero" src="/img/guides/serverless.png">
@@ -39,7 +39,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 ## Learn by doing with a real JavaScript project
 
-<!-- <div class="fluid-vids"><iframe src="https://player.vimeo.com/video/583525714?badge=0&amp;autopause=0&amp;loop=1&amp;player_id=0&amp;app_id=58479" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div> -->
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/610785679?h=b705cb1642&amp;loop=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
 
 Reinforce your learning and build your portfolio by working on a real project. Together, we'll build a comments API for a static website.
 
@@ -51,11 +51,11 @@ Reinforce your learning and build your portfolio by working on a real project. T
 
 {{<guide-skills>}}
 
-<!-- ## A Sample Lesson
+## A Sample Lesson
 
-<div class="fluid-vids margin-bottom-small"><iframe src="https://player.vimeo.com/video/316200825?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="fluid-vids margin-bottom-small"><iframe src="https://player.vimeo.com/video/610082264?h=eed3d45870" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
 
-<em class="text-muted text-small">How to create and update the DOM based on the current state of your data.</em> -->
+<em class="text-muted text-small">What is serverless, and how is it different from other types of cloud services?</em>
 
 {{<sample>}}
 
@@ -65,7 +65,7 @@ Reinforce your learning and build your portfolio by working on a real project. T
 
 {{%purchase-box%}}
 
-**Pre-Order:** Get everything you need to start working with serverless:
+Get everything you need to start working with serverless:
 
 {{<purchase-summary>}}{{</purchase-summary>}}
 
