@@ -62,7 +62,7 @@ description: ""
 {{<purchase-summary bundle="true">}}
 - State-Based UI
 - Serverless
-- Toke-Based Authentication
+- Token-Based Authentication
 {{</purchase-summary>}}
 
 {{<cta for="guide-buy">}}
