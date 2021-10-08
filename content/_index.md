@@ -10,7 +10,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">Vanilla JavaScript Pocket Guides</h1>
 <p class="text-xlarge margin-bottom-small text-serif">Everything you need to master JavaScript.</p>
 
-<span class="text-large">Short, focused ebooks and video courses made for beginners. Start building real JavaScript projects in under an hour.</span>
+<span class="text-large">Short, focused video courses and ebooks made for beginners. Learn the ins-and-outs of a topic in about an hour.</span>
 
 {{<cta for="guides-all">}}
 
