@@ -64,6 +64,7 @@ description: ""
 - APIs & Asynchronous JS
 - Writing JS Libraries
 - ES Modules
+- Service Workers
 {{</purchase-summary>}}
 
 {{<cta for="guide-buy">}}

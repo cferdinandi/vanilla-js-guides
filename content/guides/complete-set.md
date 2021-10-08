@@ -71,6 +71,7 @@ You'll automatically get any new pocket guides I release in the future, complete
 - APIs & Asynchronous JS
 - Writing JS Libraries
 - ES Modules
+- Service Workers
 - State-Based UI
 - Serverless
 - Token-Based Authentication
