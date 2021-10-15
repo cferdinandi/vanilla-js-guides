@@ -1,1 +1,1 @@
-<li><a{{ if and (eq .Type "guides") (ne .URL "/teams/") }} aria-current="page"{{ end }} href="/">The Guides</a></li><li><a href="https://courses.gomakethings.com">Access Purchases &rarr;</a></li>
+<li><a{{ if eq .Type "guides" }} aria-current="page"{{ end }} href="/">The Guides</a></li><li><a{{ if eq .URL "/teams/" }} aria-current="page"{{ end }} href="/teams">Team License</a></li><li><a href="https://courses.gomakethings.com">Access Purchases &rarr;</a></li>
