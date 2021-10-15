@@ -14,7 +14,7 @@ params:
 # Caches
 caches:
   getjson:
-    maxAge: "10m"
+    maxAge: "1m"
 
 # The language code for the site
 languageCode: "en-us"
@@ -24,6 +24,9 @@ title: "Vanilla JS Guides"
 
 # theme to use (located by default in /themes/THEMENAME/)
 theme: "gmt"
+
+Language:
+  LanguageName: "English"
 
 # Permalinks
 # See "content-management/permalinks"

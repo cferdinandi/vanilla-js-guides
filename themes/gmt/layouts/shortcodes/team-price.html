@@ -1,0 +1,12 @@
+{{- $data := getJSON $.Site.Params.api -}}
+{{- $bundle := index $data.products ( .Get "bundle" ) -}}
+{{- $price := mul (int (slicestr $bundle.both (sub (len $bundle.both) 3))) (int (.Get "count")) -}}
+{{- $discount := mul $price (sub 1 (float (.Get "discount"))) -}}
+{{- $format := string (math.Round $discount) -}}
+{{- if gt (len $format) 3 -}}
+	{{- $part1 := slicestr $format 0 (sub (len $format) 3) -}}
+	{{- $part2 := slicestr $format (sub (len $format) 3) -}}
+	${{ $part1 }},{{ $part2 }}
+{{- else -}}
+	${{ $format }}
+{{- end -}}

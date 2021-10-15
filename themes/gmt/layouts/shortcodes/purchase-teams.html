@@ -1,0 +1,14 @@
+{{- $data := getJSON $.Site.Params.api -}}
+
+{{- $purchaseID := $data.products.guideDetails.teams.id -}}
+{{- $prices := $data.products.guidesTeams -}}
+
+<p class="margin-bottom-small"><a class="btn btn-large btn-block edd-buy-now-button" href='https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $purchaseID }}&edd_options[price_id]=1'>10 Spots - {{ index $prices "ten" | safeHTML }}</a></p>
+
+<p class="margin-bottom-small"><a class="btn btn-large btn-block edd-buy-now-button" href='https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $purchaseID }}&edd_options[price_id]=2'>15 Spots - {{ index $prices "fifteen" | safeHTML }}</a></p>
+
+<p class="margin-bottom-small"><a class="btn btn-large btn-block edd-buy-now-button" href='https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $purchaseID }}&edd_options[price_id]=3'>20 Spots - {{ index $prices "twenty" | safeHTML }}</a></p>
+
+<p class="margin-bottom-small"><a class="btn btn-large btn-block edd-buy-now-button" href='https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $purchaseID }}&edd_options[price_id]=4'>30 Spots - {{ index $prices "thirty" | safeHTML }}</a></p>
+
+<p><a class="btn btn-large btn-block edd-buy-now-button" href='https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $purchaseID }}&edd_options[price_id]=5'>40 Spots - {{ index $prices "fourty" | safeHTML }}</a></p>
