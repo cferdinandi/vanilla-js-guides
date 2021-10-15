@@ -62,4 +62,4 @@ _**Need more than 40 spots?** Email me for custom pricing at {{<email params="su
 
 ## Looking for something more hands on?
 
-Your team may enjoy the **[Vanilla JS Academy](https://vanillajsacademy.com)**, a project-based online workshop designed to fit around your team's schedule and promote deeper learning and retention.
+Your team may enjoy the **[Vanilla JS Academy](https://vanillajsacademy.com/teams)**, a project-based online workshop designed to fit around your team's schedule and promote deeper learning and retention.
