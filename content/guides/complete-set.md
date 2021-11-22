@@ -35,8 +35,8 @@ You'll automatically get any new pocket guides I release in the future, complete
 
 {{<bonuses bundle="true">}}
 
-{{<cta for="bonusesGuides">}}
-{{<cta for="bonusesList">}}
+{{<cta for="bonuses-guides">}}
+{{<cta for="bonuses-list">}}
 
 {{<pricing-link>}}
 

@@ -33,8 +33,8 @@ description: ""
 
 {{<bonuses bundle="true">}}
 
-{{<cta for="bonusesGuides">}}
-{{<cta for="bonusesList">}}
+{{<cta for="bonuses-guides">}}
+{{<cta for="bonuses-list">}}
 
 {{<pricing-link>}}
 
