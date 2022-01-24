@@ -3,6 +3,6 @@
 
 <h2>Not ready yet? Get daily developer tips.</h2>
 
-<p>I send out a short email each weekday with code snippets, tools, techniques, and interesting stuff from around the web. {{ if isset $ctas "mc-subscribers" }}{{ index $ctas "mc-subscribers" | safeHTML }}{{ end }}</p>
+{{ if isset $ctas "ck-blurb" }}<p>{{ index $ctas "ck-blurb" | markdownify }}</p>{{ end }}
 
 {{ partial "mailchimp-form.html" }}
