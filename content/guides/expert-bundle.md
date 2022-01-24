@@ -45,7 +45,7 @@ description: ""
 ## A Sample Lesson
 
 <figure>
-	<div class="fluid-vids no-margin-bottom"><iframe src="https://player.vimeo.com/video/606967326?h=579e8a5c15" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+	<iframe class="no-margin-bottom" src="https://player.vimeo.com/video/606967326?h=579e8a5c15" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 	<figcaption>An introduction to how token-based authentication works.</figcaption>
 </figure>
 

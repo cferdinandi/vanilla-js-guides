@@ -57,7 +57,7 @@ Reinforce your learning and build your portfolio by a service worker for a resta
 ## A Sample Lesson
 
 <figure>
-	<div class="fluid-vids no-margin-bottom"><iframe src="https://player.vimeo.com/video/625752066?h=9601cd8d44" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+	<iframe class="no-margin-bottom" src="https://player.vimeo.com/video/625752066?h=9601cd8d44" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 	<figcaption>An introduction to service workers and how they work.</figcaption>
 </figure>
 

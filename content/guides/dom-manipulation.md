@@ -38,7 +38,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 ## Learn by doing with a real JavaScript project
 
-<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/537327783?badge=0&amp;autopause=0&amp;loop=1&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+<iframe src="https://player.vimeo.com/video/537327783?badge=0&amp;autopause=0&amp;loop=1&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 Reinforce your learning and build your portfolio by using DOM manipulation techniques on a real project. Together, we'll build a password toggle script that toggles password visibility when you click a button.
 
@@ -53,7 +53,7 @@ Reinforce your learning and build your portfolio by using DOM manipulation techn
 ## A Sample Lesson
 
 <figure>
-	<div class="fluid-vids no-margin-bottom"><iframe src="https://player.vimeo.com/video/522570894?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+	<iframe class="no-margin-bottom" src="https://player.vimeo.com/video/522570894?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 	<figcaption>Looping over an array or NodeList with a <code>for...of</code> loop.</figcaption>
 </figure>
 

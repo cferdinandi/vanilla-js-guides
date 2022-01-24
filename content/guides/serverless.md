@@ -39,7 +39,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 ## Learn by doing with a real JavaScript project
 
-<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/610785679?h=b705cb1642&amp;loop=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+<iframe src="https://player.vimeo.com/video/610785679?h=b705cb1642&amp;loop=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 Reinforce your learning and build your portfolio by working on a real project. Together, we'll build a comments API for a static website.
 
@@ -53,9 +53,10 @@ Reinforce your learning and build your portfolio by working on a real project. T
 
 ## A Sample Lesson
 
-<div class="fluid-vids margin-bottom-small"><iframe src="https://player.vimeo.com/video/610082264?h=eed3d45870" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
-
-<em class="text-muted text-small">What is serverless, and how is it different from other types of cloud services?</em>
+<figure>
+	<iframe class="no-margin-bottom" src="https://player.vimeo.com/video/610082264?h=eed3d45870" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+	<figcaption>What is serverless, and how is it different from other types of cloud services?</figcaption>
+</figure>
 
 {{<sample>}}
 

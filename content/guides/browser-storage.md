@@ -37,7 +37,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 ## Learn by doing with a real JavaScript project
 
-<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/537337239?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="400" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+<iframe src="https://player.vimeo.com/video/537337239?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="400" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 Reinforce your learning and build your portfolio by using browser storage on a real project. Together, we'll build a form that automatically saves your data as you type.
 
@@ -52,7 +52,7 @@ Reinforce your learning and build your portfolio by using browser storage on a r
 ## A Sample Lesson
 
 <figure>
-	<div class="fluid-vids no-margin-bottom"><iframe src="https://player.vimeo.com/video/529144692?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+	<iframe class="no-margin-bottom" src="https://player.vimeo.com/video/529144692?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 	<figcaption>What IndexedDB is and how it works.</figcaption>
 </figure>
 

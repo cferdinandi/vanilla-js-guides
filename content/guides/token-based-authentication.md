@@ -38,7 +38,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 ## Learn by doing with a real JavaScript project
 
-<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/607039421?h=b7a163bcd2&amp;loop=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+<iframe src="https://player.vimeo.com/video/607039421?h=b7a163bcd2&amp;loop=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 Reinforce your learning and build your portfolio by creating a login flow for an app using token-based authorization. Together, we'll accept user credentials, send them to an API, and keep a user logged in with a token.
 
@@ -53,7 +53,7 @@ Reinforce your learning and build your portfolio by creating a login flow for an
 ## A Sample Lesson
 
 <figure>
-	<div class="fluid-vids no-margin-bottom"><iframe src="https://player.vimeo.com/video/606967326?h=579e8a5c15" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+	<iframe class="no-margin-bottom" src="https://player.vimeo.com/video/606967326?h=579e8a5c15" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 	<figcaption>An introduction to how token-based authentication works.</figcaption>
 </figure>
 

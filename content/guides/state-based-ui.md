@@ -39,7 +39,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 ## Learn by doing with a real JavaScript project
 
-<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/583525714?badge=0&amp;autopause=0&amp;loop=1&amp;player_id=0&amp;app_id=58479" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+<iframe src="https://player.vimeo.com/video/583525714?badge=0&amp;autopause=0&amp;loop=1&amp;player_id=0&amp;app_id=58479" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 Reinforce your learning and build your portfolio by working on a real project. Together, we'll build a web app that filters a list of dogs by age, size, and whether or not they get along with cats.
 
@@ -53,9 +53,10 @@ Reinforce your learning and build your portfolio by working on a real project. T
 
 ## A Sample Lesson
 
-<div class="fluid-vids margin-bottom-small"><iframe src="https://player.vimeo.com/video/316200825?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-
-<em class="text-muted text-small">How to create and update the DOM based on the current state of your data.</em>
+<figure>
+	<iframe class="no-margin-bottom" src="https://player.vimeo.com/video/316200825?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	<figcaption>How to create and update the DOM based on the current state of your data.</figcaption>
+</figure>
 
 {{<sample>}}
 

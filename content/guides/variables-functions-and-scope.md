@@ -55,7 +55,7 @@ Reinforce your learning and build your portfolio by applying JavaScript best pra
 ## A Sample Lesson
 
 <figure>
-	<div class="fluid-vids no-margin-bottom"><iframe src="https://player.vimeo.com/video/527491295?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="06-parameters-and-arguments_04-rest-parameters"></iframe></div>
+	<iframe class="no-margin-bottom" src="https://player.vimeo.com/video/527491295?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="06-parameters-and-arguments_04-rest-parameters"></iframe>
 	<figcaption>What are fat arrow functions and how do they work?</figcaption>
 </figure>
 
