@@ -19,7 +19,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 <div class="padding-bottom-small">{{<pricing-link>}}</div>
 
-{{<guide-used-by>}}
+{{<used-by>}}
 
 ## What you'll learn
 
@@ -31,7 +31,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 - How to access and manipulate browser storage data with your browser's developer&nbsp;tools.
 - How to put it all together and write a working project with browser storage.
 
-{{<guide-formats>}}
+{{<formats>}}
 
 {{<testimonial-group group="learn">}}
 
@@ -47,7 +47,7 @@ Reinforce your learning and build your portfolio by using browser storage on a r
 
 {{<testimonial-group group="slack">}}
 
-{{<guide-skills>}}
+{{<skills>}}
 
 ## A Sample Lesson
 
@@ -58,9 +58,9 @@ Reinforce your learning and build your portfolio by using browser storage on a r
 
 {{<sample>}}
 
-{{<guide-money-back>}}
+{{<money-back>}}
 
-{{<guide-about-me>}}
+{{<cta for="bio">}}
 
 {{%purchase-box%}}
 
@@ -80,7 +80,7 @@ Get everything you need to start mastering browser storage with vanilla JavaScri
 
 {{<testimonial-group group="purchase">}}
 
-{{<guide-faq>}}
+{{<faq>}}
 
 {{<pricing-link>}}
 

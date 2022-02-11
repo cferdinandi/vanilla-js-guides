@@ -17,7 +17,7 @@ url: "/starter-bundle/"
 
 <div class="padding-bottom-small">{{<pricing-link>}}</div>
 
-{{<guide-used-by>}}
+{{<used-by>}}
 
 ## What's included?
 
@@ -27,7 +27,7 @@ url: "/starter-bundle/"
 {{%/md%}}
 </div>
 
-{{<guide-formats>}}
+{{<formats>}}
 
 {{<testimonial-group group="learn">}}
 
@@ -40,7 +40,7 @@ url: "/starter-bundle/"
 
 {{<testimonial-group group="slack">}}
 
-{{<guide-skills>}}
+{{<skills>}}
 
 ## A Sample Lesson
 
@@ -49,7 +49,7 @@ url: "/starter-bundle/"
 	<figcaption>Looping over an array or NodeList with a <code>for...of</code> loop.</figcaption>
 </figure>
 
-{{<guide-about-me>}}
+{{<cta for="bio">}}
 
 {{%purchase-box promo="true"%}}
 
@@ -71,7 +71,7 @@ url: "/starter-bundle/"
 
 {{<testimonial-group group="purchase">}}
 
-{{<guide-faq-promo>}}
+{{<faq-promo>}}
 
 {{<pricing-link>}}
 

@@ -19,7 +19,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 <div class="padding-bottom-small">{{<pricing-link>}}</div>
 
-{{<guide-used-by>}}
+{{<used-by>}}
 
 ## What you'll learn
 
@@ -35,7 +35,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 - What tree shaking is, and why its important.
 - How to put it all together and modularize a JavaScript library.
 
-{{<guide-formats>}}
+{{<formats>}}
 
 {{<testimonial-group group="learn">}}
 
@@ -51,7 +51,7 @@ Reinforce your learning and build your portfolio by creating a modularized code 
 
 {{<testimonial-group group="slack">}}
 
-{{<guide-skills>}}
+{{<skills>}}
 
 ## A Sample Lesson
 
@@ -62,9 +62,9 @@ Reinforce your learning and build your portfolio by creating a modularized code 
 
 {{<sample>}}
 
-{{<guide-money-back>}}
+{{<money-back>}}
 
-{{<guide-about-me>}}
+{{<cta for="bio">}}
 
 {{%purchase-box%}}
 
@@ -84,7 +84,7 @@ Get everything you need to start writing flexible, modular libraries with vanill
 
 {{<testimonial-group group="purchase">}}
 
-{{<guide-faq>}}
+{{<faq>}}
 
 {{<pricing-link>}}
 

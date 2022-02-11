@@ -19,7 +19,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 <div class="padding-bottom-small">{{<pricing-link>}}</div>
 
-{{<guide-used-by>}}
+{{<used-by>}}
 
 ## What you'll learn
 
@@ -33,7 +33,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 - How to use the object shorthand property to more easily assign properties and functions in an object.
 - How to put it all together and write a working project with modern array and object&nbsp;methods.
 
-{{<guide-formats>}}
+{{<formats>}}
 
 {{<testimonial-group group="learn">}}
 
@@ -49,7 +49,7 @@ Reinforce your learning and build your portfolio by using modern array and objec
 
 {{<testimonial-group group="slack">}}
 
-{{<guide-skills>}}
+{{<skills>}}
 
 ## A Sample Lesson
 
@@ -60,9 +60,9 @@ Reinforce your learning and build your portfolio by using modern array and objec
 
 {{<sample>}}
 
-{{<guide-money-back>}}
+{{<money-back>}}
 
-{{<guide-about-me>}}
+{{<cta for="bio">}}
 
 {{%purchase-box%}}
 
@@ -82,7 +82,7 @@ Get everything you need to start mastering modern array and object methods with 
 
 {{<testimonial-group group="purchase">}}
 
-{{<guide-faq>}}
+{{<faq>}}
 
 {{<pricing-link>}}
 

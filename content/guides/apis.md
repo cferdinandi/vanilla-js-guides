@@ -21,7 +21,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 <div class="padding-bottom-small">{{<pricing-link>}}</div>
 
-{{<guide-used-by>}}
+{{<used-by>}}
 
 ## What you'll learn
 
@@ -34,7 +34,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 - How to minimize the risk of cross-site scripting attacks when using third-party APIs.
 - How to put it all together and use API data to create dynamic web content.
 
-{{<guide-formats>}}
+{{<formats>}}
 
 {{<testimonial-group group="learn">}}
 
@@ -50,7 +50,7 @@ Reinforce your learning and build your portfolio by using APIs on a real project
 
 {{<testimonial-group group="slack">}}
 
-{{<guide-skills>}}
+{{<skills>}}
 
 ## A Sample Lesson
 
@@ -61,9 +61,9 @@ Reinforce your learning and build your portfolio by using APIs on a real project
 
 {{<sample>}}
 
-{{<guide-money-back>}}
+{{<money-back>}}
 
-{{<guide-about-me>}}
+{{<cta for="bio">}}
 
 {{%purchase-box%}}
 
@@ -83,7 +83,7 @@ Get everything you need to start mastering Ajax with vanilla JavaScript:
 
 {{<testimonial-group group="purchase">}}
 
-{{<guide-faq>}}
+{{<faq>}}
 
 {{<pricing-link>}}
 

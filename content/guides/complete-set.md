@@ -19,7 +19,7 @@ You'll automatically get any new pocket guides I release in the future, complete
 
 <div class="padding-bottom-small">{{<pricing-link>}}</div>
 
-{{<guide-used-by>}}
+{{<used-by>}}
 
 ## What's included?
 
@@ -29,7 +29,7 @@ You'll automatically get any new pocket guides I release in the future, complete
 {{%/md%}}
 </div>
 
-{{<guide-formats>}}
+{{<formats>}}
 
 {{<testimonial-group group="learn">}}
 
@@ -42,7 +42,7 @@ You'll automatically get any new pocket guides I release in the future, complete
 
 {{<testimonial-group group="slack">}}
 
-{{<guide-skills>}}
+{{<skills>}}
 
 ## A Sample Lesson
 
@@ -53,9 +53,9 @@ You'll automatically get any new pocket guides I release in the future, complete
 
 {{<sample>}}
 
-{{<guide-money-back>}}
+{{<money-back>}}
 
-{{<guide-about-me>}}
+{{<cta for="bio">}}
 
 {{%purchase-box%}}
 
@@ -87,7 +87,7 @@ You'll automatically get any new pocket guides I release in the future, complete
 
 {{<testimonial-group group="purchase">}}
 
-{{<guide-faq>}}
+{{<faq>}}
 
 {{<pricing-link>}}
 

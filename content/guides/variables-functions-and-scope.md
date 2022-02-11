@@ -19,7 +19,7 @@ What are arrow functions? What's function hoisting? What's the difference betwee
 
 <div class="padding-bottom-small">{{<pricing-link>}}</div>
 
-{{<guide-used-by>}}
+{{<used-by>}}
 
 ## What you'll learn
 
@@ -34,7 +34,7 @@ What are arrow functions? What's function hoisting? What's the difference betwee
 - How to use ES6 arrow functions, and some "gotchas" to look out for.
 - How to document your functions with JSDoc.
 
-{{<guide-formats>}}
+{{<formats>}}
 
 {{<testimonial-group group="learn">}}
 
@@ -50,7 +50,7 @@ Reinforce your learning and build your portfolio by applying JavaScript best pra
 
 {{<testimonial-group group="slack">}}
 
-{{<guide-skills>}}
+{{<skills>}}
 
 ## A Sample Lesson
 
@@ -61,9 +61,9 @@ Reinforce your learning and build your portfolio by applying JavaScript best pra
 
 {{<sample>}}
 
-{{<guide-money-back>}}
+{{<money-back>}}
 
-{{<guide-about-me>}}
+{{<cta for="bio">}}
 
 {{%purchase-box%}}
 
@@ -83,7 +83,7 @@ Get everything you need to start mastering modern vanilla JavaScript:
 
 {{<testimonial-group group="purchase">}}
 
-{{<guide-faq>}}
+{{<faq>}}
 
 {{<pricing-link>}}
 

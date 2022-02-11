@@ -19,7 +19,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 <div class="padding-bottom-small">{{<pricing-link>}}</div>
 
-{{<guide-used-by>}}
+{{<used-by>}}
 
 ## What you'll learn
 
@@ -36,7 +36,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 - Important security requirements for working with service workers.
 - How to test and debug service workers with your browser's developer tools.
 
-{{<guide-formats>}}
+{{<formats>}}
 
 {{<testimonial-group group="learn">}}
 
@@ -52,7 +52,7 @@ Reinforce your learning and build your portfolio by a service worker for a resta
 
 {{<testimonial-group group="slack">}}
 
-{{<guide-skills>}}
+{{<skills>}}
 
 ## A Sample Lesson
 
@@ -63,9 +63,9 @@ Reinforce your learning and build your portfolio by a service worker for a resta
 
 {{<sample>}}
 
-{{<guide-money-back>}}
+{{<money-back>}}
 
-{{<guide-about-me>}}
+{{<cta for="bio">}}
 
 {{%purchase-box%}}
 
@@ -85,7 +85,7 @@ Get everything you need to start creating faster and more resilient web experien
 
 {{<testimonial-group group="purchase">}}
 
-{{<guide-faq>}}
+{{<faq>}}
 
 {{<pricing-link>}}
 

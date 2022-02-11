@@ -14,7 +14,7 @@ description: ""
 
 {{<cta for="guides-all">}}
 
-{{<guide-used-by>}}
+{{<used-by>}}
 
 ## Bundles
 
@@ -34,10 +34,10 @@ description: ""
 
 {{<testimonial-group group="homepage">}}
 
-{{<guide-skills>}}
+{{<skills>}}
 
-{{<guide-money-back>}}
+{{<money-back>}}
 
-{{<guide-about-me>}}
+{{<cta for="bio">}}
 
 {{<not-ready-yet>}}

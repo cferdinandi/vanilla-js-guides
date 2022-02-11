@@ -19,7 +19,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 <div class="padding-bottom-small">{{<pricing-link>}}</div>
 
-{{<guide-used-by>}}
+{{<used-by>}}
 
 ## What you'll learn
 
@@ -32,7 +32,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 - How to keep authentication tokens secure.
 - How to use localStorage, cookies, and refresh tokens to keep users logged.
 
-{{<guide-formats>}}
+{{<formats>}}
 
 {{<testimonial-group group="learn">}}
 
@@ -48,7 +48,7 @@ Reinforce your learning and build your portfolio by creating a login flow for an
 
 {{<testimonial-group group="slack">}}
 
-{{<guide-skills>}}
+{{<skills>}}
 
 ## A Sample Lesson
 
@@ -59,9 +59,9 @@ Reinforce your learning and build your portfolio by creating a login flow for an
 
 {{<sample>}}
 
-{{<guide-money-back>}}
+{{<money-back>}}
 
-{{<guide-about-me>}}
+{{<cta for="bio">}}
 
 {{%purchase-box%}}
 
@@ -81,7 +81,7 @@ Get everything you need to start using token-based authentication with vanilla J
 
 {{<testimonial-group group="purchase">}}
 
-{{<guide-faq>}}
+{{<faq>}}
 
 {{<pricing-link>}}
 
