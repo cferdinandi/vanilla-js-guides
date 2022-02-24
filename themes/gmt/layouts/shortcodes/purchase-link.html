@@ -1,6 +1,6 @@
 {{- $data := getJSON $.Site.Params.api -}}
 
-{{- $product := index $data.products.guideDetails ( .Get "product" ) -}}
+{{- $product := $.Site.Data.products -}}
 {{- $.Scratch.Set "price" $data.products.guides -}}
 {{- $.Scratch.Set "type" "guides-individual" -}}
 {{- if .Get "bundle" -}}
