@@ -7,7 +7,7 @@ noTitle: true
 description: ""
 ---
 
-<h1 class="no-padding-top margin-bottom-small text-xlarge text-normal">Short, focused JavaScript courses and ebooks made for beginners.</h1>
+<h1 class="padding-top-small margin-bottom-small text-xlarge text-normal">Short, focused JavaScript courses and ebooks made for beginners.</h1>
 
 <span class="text-large">Learn the ins-and-outs of a specific topic in about an hour.</span>
 
