@@ -1,6 +1,9 @@
 # hostname (and path) to the root
 baseURL: "https://vanillajsguides.com"
 
+# Site title
+title: "Vanilla JS Pocket Guides"
+
 # Customer parameters
 params:
   description: "Short, focused vanilla JS ebooks and video courses made for beginners. Start building real JavaScript projects in under an hour."
@@ -18,9 +21,6 @@ caches:
 
 # The language code for the site
 languageCode: "en-us"
-
-# Site title
-title: "Vanilla JS Guides"
 
 # theme to use (located by default in /themes/THEMENAME/)
 theme: "gmt"

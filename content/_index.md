@@ -7,10 +7,10 @@ noTitle: true
 description: ""
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5 text-sans">Vanilla JavaScript Pocket Guides</h1>
-<p class="text-xlarge margin-bottom-small text-serif">Everything you need to master JavaScript.</p>
+<p class="no-margin-bottom h5" hidden><strong>Vanilla JavaScript Pocket Guides</strong></p>
+<h1 class="no-padding-top margin-bottom-small text-xlarge text-normal">Short, focused JavaScript courses and ebooks made for beginners.</h1>
 
-<span class="text-large">Short, focused video courses and ebooks made for beginners. Learn the ins-and-outs of a topic in about an hour.</span>
+<span class="text-large">Learn the ins-and-outs of a specific topic in about an hour.</span>
 
 {{<cta for="guides-all">}}
 
