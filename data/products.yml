@@ -1,0 +1,93 @@
+complete:
+    id: "22572"
+    monthly: "58818"
+    description: "Every pocket guide in the collection, including any new ones that come out in the future."
+    url: "/complete-set/"
+
+beginner:
+    id: "22569"
+    monthly: "58814"
+    description: "Kick-start your journey to vanilla JS with these essential pocket guides."
+    url: "/beginner-bundle/"
+
+advanced:
+    id: "57803"
+    monthly: "58816"
+    description: "Take your vanilla JavaScript skills to the next level with these pocket guides on advanced topics."
+    url: "/advanced-bundle/"
+
+expert:
+    id: "59791"
+    monthly: "59793"
+    description: "Learn how to build fast, interactive sites and apps with these pocket guides on expert topics."
+    url: "/expert-bundle/"
+
+domManipulation:
+    id: "22585"
+    description: "Learn how to get DOM elements, manipulate them, and listen for events in the browser."
+    url: "/dom-manipulation/"
+
+arraysObjects:
+    id: "22696"
+    description: "Dive into the many modern methods for editing and transforming arrays and objects."
+    url: "/arrays-and-objects/"
+
+stringsNumbers:
+    id: "36577"
+    description: "Transform and edit strings and numbers for use in modern websites and web apps."
+    url: "/strings-and-numbers/"
+
+variablesFunctionsScope:
+    id: "22939"
+    description: "What are arrow functions? What’s function hoisting? What’s the difference between `var`, `let`, and `const`, and when should you use each?"
+    url: "/variables-functions-and-scope/"
+
+domInjectionTraversal:
+    id: "22686"
+    description: "Learn how to set and get HTML, add and remove elements, climb up and down the DOM tree, and more."
+    url: "/dom-injection-and-traversal/"
+
+browserStorage:
+    id: "23245"
+    description: "Store data in localStorage and sessionStorage, get and set cookies, and create a local database with indexedDB."
+    url: "/browser-storage/"
+
+ajaxHttp:
+    id: "22689"
+    description: "Learn how to work with APIs and asynchronous JavaScript."
+    url: "/apis/"
+
+writingPlugins:
+    id: "22656"
+    description: "Learn how to write flexible, modular, scalable libraries that grow with you and your users."
+    url: "/writing-js-libraries/"
+
+esModules:
+    id: "57791"
+    description: "Learn how to structure projects, import and export modular JavaScript files, and bundle your code for production."
+    url: "/es-modules/"
+
+serviceWorkers:
+    id: "60065"
+    description: "Learn how to build more resilient web experiences that load faster and even work offline."
+    url: "/service-workers/"
+
+webApps:
+    id: "22882"
+    description: "Build interactive web apps and single page apps without libraries or frameworks."
+    url: "/web-apps/"
+
+stateBasedUI:
+    id: "22882"
+    description: "Learn how to build interactive websites and web apps with state-based UI and data reactivity."
+    url: "/state-based-ui/"
+
+serverless:
+    id: "59789"
+    description: "Create your own APIs, microservices, and client-side web apps with serverless functions."
+    url: "/serverless/"
+
+tokenBasedAuthentication:
+    id: "59774"
+    description: "Learn how to register, login, and manage user sessions with token-based authentication."
+    url: "/token-based-authentication/"

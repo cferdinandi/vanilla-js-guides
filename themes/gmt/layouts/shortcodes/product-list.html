@@ -1,30 +1,28 @@
-{{- $data := getJSON $.Site.Params.api -}}
-{{ $product := $data.products.guideDetails }}
 {{ if eq ( .Get "package" ) "bundles" }}
-- **[The Complete Set.]({{ $product.complete.url }})** {{ $product.complete.description }}
-- **[The Beginner's Bundle.]({{ $product.beginner.url }})** {{ $product.beginner.description }}
-- **[The Advanced Bundle.]({{ $product.advanced.url }})** {{ $product.advanced.description }}
-- **[The Expert Bundle.]({{ $product.expert.url }})** {{ $product.expert.description }}
+- **[The Complete Set.]({{ .Site.Data.products.complete.url }})** {{ .Site.Data.products.complete.description }}
+- **[The Beginner's Bundle.]({{ .Site.Data.products.beginner.url }})** {{ .Site.Data.products.beginner.description }}
+- **[The Advanced Bundle.]({{ .Site.Data.products.advanced.url }})** {{ .Site.Data.products.advanced.description }}
+- **[The Expert Bundle.]({{ .Site.Data.products.expert.url }})** {{ .Site.Data.products.expert.description }}
 {{ end }}
 
 {{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "beginner" ) }}
-0. **[DOM Manipulation.]({{ $product.domManipulation.url }})** {{ $product.domManipulation.description }}
-0. **[Strings & Numbers.]({{ $product.stringsNumbers.url }})** {{ $product.stringsNumbers.description }}
-0. **[Arrays & Objects.]({{ $product.arraysObjects.url }})** {{ $product.arraysObjects.description }}
-0. **[Variables, Functions, and Scope.]({{ $product.variablesFunctionsScope.url }})** {{ $product.variablesFunctionsScope.description }}
-0. **[DOM Injection and Traversal.]({{ $product.domInjectionTraversal.url }})** {{ $product.domInjectionTraversal.description }}
-{{ end }}{{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "advanced" ) }}0. **[Browser Storage.]({{ $product.browserStorage.url }})** {{ $product.browserStorage.description }}
-0. **[APIs & Asynchronous JS.]({{ $product.ajaxHttp.url }})** {{ $product.ajaxHttp.description }}
-0. **[Writing Libraries.]({{ $product.writingPlugins.url }})** {{ $product.writingPlugins.description }}
-0. **[ES Modules.]({{ $product.esModules.url }})** {{ $product.esModules.description }}
-0. **[Service Workers.]({{ $product.serviceWorkers.url }})** {{ $product.serviceWorkers.description }}
-{{ end }}{{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "expert" ) }}0. **[State-Based UI.]({{ $product.stateBasedUI.url }})** {{ $product.stateBasedUI.description }}
-0. **[Serverless.]({{ $product.serverless.url }})** {{ $product.serverless.description }}
-0. **[Token-Based Authentication.]({{ $product.tokenBasedAuthentication.url }})** {{ $product.tokenBasedAuthentication.description }}
+0. **[DOM Manipulation.]({{ .Site.Data.products.domManipulation.url }})** {{ .Site.Data.products.domManipulation.description }}
+0. **[Strings & Numbers.]({{ .Site.Data.products.stringsNumbers.url }})** {{ .Site.Data.products.stringsNumbers.description }}
+0. **[Arrays & Objects.]({{ .Site.Data.products.arraysObjects.url }})** {{ .Site.Data.products.arraysObjects.description }}
+0. **[Variables, Functions, and Scope.]({{ .Site.Data.products.variablesFunctionsScope.url }})** {{ .Site.Data.products.variablesFunctionsScope.description }}
+0. **[DOM Injection and Traversal.]({{ .Site.Data.products.domInjectionTraversal.url }})** {{ .Site.Data.products.domInjectionTraversal.description }}
+{{ end }}{{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "advanced" ) }}0. **[Browser Storage.]({{ .Site.Data.products.browserStorage.url }})** {{ .Site.Data.products.browserStorage.description }}
+0. **[APIs & Asynchronous JS.]({{ .Site.Data.products.ajaxHttp.url }})** {{ .Site.Data.products.ajaxHttp.description }}
+0. **[Writing Libraries.]({{ .Site.Data.products.writingPlugins.url }})** {{ .Site.Data.products.writingPlugins.description }}
+0. **[ES Modules.]({{ .Site.Data.products.esModules.url }})** {{ .Site.Data.products.esModules.description }}
+0. **[Service Workers.]({{ .Site.Data.products.serviceWorkers.url }})** {{ .Site.Data.products.serviceWorkers.description }}
+{{ end }}{{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "expert" ) }}0. **[State-Based UI.]({{ .Site.Data.products.stateBasedUI.url }})** {{ .Site.Data.products.stateBasedUI.description }}
+0. **[Serverless.]({{ .Site.Data.products.serverless.url }})** {{ .Site.Data.products.serverless.description }}
+0. **[Token-Based Authentication.]({{ .Site.Data.products.tokenBasedAuthentication.url }})** {{ .Site.Data.products.tokenBasedAuthentication.description }}
 {{ end }}
 
 {{ if eq ( .Get "package" ) "starter" }}
-0. **[DOM Manipulation.]({{ $product.domManipulation.url }})** {{ $product.domManipulation.description }}
-0. **[Arrays and Objects.]({{ $product.arraysObjects.url }})** {{ $product.arraysObjects.description }}
-0. **[APIs & JavaScript.]({{ $product.ajaxHttp.url }})** {{ $product.ajaxHttp.description }}
+0. **[DOM Manipulation.]({{ .Site.Data.products.domManipulation.url }})** {{ .Site.Data.products.domManipulation.description }}
+0. **[Arrays and Objects.]({{ .Site.Data.products.arraysObjects.url }})** {{ .Site.Data.products.arraysObjects.description }}
+0. **[APIs & JavaScript.]({{ .Site.Data.products.ajaxHttp.url }})** {{ .Site.Data.products.ajaxHttp.description }}
 {{ end }}
