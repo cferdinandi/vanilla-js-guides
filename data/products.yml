@@ -91,3 +91,8 @@ tokenBasedAuthentication:
     id: "59774"
     description: "Learn how to register, login, and manage user sessions with token-based authentication."
     url: "/token-based-authentication/"
+
+accessibleComponents:
+    id: "67393"
+    description: "Build interactive components that work for everyone who uses your site or app."
+    url: "/accessible-components/"
