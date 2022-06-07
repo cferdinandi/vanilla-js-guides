@@ -9,7 +9,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">The Complete Set</h1>
 <p><span class="text-xlarge text-serif">Everything you need to master JavaScript.</span></p>
 
-<img class="img-center img-hero" src="/img/guides/complete-set.png">
+<img class="img-center img-hero" alt="" src="/img/guides/complete-set.png">
 
 <span class="text-large">Get every pocket guide, all of the source code and demos, and exclusive Slack access.</span>
 

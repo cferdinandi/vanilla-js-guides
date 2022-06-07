@@ -9,7 +9,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">Serverless</h1>
 <p><span class="text-xlarge text-serif">Create your own APIs, microservices, and client-side web apps.</span></p>
 
-<img class="img-center img-hero" src="/img/guides/serverless.png">
+<img class="img-center img-hero" alt="" src="/img/guides/serverless.png">
 
 <span class="text-large">Learn the ins-and-outs of serverless and functions-as-a-service in about an hour.</span>
 

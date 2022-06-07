@@ -9,7 +9,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">Writing JS Libraries</h1>
 <p><span class="text-xlarge text-serif">Learn how to write JavaScript that scales and adapts to whatever you throw at it.</span></p>
 
-<img class="img-center img-hero" src="/img/guides/writing-libraries.png">
+<img class="img-center img-hero" alt="" src="/img/guides/writing-libraries.png">
 
 <span class="text-large">Learn the ins-and-outs of writing vanilla JavaScript libraries in about an hour.</span>
 

@@ -9,7 +9,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">Arrays and Objects</h1>
 <p><span class="text-xlarge text-serif">Master modern methods for editing and transforming arrays and objects.</span></p>
 
-<img class="img-center img-hero" src="/img/guides/arrays-and-objects.png">
+<img class="img-center img-hero" alt="" src="/img/guides/arrays-and-objects.png">
 
 <span class="text-large">Learn the ins-and-outs of arrays and objects&mdash;and all that they can do&mdash;in about an hour.</span>
 

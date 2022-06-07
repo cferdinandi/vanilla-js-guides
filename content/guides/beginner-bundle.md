@@ -9,7 +9,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">The Beginner's Bundle</h1>
 <p><span class="text-xlarge text-serif">Kick-start your journey to JavaScript.</span></p>
 
-<img class="img-center img-hero" src="/img/guides/beginner-bundle.png">
+<img class="img-center img-hero" alt="" src="/img/guides/beginner-bundle.png">
 
 <span class="text-large">Get five essential pocket guides, all of the source code and demos, and exclusive Slack access.</span>
 

@@ -9,7 +9,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">DOM Manipulation</h1>
 <p><span class="text-xlarge text-serif">Learn how to add dynamic features to that boring, static website.</span></p>
 
-<img class="img-center img-hero" src="/img/guides/dom-manipulation.png">
+<img class="img-center img-hero" alt="" src="/img/guides/dom-manipulation.png">
 
 <span class="text-large">Learn the ins-and-outs of vanilla JavaScript DOM manipulation in about an hour.</span>
 

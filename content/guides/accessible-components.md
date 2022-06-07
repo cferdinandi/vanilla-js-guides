@@ -4,12 +4,13 @@ date: 2018-01-16T10:05:20-05:00
 draft: false
 noTitle: true
 description: ""
+aliases: ["/accessibility/"]
 ---
 
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">Accessible Components</h1>
 <p><span class="text-xlarge text-serif">Build interactive components that work for everyone who uses your site or&nbsp;app.</span></p>
 
-<img class="img-center img-hero" src="/img/guides/accessible-components.png">
+<img class="img-center img-hero" alt="" src="/img/guides/accessible-components.png">
 
 <span class="text-large">Learn the ins-and-outs of building accessible interactive UI components in about an hour.</span>
 

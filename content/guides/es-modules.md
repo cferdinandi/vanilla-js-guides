@@ -9,7 +9,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">ES Modules</h1>
 <p><span class="text-xlarge text-serif">Learn how to structure your code like a JavaScript pro.</span></p>
 
-<img class="img-center img-hero" src="/img/guides/es-modules.png">
+<img class="img-center img-hero" alt="" src="/img/guides/es-modules.png">
 
 <span class="text-large">Learn the ins-and-outs of ES modules in about an hour.</span>
 

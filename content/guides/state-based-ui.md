@@ -9,7 +9,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">State-Based UI</h1>
 <p><span class="text-xlarge text-serif">Learn how to build fast and efficient interactive websites and web apps.</span></p>
 
-<img class="img-center img-hero" src="/img/guides/state-based-ui.png">
+<img class="img-center img-hero" alt="" src="/img/guides/state-based-ui.png">
 
 <span class="text-large">Learn the ins-and-outs of state-based UI, data reactivity, and DOM diffing in about an hour.</span>
 

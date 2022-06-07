@@ -9,7 +9,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">Strings and Numbers</h1>
 <p><span class="text-xlarge text-serif">Transform and edit strings and numbers for use in modern websites and web apps.</span></p>
 
-<img class="img-center img-hero" src="/img/guides/strings-and-numbers.png">
+<img class="img-center img-hero" alt="" src="/img/guides/strings-and-numbers.png">
 
 <span class="text-large">Learn the ins-and-outs of strings and numbers&mdash;and powerful math methods&mdash;in about an hour.</span>
 

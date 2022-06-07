@@ -9,7 +9,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">Token-Based Authentication</h1>
 <p><span class="text-xlarge text-serif">Learn how to manage user sessions with token-based authentication.</span></p>
 
-<img class="img-center img-hero" src="/img/guides/token-based-auth.png">
+<img class="img-center img-hero" alt="" src="/img/guides/token-based-auth.png">
 
 <span class="text-large">Learn the ins-and-outs of token-based authentication&mdash;including OAuth and JWTs&mdash;in about an hour.</span>
 

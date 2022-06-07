@@ -9,7 +9,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">Browser Storage</h1>
 <p><span class="text-xlarge text-serif">Master local storage, get and set cookies, and create browser-based databases.</span></p>
 
-<img class="img-center img-hero" src="/img/guides/browser-storage.png">
+<img class="img-center img-hero" alt="" src="/img/guides/browser-storage.png">
 
 <span class="text-large">Learn the ins-and-outs of browser storage with vanilla JavaScript in about an hour.</span>
 

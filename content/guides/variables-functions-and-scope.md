@@ -9,7 +9,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">Variables, Functions, and Scope</h1>
 <p><span class="text-xlarge text-serif">Learn how to write and document code like a JavaScript pro.</span></p>
 
-<img class="img-center img-hero" src="/img/guides/variables-functions-and-scope.png">
+<img class="img-center img-hero" alt="" src="/img/guides/variables-functions-and-scope.png">
 
 <span class="text-large">Learn the ins-and-outs of variables, functions, and JavaScript scope in about an hour.</span>
 

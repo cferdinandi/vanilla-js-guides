@@ -9,7 +9,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">The Expert Bundle</h1>
 <p><span class="text-xlarge text-serif">Build fast, interactive sites and apps.</span></p>
 
-<img class="img-center img-hero" src="/img/guides/expert-bundle.png">
+<img class="img-center img-hero" alt="" src="/img/guides/expert-bundle.png">
 
 <span class="text-large">Get three expert topic pocket guides, all of the source code and demos, and exclusive Slack access.</span>
 

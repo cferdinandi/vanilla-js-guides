@@ -9,7 +9,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">DOM Injection and Traversal</h1>
 <p><span class="text-xlarge text-serif">Learn how to move through the DOM and add content with the ease.</span></p>
 
-<img class="img-center img-hero" src="/img/guides/dom-injection.png">
+<img class="img-center img-hero" alt="" src="/img/guides/dom-injection.png">
 
 <span class="text-large">Learn the ins-and-outs of vanilla JavaScript DOM injection and traversal in about an hour.</span>
 

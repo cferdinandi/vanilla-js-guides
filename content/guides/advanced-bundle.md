@@ -9,7 +9,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">The Advanced Bundle</h1>
 <p><span class="text-xlarge text-serif">Level-up your core JavaScript skills.</span></p>
 
-<img class="img-center img-hero" src="/img/guides/advanced-bundle.png">
+<img class="img-center img-hero" alt="" src="/img/guides/advanced-bundle.png">
 
 <span class="text-large">Get four advanced topic pocket guides, all of the source code and demos, and exclusive Slack access.</span>
 

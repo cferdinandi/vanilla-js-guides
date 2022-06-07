@@ -9,7 +9,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">APIs and Asynchronous JS</h1>
 <p><span class="text-xlarge text-serif">Learn how to work with APIs and integrate them into your sites and apps.</span></p>
 
-<img class="img-center img-hero" src="/img/guides/apis.png">
+<img class="img-center img-hero" alt="" src="/img/guides/apis.png">
 
 <span class="text-large">Learn the ins-and-outs of working with APIs and asynchronous JS in about an&nbsp;hour.</span>
 
