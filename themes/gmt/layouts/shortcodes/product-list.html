@@ -19,6 +19,7 @@
 {{ end }}{{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "expert" ) }}0. **[State-Based UI.]({{ .Site.Data.products.stateBasedUI.url }})** {{ .Site.Data.products.stateBasedUI.description }}
 0. **[Serverless.]({{ .Site.Data.products.serverless.url }})** {{ .Site.Data.products.serverless.description }}
 0. **[Token-Based Authentication.]({{ .Site.Data.products.tokenBasedAuthentication.url }})** {{ .Site.Data.products.tokenBasedAuthentication.description }}
+0. **[Accessible Components.]({{ .Site.Data.products.accessibleComponents.url }})** {{ .Site.Data.products.accessibleComponents.description }}
 {{ end }}
 
 {{ if eq ( .Get "package" ) "starter" }}

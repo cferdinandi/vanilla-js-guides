@@ -25,8 +25,10 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 - What assistive technology is
 - How to enable and use a screen reader
-- The basics of navigating the web with a keyboard and using a screen reader
+- The basics of navigating the web with a keyboard
 - The dangers of CSS-only interactive components
+- The importance of HTML semantics
+- Focus management essentials
 - How to hide content, and accessibility considerations when doing so
 - How to announce dynamic changes to the UI
 - How to indicate button state
@@ -38,7 +40,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 ## Learn by doing with a real JavaScript project
 
-<iframe src="https://player.vimeo.com/video/607039421?h=b7a163bcd2&amp;loop=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/717737683?h=00f8922dc5&amp;loop=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 Reinforce your learning and build your portfolio by building a collection of accessible UI components, including a show/hide disclosure, accordion, tabs, and alert component.
 
@@ -53,8 +55,8 @@ Reinforce your learning and build your portfolio by building a collection of acc
 ## A Sample Lesson
 
 <figure>
-	<iframe class="no-margin-bottom" src="https://player.vimeo.com/video/606967326?h=579e8a5c15" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-	<figcaption>An introduction to how token-based authentication works.</figcaption>
+	<iframe class="no-margin-bottom" src="https://player.vimeo.com/video/717588382?h=7ebbaf99f4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+	<figcaption>How to announce dynamic content changes with the <code>[aria-live]</code> attribute.</figcaption>
 </figure>
 
 {{<sample>}}

@@ -75,6 +75,7 @@ You'll automatically get any new pocket guides I release in the future, complete
 - State-Based UI
 - Serverless
 - Token-Based Authentication
+- Accessible Components
 {{</purchase-summary>}}
 
 {{<cta for="guide-buy">}}

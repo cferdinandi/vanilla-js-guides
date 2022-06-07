@@ -63,6 +63,7 @@ description: ""
 - State-Based UI
 - Serverless
 - Token-Based Authentication
+- Accessible Components
 {{</purchase-summary>}}
 
 {{<cta for="guide-buy">}}
