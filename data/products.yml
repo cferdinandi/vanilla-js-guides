@@ -96,3 +96,8 @@ accessibleComponents:
     id: "67393"
     description: "Build interactive components that work for everyone who uses your site or app."
     url: "/accessible-components/"
+
+webComponents:
+    id: "67790"
+    description: "Learn how to create custom HTML elements, with built-in styles, interactivity, and encapsulation."
+    url: "/web-components/"

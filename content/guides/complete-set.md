@@ -76,6 +76,7 @@ You'll automatically get any new pocket guides I release in the future, complete
 - Serverless
 - Token-Based Authentication
 - Accessible Components
+- Web Components
 {{</purchase-summary>}}
 
 {{<cta for="guide-buy">}}
