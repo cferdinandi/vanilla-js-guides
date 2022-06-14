@@ -1,10 +1,9 @@
 ---
-title: "Accessible Components"
+title: "Web Components"
 date: 2018-01-16T10:05:20-05:00
 draft: false
 noTitle: true
 description: ""
-aliases: ["/accessibility/"]
 ---
 
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">Web Components</h1>
