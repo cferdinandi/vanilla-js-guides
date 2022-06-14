@@ -71,7 +71,7 @@ Get everything you need to start building your own web components:
 
 {{<cta for="guide-buy">}}
 
-{{<purchase-link product="accessibleComponents">}}
+{{<purchase-link product="webComponents">}}
 
 {{<purchase-upsell upsell="expert">}}
 
