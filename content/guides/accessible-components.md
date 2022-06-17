@@ -16,6 +16,8 @@ aliases: ["/accessibility/"]
 
 This guide is short, focused, and made for beginners. Get hands-on learning and grow your portfolio by building a collection of accessible components.
 
+<mark>🚀 <em><strong>New Guide!</strong> This guide is brand new. Buy it as part of the <a href="/expert-bundle/">Expert Bundle</a> and save big!</em></mark>
+
 {{<cta for="guide">}}
 
 <div class="padding-bottom-small">{{<pricing-link>}}</div>

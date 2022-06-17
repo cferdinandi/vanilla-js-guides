@@ -15,6 +15,8 @@ description: ""
 
 This guide is short, focused, and made for beginners. Get hands-on learning and grow your portfolio by converting a simple script into a flexible, developer-friendly library.
 
+<mark>🔥 <em><strong>New & Updated!</strong> This guide has been completely revised with new modern approaches, better explanations, and more clear examples.</em></mark>
+
 {{<cta for="guide">}}
 
 <div class="padding-bottom-small">{{<pricing-link>}}</div>
@@ -24,13 +26,13 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 ## What you'll learn
 
 - What a JavaScript library actually is.
+- Different patterns you can use to create libraries (and the pros and cons of each).
 - How to create simple utility libraries with public methods.
 - How to keep some methods and variables private within your library.
 - How to run multiple instances of a library at once.
+- How to speed up development with modern JavaScript classes.
 - How to let users pass in options and settings.
-- How to write DOM manipulation libraries.
-- How to extend your libraries with callback methods and custom events.
-- How to put it all together and create a working JavaScript library.
+- How to extend your libraries with custom events.
 
 {{<formats>}}
 
@@ -53,8 +55,8 @@ Reinforce your learning and build your portfolio by creating a real JavaScript l
 ## A Sample Lesson
 
 <figure>
-	<iframe class="no-margin-bottom" src="https://player.vimeo.com/video/533794581?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-	<figcaption>What a constructor pattern is, and when and why you might want to use it for your JS library.</figcaption>
+	<iframe class="no-margin-bottom" src="https://player.vimeo.com/video/721284684?h=3dbde38342" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+	<figcaption>How to create a JS library using the Constructor pattern.</figcaption>
 </figure>
 
 {{<sample>}}
