@@ -12,7 +12,7 @@ params:
   rssURL: "https://gomakethings.com/feed/index.xml"
   rssLimit: 8
   studentURL: "https://courses.gomakethings.com"
-  minify: false
+  minify: true
 
 # Caches
 caches:
