@@ -22,6 +22,12 @@ expert:
     description: "Learn how to build fast, interactive sites and apps with these pocket guides on expert topics."
     url: "/expert-bundle/"
 
+tooling:
+    id: "69617"
+    monthly: "69619"
+    description: "Write resilient code more efficiently with build tools like Terminal, Git, and JavaScript testing suites."
+    url: "/tooling-bundle/"
+
 domManipulation:
     id: "22585"
     description: "Learn how to get DOM elements, manipulate them, and listen for events in the browser."
@@ -101,3 +107,23 @@ webComponents:
     id: "67790"
     description: "Learn how to create custom HTML elements, with built-in styles, interactivity, and encapsulation."
     url: "/web-components/"
+
+terminal:
+    id: "69609"
+    description: "Get comfortable with the command line and learn how to speed up development with Terminal."
+    url: "/terminal/"
+
+testing:
+    id: "69611"
+    description: "Learn how to test your vanilla JavaScript code with automated testing tools."
+    url: "/testing/"
+
+buildTools:
+    id: "69613"
+    description: "Create your own suite of build tools and turbo-charge your web development process."
+    url: "/build-tools/"
+
+git:
+    id: "69615"
+    description: "Learn the essentials of version control, collaborative coding, and distributing open source projects with Git."
+    url: "/git/"

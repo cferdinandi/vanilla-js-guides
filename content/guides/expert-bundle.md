@@ -11,7 +11,7 @@ description: ""
 
 <img class="img-center img-hero" alt="" src="/img/guides/expert-bundle.png">
 
-<span class="text-large">Get three expert topic pocket guides, all of the source code and demos, and exclusive Slack access.</span>
+<span class="text-large">Get five expert topic pocket guides, all of the source code and demos, and exclusive Slack access.</span>
 
 {{<cta for="guides-all">}}
 

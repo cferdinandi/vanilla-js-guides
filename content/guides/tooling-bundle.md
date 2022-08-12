@@ -1,17 +1,17 @@
 ---
-title: "The Advanced Bundle"
+title: "The Tooling Bundle"
 date: 2018-01-16T10:05:20-05:00
 draft: false
 noTitle: true
 description: ""
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5 text-sans">The Advanced Bundle</h1>
-<p><span class="text-xlarge text-serif">Level-up your core JavaScript skills.</span></p>
+<h1 class="no-padding-top no-margin-bottom h5 text-sans">The Tooling Bundle</h1>
+<p><span class="text-xlarge text-serif">Write resilient code more efficiently.</span></p>
 
-<img class="img-center img-hero" alt="" src="/img/guides/advanced-bundle.png">
+<img class="img-center img-hero" alt="" src="/img/guides/tooling-bundle.png">
 
-<span class="text-large">Get five advanced topic pocket guides, all of the source code and demos, and exclusive Slack access.</span>
+<span class="text-large">Get four pocket guides about developer tooling, all of the source code and demos, and exclusive Slack access.</span>
 
 {{<cta for="guides-all">}}
 
@@ -23,7 +23,7 @@ description: ""
 
 <div class="list-spaced-small">
 {{%md%}}
-{{<product-list package="advanced">}}
+{{<product-list package="tooling">}}
 {{%/md%}}
 </div>
 
@@ -42,12 +42,12 @@ description: ""
 
 {{<skills>}}
 
-## A Sample Lesson
+<!-- ## A Sample Lesson
 
 <figure>
-	<iframe class="no-margin-bottom" src="https://player.vimeo.com/video/536543823?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-	<figcaption>An introduction to how ES modules work in JavaScript.</figcaption>
-</figure>
+	<iframe class="no-margin-bottom" src="https://player.vimeo.com/video/606967326?h=579e8a5c15" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+	<figcaption>An introduction to how token-based authentication works.</figcaption>
+</figure> -->
 
 {{<sample>}}
 
@@ -60,16 +60,15 @@ description: ""
 **Get everything you need to kick-start your journey to vanilla JavaScript, and save 30%.** If purchased individually, these pocket guides would cost a lot more.
 
 {{<purchase-summary bundle="true">}}
-- Browser Storage
-- APIs & Asynchronous JS
-- Writing JS Libraries
-- ES Modules
-- Service Workers
+- Terminal (_pre-order_)
+- Testing Vanilla JS (_pre-order_)
+- Build Tools (_pre-order_)
+- Git (_pre-order_)
 {{</purchase-summary>}}
 
 {{<cta for="guide-buy">}}
 
-{{<purchase-link bundle="advanced" product="advanced">}}
+{{<purchase-link bundle="tooling" product="tooling">}}
 
 {{<sales-numbers>}}
 
