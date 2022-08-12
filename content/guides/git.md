@@ -9,7 +9,7 @@ description: ""
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">Git (<em>pre-order</em>)</h1>
 <p><span class="text-xlarge text-serif">Learn the essentials of version control and collaborative coding with&nbsp;Git.</span></p>
 
-<img class="img-center img-hero" alt="" src="/img/guides/build-tools.png">
+<img class="img-center img-hero" alt="" src="/img/guides/git.png">
 
 <span class="text-large">Learn the ins-and-outs of Git in about an&nbsp;hour.</span>
 
