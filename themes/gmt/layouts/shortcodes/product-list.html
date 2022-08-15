@@ -3,7 +3,7 @@
 - **[The Beginner's Bundle.]({{ .Site.Data.products.beginner.url }})** {{ .Site.Data.products.beginner.description }}
 - **[The Advanced Bundle.]({{ .Site.Data.products.advanced.url }})** {{ .Site.Data.products.advanced.description }}
 - **[The Expert Bundle.]({{ .Site.Data.products.expert.url }})** {{ .Site.Data.products.expert.description }}
-- **[The Tooling Bundle (_pre-order_).]({{ .Site.Data.products.tooling.url }})** {{ .Site.Data.products.tooling.description }}
+{{- if false -}}- **[The Tooling Bundle (_pre-order_).]({{ .Site.Data.products.tooling.url }})** {{ .Site.Data.products.tooling.description }}{{- end -}}
 {{ end }}
 
 {{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "beginner" ) }}
@@ -22,10 +22,10 @@
 0. **[Token-Based Authentication.]({{ .Site.Data.products.tokenBasedAuthentication.url }})** {{ .Site.Data.products.tokenBasedAuthentication.description }}
 0. **[Accessible Components.]({{ .Site.Data.products.accessibleComponents.url }})** {{ .Site.Data.products.accessibleComponents.description }}
 0. **[Web Components.]({{ .Site.Data.products.webComponents.url }})** {{ .Site.Data.products.webComponents.description }}
-{{ end }}{{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "tooling" ) }}0. **[Terminal (_pre-order_).]({{ .Site.Data.products.terminal.url }})** {{ .Site.Data.products.terminal.description }}
+{{ end }}{{- if false -}}{{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "tooling" ) }}0. **[Terminal (_pre-order_).]({{ .Site.Data.products.terminal.url }})** {{ .Site.Data.products.terminal.description }}
 0. **[Testing Vanilla JS (_pre-order_).]({{ .Site.Data.products.testing.url }})** {{ .Site.Data.products.testing.description }}
 0. **[Build Tools (_pre-order_).]({{ .Site.Data.products.buildTools.url }})** {{ .Site.Data.products.buildTools.description }}
-0. **[Git (_pre-order_).]({{ .Site.Data.products.git.url }})** {{ .Site.Data.products.git.description }}
+0. **[Git (_pre-order_).]({{ .Site.Data.products.git.url }})** {{ .Site.Data.products.git.description }}{{- end -}}
 {{ end }}
 
 {{ if eq ( .Get "package" ) "starter" }}
