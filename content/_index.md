@@ -17,6 +17,8 @@ description: ""
 
 ## Bundles
 
+<p class="margin-bottom-small">Save almost 50% and get exclusive Slack access with a bundle.</p>
+
 <div class="list-spaced-small">
 {{%md%}}
 {{<product-list package="bundles">}}
