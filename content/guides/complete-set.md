@@ -59,7 +59,7 @@ You'll automatically get any new pocket guides I release in the future, complete
 
 {{%purchase-box%}}
 
-**Get everything you need to master vanilla JavaScript, and save 40%.** If purchased individually, these pocket guides would cost a lot more.
+**Get everything you need to master vanilla JavaScript, and save almost 50%.** If purchased individually, these pocket guides would cost a lot more.
 
 {{<purchase-summary bundle="true">}}
 - DOM Manipulation
@@ -77,6 +77,10 @@ You'll automatically get any new pocket guides I release in the future, complete
 - Token-Based Authentication
 - Accessible Components
 - Web Components
+- Terminal (_pre-order_)
+- Testing Vanilla JS (_pre-order_)
+- Build Tools (_pre-order_)
+- Git (_pre-order_)
 {{</purchase-summary>}}
 
 {{<cta for="guide-buy">}}
