@@ -60,7 +60,7 @@ description: ""
 **Get everything you need to kick-start your journey to vanilla JavaScript, and save 30%.** If purchased individually, these pocket guides would cost a lot more.
 
 {{<purchase-summary bundle="true">}}
-- Terminal (_pre-order_)
+- Terminal & Command Line (_pre-order_)
 - Testing Vanilla JS (_pre-order_)
 - Build Tools (_pre-order_)
 - Git (_pre-order_)

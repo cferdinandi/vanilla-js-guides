@@ -77,7 +77,7 @@ You'll automatically get any new pocket guides I release in the future, complete
 - Token-Based Authentication
 - Accessible Components
 - Web Components
-- Terminal (_pre-order_)
+- Terminal & Command Line (_pre-order_)
 - Testing Vanilla JS (_pre-order_)
 - Build Tools (_pre-order_)
 - Git (_pre-order_)

@@ -1,19 +1,19 @@
 ---
-title: "Terminal"
+title: "Terminal & Command Line"
 date: 2018-01-16T10:05:20-05:00
 draft: false
 noTitle: true
 description: ""
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5 text-sans">Terminal (<em>pre-order</em>)</h1>
+<h1 class="no-padding-top no-margin-bottom h5 text-sans">Terminal & Command Line (<em>pre-order</em>)</h1>
 <p><span class="text-xlarge text-serif">Get comfortable with the command line and speed up your development&nbsp;time.</span></p>
 
 <img class="img-center img-hero" alt="" src="/img/guides/terminal.png">
 
 <span class="text-large">Learn the ins-and-outs of working with Terminal in about an&nbsp;hour.</span>
 
-This guide is short, focused, and made for beginners. Get hands-on learning and grow your portfolio with a real project using command line in the Terminal app.
+This guide is short, focused, and made for beginners. Get hands-on learning and grow your portfolio with a real project using command line in the Terminal.
 
 <p><mark>⏰ <em><strong>Coming Soon!</strong> This guide is available for pre-order as part of <a href="/complete-set/">the Complete Set</a> and <a href="/tooling-bundle/">Tooling&nbsp;Bundle</a>.</em></mark></p>
 
@@ -25,7 +25,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 ## What you'll learn
 
-- The difference between Terminal and the command line.
+- The difference between terminal, shell, and the command line.
 - How to navigate the file system.
 - How to log and print things in the console.
 - How to make, modify, and delete files and directories.
