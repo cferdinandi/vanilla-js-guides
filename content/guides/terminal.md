@@ -15,6 +15,8 @@ description: ""
 
 This guide is short, focused, and made for beginners. Get hands-on learning and grow your portfolio with a real project using command line in the Terminal.
 
+🔥 _**Hot off the press!** This brand new guide was just released._
+
 {{<cta for="guide">}}
 
 <div class="padding-bottom-small">{{<pricing-link>}}</div>
