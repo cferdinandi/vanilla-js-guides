@@ -6,7 +6,7 @@ noTitle: true
 description: ""
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5 text-sans">Terminal & Command Line (<em>pre-order</em>)</h1>
+<h1 class="no-padding-top no-margin-bottom h5 text-sans">Terminal & Command Line</h1>
 <p><span class="text-xlarge text-serif">Get comfortable with the command line and speed up your development&nbsp;time.</span></p>
 
 <img class="img-center img-hero" alt="" src="/img/guides/terminal.png">
@@ -14,8 +14,6 @@ description: ""
 <span class="text-large">Learn the ins-and-outs of working with Terminal in about an&nbsp;hour.</span>
 
 This guide is short, focused, and made for beginners. Get hands-on learning and grow your portfolio with a real project using command line in the Terminal.
-
-<p><mark>⏰ <em><strong>Coming Soon!</strong> This guide is available for pre-order as part of <a href="/complete-set/">the Complete Set</a> and <a href="/tooling-bundle/">Tooling&nbsp;Bundle</a>.</em></mark></p>
 
 {{<cta for="guide">}}
 
@@ -27,7 +25,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 - The difference between terminal, shell, and the command line.
 - How to navigate the file system.
-- How to log and print things in the console.
+- How to log and print things in the terminal window.
 - How to make, modify, and delete files and directories.
 - How to edit files in the Terminal window.
 - How to chain commands and pass data from one to the other.
@@ -43,7 +41,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 ## Learn by doing with a real JavaScript project
 
-<!-- <iframe src="https://player.vimeo.com/video/537344749?badge=0&amp;autopause=0&amp;loop=1&amp;player_id=0&amp;app_id=58479" width="400" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> -->
+<p class="no-margin-bottom"><img src="/img/projects/terminal.png" alt="" width="1080" height="741" class="no-margin-bottom img-center"></p>
 
 Reinforce your learning and build your portfolio by using Terminal on a real project. Together, we’ll write a command line script for tracking our favorite vacation spots.
 
@@ -55,12 +53,12 @@ Reinforce your learning and build your portfolio by using Terminal on a real pro
 
 {{<skills>}}
 
-<!-- ## A Sample Lesson
+## A Sample Lesson
 
 <figure>
-	<iframe class="no-margin-bottom" src="https://player.vimeo.com/video/531873765?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-	<figcaption>How to get data from an API with the <code>fetch()</code> method.</figcaption>
-</figure> -->
+	<iframe class="no-margin-bottom" src="https://player.vimeo.com/video/744298791?h=15ad0aa6b8" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+	<figcaption>How to use the <code>cd</code> command to move around the file system in the command line.</figcaption>
+</figure>
 
 {{<sample>}}
 
@@ -76,13 +74,13 @@ Get everything you need to start mastering Terminal:
 
 {{<cta for="guide-buy">}}
 
-<p><strong>Pre-order this pocket guide as part of the <a href="/complete-set/">Complete Set</a> or <a href="/tooling-bundle/">Tooling&nbsp;Bundle</a>.</strong></p>
+<p><em><strong>Note:</strong> Windows users will need to install WSL and Windows Terminal to follow this book/course.</em></p>
 
-<!-- {{<purchase-link product="terminal">}}
+{{<purchase-link product="terminal">}}
 
 {{<purchase-upsell upsell="tooling">}}
 
-{{<sales-numbers>}} -->
+{{<sales-numbers>}}
 
 {{%/purchase-box%}}
 
