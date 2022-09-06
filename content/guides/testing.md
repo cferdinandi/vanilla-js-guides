@@ -25,13 +25,13 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 ## What you'll learn
 
-- What testing is, and why its important.
+- What testing is, and why it's important.
 - The different types of tests you can run on your code.
 - JavaScript linting with JSHint and ESLint.
 - Unit testing with Jest.
 - End-to-end (E2E) testing with Playwright.
 - How to test libraries, DOM manipulation, API calls and more.
-- How build your own testing suite.
+- How to build your own testing suite.
 - How to write tests that actually matter.
 
 {{<formats>}}
