@@ -6,7 +6,7 @@ noTitle: true
 description: ""
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5 text-sans">Testing Vanilla JavaScript (<em>pre-order</em>)</h1>
+<h1 class="no-padding-top no-margin-bottom h5 text-sans">Testing Vanilla JavaScript</h1>
 <p><span class="text-xlarge text-serif">Learn how to test your vanilla JavaScript code with automated testing&nbsp;tools.</span></p>
 
 <img class="img-center img-hero" alt="" src="/img/guides/testing.png">
@@ -15,7 +15,7 @@ description: ""
 
 This guide is short, focused, and made for beginners. Get hands-on learning and grow your portfolio with a real project writing a suite of tests for an app.
 
-<p><mark>⏰ <em><strong>Coming Soon!</strong> This guide is available for pre-order as part of <a href="/complete-set/">the Complete Set</a> and <a href="/tooling-bundle/">Tooling&nbsp;Bundle</a>.</em></mark></p>
+<p><mark>🔥 <em><strong>Hot off the press!</strong> This brand new guide was just released.</em></mark></p>
 
 {{<cta for="guide">}}
 
@@ -40,7 +40,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 ## Learn by doing with a real JavaScript project
 
-<!-- <iframe src="https://player.vimeo.com/video/537344749?badge=0&amp;autopause=0&amp;loop=1&amp;player_id=0&amp;app_id=58479" width="400" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> -->
+<p class="no-margin-bottom"><img src="/img/projects/testing.png" alt="" width="1080" height="657" class="no-margin-bottom img-center"></p>
 
 Reinforce your learning and build your portfolio by testing a real project. Together, we’ll write a suite of tests for a calculator app.
 
@@ -52,12 +52,12 @@ Reinforce your learning and build your portfolio by testing a real project. Toge
 
 {{<skills>}}
 
-<!-- ## A Sample Lesson
+## A Sample Lesson
 
 <figure>
-	<iframe class="no-margin-bottom" src="https://player.vimeo.com/video/531873765?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-	<figcaption>How to get data from an API with the <code>fetch()</code> method.</figcaption>
-</figure> -->
+	<iframe class="no-margin-bottom" src="https://player.vimeo.com/video/747377931?h=d9edcd6669" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+	<figcaption>How to write a unit test with Jest.</figcaption>
+</figure>
 
 {{<sample>}}
 
@@ -73,13 +73,11 @@ Get everything you need to start testing vanilla JavaScript:
 
 {{<cta for="guide-buy">}}
 
-<p><strong>Pre-order this pocket guide as part of the <a href="/complete-set/">Complete Set</a> or <a href="/tooling-bundle/">Tooling&nbsp;Bundle</a>.</strong></p>
-
-<!-- {{<purchase-link product="testing">}}
+{{<purchase-link product="testing">}}
 
 {{<purchase-upsell upsell="tooling">}}
 
-{{<sales-numbers>}} -->
+{{<sales-numbers>}}
 
 {{%/purchase-box%}}
 

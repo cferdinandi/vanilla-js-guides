@@ -15,7 +15,7 @@ description: ""
 
 This guide is short, focused, and made for beginners. Get hands-on learning and grow your portfolio with a real project using command line in the Terminal.
 
-🔥 _**Hot off the press!** This brand new guide was just released._
+<p><mark>🔥 <em><strong>Hot off the press!</strong> This brand new guide was just released.</em></mark></p>
 
 {{<cta for="guide">}}
 
