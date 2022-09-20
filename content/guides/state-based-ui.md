@@ -15,6 +15,8 @@ description: ""
 
 This guide is short, focused, and made for beginners. Get hands-on learning and grow your portfolio building a real, working web app.
 
+<p><mark>🔥 <strong>Just Updated!</strong> This guide was just completely updated based on emerging trends and changes in how modern state-based UI libraries approach building sites and apps.</mark></p>
+
 {{<cta for="guide">}}
 
 <div class="padding-bottom-small">{{<pricing-link>}}</div>
@@ -31,7 +33,6 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 - How to improve UI rendering performance with state-based UI and data reactivity.
 - What DOM diffing is, how it works, and why it's important.
 - What the virtual DOM is, and whether or not it's necessary.
-- How to reduce your risk of cross-site scripting (XSS) attacks.
 
 {{<formats>}}
 
