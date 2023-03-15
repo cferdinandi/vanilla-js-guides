@@ -1,129 +1,154 @@
 complete:
     id: "22572"
     monthly: "58818"
+    title: "The Complete Set"
     description: "Every pocket guide in the collection, including any new ones that come out in the future."
     url: "/complete-set/"
 
 beginner:
     id: "22569"
     monthly: "58814"
+    title: "The Beginner's Bundle"
     description: "Kick-start your journey to vanilla JS with these essential pocket guides."
     url: "/beginner-bundle/"
 
 advanced:
     id: "57803"
     monthly: "58816"
+    title: "The Advanced Bundle"
     description: "Take your vanilla JavaScript skills to the next level with these pocket guides on advanced topics."
     url: "/advanced-bundle/"
 
 expert:
     id: "59791"
     monthly: "59793"
+    title: "The Expert Bundle"
     description: "Learn how to build fast, interactive sites and apps with these pocket guides on expert topics."
     url: "/expert-bundle/"
 
 tooling:
     id: "69617"
     monthly: "69619"
+    title: "The Tooling Bundle"
     description: "Write resilient code more efficiently with build tools like Terminal, Git, and JavaScript testing suites."
     url: "/tooling-bundle/"
 
 domManipulation:
     id: "22585"
+    title: "DOM Manipulation"
     description: "Learn how to get DOM elements, manipulate them, and listen for events in the browser."
     url: "/dom-manipulation/"
 
 arraysObjects:
     id: "22696"
+    title: "Arrays & Objects"
     description: "Dive into the many modern methods for editing and transforming arrays and objects."
     url: "/arrays-and-objects/"
 
 stringsNumbers:
     id: "36577"
+    title: "Strings & Numbers"
     description: "Transform and edit strings and numbers for use in modern websites and web apps."
     url: "/strings-and-numbers/"
 
 variablesFunctionsScope:
     id: "22939"
+    title: "Variables, Functions, and Scope"
     description: "What are arrow functions? What’s function hoisting? What’s the difference between `var`, `let`, and `const`, and when should you use each?"
     url: "/variables-functions-and-scope/"
 
 domInjectionTraversal:
     id: "22686"
+    title: "DOM Injection & Traversal"
     description: "Learn how to set and get HTML, add and remove elements, climb up and down the DOM tree, and more."
     url: "/dom-injection-and-traversal/"
 
 browserStorage:
     id: "23245"
+    title: "Browser Storage"
     description: "Store data in localStorage and sessionStorage, get and set cookies, and create a local database with indexedDB."
     url: "/browser-storage/"
 
 ajaxHttp:
     id: "22689"
+    title: "APIs & Asynchronous JS"
     description: "Learn how to work with APIs and asynchronous JavaScript."
     url: "/apis/"
 
 writingPlugins:
     id: "22656"
+    title: "Writing Libraries"
     description: "Learn how to write flexible, modular, scalable libraries that grow with you and your users."
     url: "/writing-js-libraries/"
 
 esModules:
     id: "57791"
+    title: "ES Modules"
     description: "Learn how to structure projects, import and export modular JavaScript files, and bundle your code for production."
     url: "/es-modules/"
 
 serviceWorkers:
     id: "60065"
+    title: "Service Workers"
     description: "Learn how to build more resilient web experiences that load faster and even work offline."
     url: "/service-workers/"
 
 webApps:
     id: "22882"
+    title: "Web Apps"
     description: "Build interactive web apps and single page apps without libraries or frameworks."
     url: "/web-apps/"
 
 stateBasedUI:
     id: "22882"
+    title: "State-Based UI"
     description: "Learn how to build interactive websites and web apps with state-based UI and data reactivity."
     url: "/state-based-ui/"
 
 serverless:
     id: "59789"
+    title: "Serverless"
     description: "Create your own APIs, microservices, and client-side web apps with serverless functions."
     url: "/serverless/"
 
 tokenBasedAuthentication:
     id: "59774"
+    title: "Token-Based Authentication"
     description: "Learn how to register, login, and manage user sessions with token-based authentication."
     url: "/token-based-authentication/"
 
 accessibleComponents:
     id: "67393"
+    title: "Accessible Components"
     description: "Build interactive components that work for everyone who uses your site or app."
     url: "/accessible-components/"
 
 webComponents:
     id: "67790"
+    title: "Web Components"
     description: "Learn how to create custom HTML elements, with built-in styles, interactivity, and encapsulation."
     url: "/web-components/"
 
 terminal:
     id: "69609"
+    title: "Terminal & Command Line"
     description: "Get comfortable with the command line and learn how to speed up development with Terminal."
     url: "/terminal/"
 
 testing:
     id: "69611"
+    title: "Testing Vanilla JS"
     description: "Learn how to test your vanilla JavaScript code with automated testing tools."
     url: "/testing/"
 
 buildTools:
     id: "69613"
+    title: "Build Tools (_pre-order_)"
     description: "Create your own suite of build tools and turbo-charge your web development process."
     url: "/build-tools/"
 
 git:
     id: "69615"
+    title: "Git (_pre-order_)"
     description: "Learn the essentials of version control, collaborative coding, and distributing open source projects with Git."
     url: "/git/"
