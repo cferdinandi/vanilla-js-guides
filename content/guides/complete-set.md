@@ -61,27 +61,7 @@ You'll automatically get any new pocket guides I release in the future, complete
 
 **Get everything you need to master vanilla JavaScript, and save 40%.** If purchased individually, these pocket guides would cost a lot more.
 
-{{<purchase-summary bundle="true">}}
-- DOM Manipulation
-- String & Numbers
-- Arrays & Objects
-- Variables, Functions, & Scope
-- DOM Injection & Traversal
-- Browser Storage
-- APIs & Asynchronous JS
-- Writing JS Libraries
-- ES Modules
-- Service Workers
-- State-Based UI
-- Serverless
-- Token-Based Authentication
-- Accessible Components
-- Web Components
-- Terminal & Command Line (_pre-order_)
-- Testing Vanilla JS (_pre-order_)
-- Build Tools (_pre-order_)
-- Git (_pre-order_)
-{{</purchase-summary>}}
+{{<purchase-summary bundle="true">}}{{<product-list-names package="complete">}}{{</purchase-summary>}}
 
 {{<cta for="guide-buy">}}
 

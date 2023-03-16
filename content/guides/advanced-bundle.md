@@ -59,13 +59,7 @@ description: ""
 
 **Get everything you need to kick-start your journey to vanilla JavaScript, and save 30%.** If purchased individually, these pocket guides would cost a lot more.
 
-{{<purchase-summary bundle="true">}}
-- Browser Storage
-- APIs & Asynchronous JS
-- Writing JS Libraries
-- ES Modules
-- Service Workers
-{{</purchase-summary>}}
+{{<purchase-summary bundle="true">}}{{<product-list-names package="advanced">}}{{</purchase-summary>}}
 
 {{<cta for="guide-buy">}}
 

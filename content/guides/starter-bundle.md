@@ -55,11 +55,7 @@ url: "/starter-bundle/"
 
 **Take the first step in your vanilla JavaScript journey.**
 
-{{<purchase-summary>}}
-- DOM Manipulation
-- Arrays & Objects
-- APIs & Asynchronous JS
-{{</purchase-summary>}}
+{{<purchase-summary>}}{{<product-list-names package="starter">}}{{</purchase-summary>}}
 
 *These guides would cost $297 if you purchased them individually.*
 
