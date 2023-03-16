@@ -9,4 +9,4 @@ As a student, you can get 30% off of any pocket guide or bundle. This applies to
 
 Use the code `EDU30` at checkout to get your discount.
 
-*__Note:__* *I'm using an honor system for this. I don't verify that you're actually a student, because I trust that you'll do the right thing.*
+_**Note:** I’m using an honor system for this. I don’t verify that you’re a member of an underrepresented community, because I trust that you’ll do the right thing._

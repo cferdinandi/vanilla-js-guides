@@ -11,4 +11,4 @@ What is an underrepresented group? I don't strictly define it, but it includes w
 
 Use the code `PAYITFORWARD` at checkout to get your discount.
 
-*__Note:__* *I’m using an honor system for this. I don’t verify that you’re a member of an underrepresented community, because I trust that you’ll do the right thing.*
+_**Note:** I’m using an honor system for this. I don’t verify that you’re a member of an underrepresented community, because I trust that you’ll do the right thing._
