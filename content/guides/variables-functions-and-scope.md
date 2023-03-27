@@ -75,7 +75,7 @@ Get everything you need to start mastering modern vanilla JavaScript:
 
 {{<purchase-link product="variablesFunctionsScope">}}
 
-{{<purchase-upsell upsell="beginner">}}
+{{<purchase-upsell upsell="fundamentals">}}
 
 {{<sales-numbers>}}
 

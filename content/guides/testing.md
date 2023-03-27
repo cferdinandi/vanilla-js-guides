@@ -75,7 +75,7 @@ Get everything you need to start testing vanilla JavaScript:
 
 {{<purchase-link product="testing">}}
 
-{{<purchase-upsell upsell="tooling">}}
+{{<purchase-upsell upsell="levelup">}}
 
 {{<sales-numbers>}}
 

@@ -1,17 +1,17 @@
 ---
-title: "The Beginner's Bundle"
+title: "The Fundamentals Bundle"
 date: 2018-01-16T10:05:20-05:00
 draft: false
 noTitle: true
 description: ""
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5 text-sans">The Beginner's Bundle</h1>
+<h1 class="no-padding-top no-margin-bottom h5 text-sans">The Fundamentals Bundle</h1>
 <p><span class="text-xlarge text-serif">Kick-start your journey to JavaScript.</span></p>
 
-<img class="img-center img-hero" alt="" src="/img/guides/beginner-bundle.png">
+<img class="img-center img-hero" alt="" src="/img/guides/fundamentals-bundle.png">
 
-<span class="text-large">Get five essential pocket guides, all of the source code and demos, and exclusive Slack access.</span>
+<span class="text-large">Get 7 pocket guides focused on essential JavaScript skills, all of the source code and demos, and exclusive Slack access.</span>
 
 {{<cta for="guides-all">}}
 
@@ -23,7 +23,7 @@ description: ""
 
 <div class="list-spaced-small">
 {{%md%}}
-{{<product-list package="beginner">}}
+{{<product-list package="fundamentals">}}
 {{%/md%}}
 </div>
 
@@ -59,11 +59,11 @@ description: ""
 
 **Get everything you need to kick-start your journey to vanilla JavaScript, and save 30%.** If purchased individually, these pocket guides would cost a lot more.
 
-{{<purchase-summary bundle="true">}}{{<product-list-names package="beginner">}}{{</purchase-summary>}}
+{{<purchase-summary bundle="true">}}{{<product-list-names package="fundamentals">}}{{</purchase-summary>}}
 
 {{<cta for="guide-buy">}}
 
-{{<purchase-link bundle="beginner" product="beginner">}}
+{{<purchase-link bundle="fundamentals" product="fundamentals">}}
 
 {{<sales-numbers>}}
 

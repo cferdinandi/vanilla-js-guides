@@ -73,7 +73,7 @@ Get everything you need to start transforming and editing strings and numbers wi
 
 {{<purchase-link product="stringsNumbers">}}
 
-{{<purchase-upsell upsell="beginner">}}
+{{<purchase-upsell upsell="fundamentals">}}
 
 {{<sales-numbers>}}
 

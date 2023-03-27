@@ -74,7 +74,7 @@ Get everything you need to start mastering modern array and object methods with 
 
 {{<purchase-link product="arraysObjects">}}
 
-{{<purchase-upsell upsell="beginner">}}
+{{<purchase-upsell upsell="fundamentals">}}
 
 {{<sales-numbers>}}
 

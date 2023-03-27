@@ -75,7 +75,7 @@ Get everything you need to start building web apps with vanilla JavaScript:
 
 {{<purchase-link product="webApps">}}
 
-{{<purchase-upsell upsell="expert">}}
+{{<purchase-upsell upsell="levelup">}}
 
 {{<sales-numbers>}}
 

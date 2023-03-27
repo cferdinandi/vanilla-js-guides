@@ -73,7 +73,7 @@ Get everything you need to start using token-based authentication with vanilla J
 
 {{<purchase-link product="tokenBasedAuthentication">}}
 
-{{<purchase-upsell upsell="expert">}}
+{{<purchase-upsell upsell="complete">}}
 
 {{<sales-numbers>}}
 

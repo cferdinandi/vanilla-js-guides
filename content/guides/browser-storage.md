@@ -72,7 +72,7 @@ Get everything you need to start mastering browser storage with vanilla JavaScri
 
 {{<purchase-link product="browserStorage">}}
 
-{{<purchase-upsell upsell="advanced">}}
+{{<purchase-upsell upsell="fundamentals">}}
 
 {{<sales-numbers>}}
 

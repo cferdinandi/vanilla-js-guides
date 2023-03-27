@@ -5,6 +5,7 @@ draft: false
 type: "guides"
 noTitle: true
 description: ""
+aliases: ["/beginner-bundle/", "/advanced-bundle/", "/expert-bundle/"]
 ---
 
 <h1 class="margin-bottom-small text-xlarge text-normal">Short, focused JavaScript courses and ebooks made for beginners.</h1>
@@ -17,7 +18,7 @@ description: ""
 
 ## Bundles
 
-<p class="margin-bottom-small">Save up to 40% and get exclusive Slack access with a bundle.</p>
+<p class="margin-bottom-small">Save more than 40% and get exclusive Slack access with a bundle.</p>
 
 <div class="list-spaced-small">
 {{%md%}}

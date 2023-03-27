@@ -73,7 +73,7 @@ Get everything you need to start mastering DOM manipulation with vanilla JavaScr
 
 {{<purchase-link product="domManipulation">}}
 
-{{<purchase-upsell upsell="beginner">}}
+{{<purchase-upsell upsell="fundamentals">}}
 
 {{<sales-numbers>}}
 

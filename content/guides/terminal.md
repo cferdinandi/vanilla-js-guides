@@ -80,7 +80,7 @@ Get everything you need to start mastering Terminal:
 
 {{<purchase-link product="terminal">}}
 
-{{<purchase-upsell upsell="tooling">}}
+{{<purchase-upsell upsell="complete">}}
 
 {{<sales-numbers>}}
 

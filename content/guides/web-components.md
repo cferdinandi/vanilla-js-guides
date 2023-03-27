@@ -15,7 +15,7 @@ description: ""
 
 This guide is short, focused, and made for beginners. Get hands-on learning and grow your portfolio by building a custom web component.
 
-<mark>🚀 <em><strong>New Guide!</strong> This guide is brand new. Buy it as part of the <a href="/expert-bundle/">Expert Bundle</a> and save big!</em></mark>
+<p><mark>🔥 <em><strong>Hot off the press!</strong> This brand new guide was just released.</em></mark></p>
 
 {{<cta for="guide">}}
 
@@ -75,7 +75,7 @@ Get everything you need to start building your own web components:
 
 {{<purchase-link product="webComponents">}}
 
-{{<purchase-upsell upsell="expert">}}
+{{<purchase-upsell upsell="levelup">}}
 
 {{<sales-numbers>}}
 

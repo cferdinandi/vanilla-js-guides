@@ -76,7 +76,7 @@ Get everything you need to start writing flexible, modular libraries with vanill
 
 {{<purchase-link product="esModules">}}
 
-{{<purchase-upsell upsell="advanced">}}
+{{<purchase-upsell upsell="levelup">}}
 
 {{<sales-numbers>}}
 

@@ -1,13 +1,11 @@
 <p>
-	<em><strong>Want to save up to 40% and get exclusive Slack access?</strong>
-		{{ if eq ( .Get "upsell" ) "beginner" }}
-			Get this pocket guide as part of the <a href="/complete-set/">Complete Set</a> or <a href="/beginner-bundle/">Beginner's&nbsp;Bundle</a>.
-		{{ else if eq ( .Get "upsell" ) "advanced" }}
-			Get this pocket guide as part of the <a href="/complete-set/">Complete Set</a> or <a href="/advanced-bundle/">Advanced&nbsp;Bundle</a>.
-		{{ else if eq ( .Get "upsell" ) "expert" }}
-			Get this pocket guide as part of the <a href="/complete-set/">Complete Set</a> or <a href="/expert-bundle/">Expert&nbsp;Bundle</a>.
-		{{ else if eq ( .Get "upsell" ) "tooling" }}
-			Get this pocket guide as part of the <a href="/complete-set/">Complete Set</a> or <a href="/tooling-bundle/">Tooling&nbsp;Bundle</a>.
+	<em><strong>Want to save over 40% and get exclusive Slack access?</strong>
+		{{ if eq ( .Get "upsell" ) "fundamentals" }}
+			Get this pocket guide as part of the <a href="/complete-set/">Complete Set</a> or <a href="/fundamentals-bundle/">Fundamentals&nbsp;Bundle</a>.
+		{{ else if eq ( .Get "upsell" ) "levelup" }}
+			Get this pocket guide as part of the <a href="/complete-set/">Complete Set</a> or <a href="/level-up-bundle/">Level-Up&nbsp;Bundle</a>.
+		{{ else if eq ( .Get "upsell" ) "complete" }}
+			Get this pocket guide as part of the <a href="/complete-set/">Complete Set</a>.
 		{{ end }}
 	</em>
 </p>

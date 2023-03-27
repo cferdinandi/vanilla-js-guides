@@ -5,6 +5,21 @@ complete:
     description: "Every pocket guide in the collection, including any new ones that come out in the future."
     url: "/complete-set/"
 
+fundamentals:
+    id: "72056"
+    monthly: "72058"
+    title: "The Fundamentals Bundle"
+    description: "Kick-start your JavaScript journey with this collection of pocket guides focused on essential skills."
+    url: "/fundamentals-bundle/"
+
+levelup:
+    id: "72060"
+    monthly: "72064"
+    title: "The Level-Up Bundle"
+    description: "Take your vanilla JavaScript skills to the next level with these pocket guides on advanced web development topics."
+    url: "/level-up-bundle/"
+
+# @deprecated
 beginner:
     id: "22569"
     monthly: "58814"
@@ -12,6 +27,7 @@ beginner:
     description: "Kick-start your journey to vanilla JS with these essential pocket guides."
     url: "/beginner-bundle/"
 
+# @deprecated
 advanced:
     id: "57803"
     monthly: "58816"
@@ -19,6 +35,7 @@ advanced:
     description: "Take your vanilla JavaScript skills to the next level with these pocket guides on advanced topics."
     url: "/advanced-bundle/"
 
+# @deprecated
 expert:
     id: "59791"
     monthly: "59793"

@@ -74,7 +74,7 @@ Get everything you need to start working with serverless:
 
 {{<purchase-link product="serverless">}}
 
-{{<purchase-upsell upsell="expert">}}
+{{<purchase-upsell upsell="complete">}}
 
 {{<sales-numbers>}}
 

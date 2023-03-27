@@ -77,7 +77,7 @@ Get everything you need to start creating faster and more resilient web experien
 
 {{<purchase-link product="serviceWorkers">}}
 
-{{<purchase-upsell upsell="advanced">}}
+{{<purchase-upsell upsell="levelup">}}
 
 {{<sales-numbers>}}
 

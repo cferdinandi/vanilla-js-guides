@@ -16,7 +16,7 @@ aliases: ["/accessibility/"]
 
 This guide is short, focused, and made for beginners. Get hands-on learning and grow your portfolio by building a collection of accessible components.
 
-<mark>🚀 <em><strong>New Guide!</strong> This guide is brand new. Buy it as part of the <a href="/expert-bundle/">Expert Bundle</a> and save big!</em></mark>
+<p><mark>🔥 <em><strong>Hot off the press!</strong> This brand new guide was just released.</em></mark></p>
 
 {{<cta for="guide">}}
 
@@ -78,7 +78,7 @@ Get solid foundation for building more accessible interactive components with va
 
 {{<purchase-link product="accessibleComponents">}}
 
-{{<purchase-upsell upsell="expert">}}
+{{<purchase-upsell upsell="levelup">}}
 
 {{<sales-numbers>}}
 

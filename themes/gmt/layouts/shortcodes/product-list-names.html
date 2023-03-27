@@ -1,23 +1,21 @@
-{{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "beginner" ) }}
+{{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "fundamentals" ) }}
 - {{ .Site.Data.products.domManipulation.title }}
 - {{ .Site.Data.products.stringsNumbers.title }}
 - {{ .Site.Data.products.arraysObjects.title }}
 - {{ .Site.Data.products.variablesFunctionsScope.title }}
 - {{ .Site.Data.products.domInjectionTraversal.title }}
-{{ end }}{{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "advanced" ) }}- {{ .Site.Data.products.browserStorage.title }}
+- {{ .Site.Data.products.browserStorage.title }}
 - {{ .Site.Data.products.ajaxHttp.title }}
-- {{ .Site.Data.products.writingPlugins.title }}
+{{ end }}{{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "levelup" ) }}- {{ .Site.Data.products.writingPlugins.title }}
 - {{ .Site.Data.products.esModules.title }}
 - {{ .Site.Data.products.serviceWorkers.title }}
-{{ end }}{{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "expert" ) }}- {{ .Site.Data.products.stateBasedUI.title }}
-- {{ .Site.Data.products.serverless.title }}
-- {{ .Site.Data.products.tokenBasedAuthentication.title }}
-- {{ .Site.Data.products.accessibleComponents.title }}
 - {{ .Site.Data.products.webComponents.title }}
-{{ end }}{{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "tooling" ) }}- {{ .Site.Data.products.terminal.title }}
+- {{ .Site.Data.products.stateBasedUI.title }}
 - {{ .Site.Data.products.testing.title }}
-- {{ .Site.Data.products.buildTools.title }}
-- {{ .Site.Data.products.git.title }}
+- {{ .Site.Data.products.accessibleComponents.title }}
+{{ end }}{{ if eq ( .Get "package" ) "complete" }}- {{ .Site.Data.products.serverless.title }}
+- {{ .Site.Data.products.tokenBasedAuthentication.title }}
+- {{ .Site.Data.products.terminal.title }}
 {{ end }}
 
 {{ if eq ( .Get "package" ) "starter" }}
