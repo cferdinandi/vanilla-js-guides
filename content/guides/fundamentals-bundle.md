@@ -57,7 +57,7 @@ description: ""
 
 {{%purchase-box%}}
 
-**Get everything you need to kick-start your journey to vanilla JavaScript, and save 30%.** If purchased individually, these pocket guides would cost a lot more.
+**Get everything you need to kick-start your JavaScript journey, and save more than 40%.** If purchased individually, these pocket guides would cost a lot more.
 
 {{<purchase-summary bundle="true">}}{{<product-list-names package="fundamentals">}}{{</purchase-summary>}}
 
