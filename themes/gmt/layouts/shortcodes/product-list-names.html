@@ -1,25 +1,16 @@
-{{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "fundamentals" ) }}
-- {{ .Site.Data.products.domManipulation.title }}
-- {{ .Site.Data.products.stringsNumbers.title }}
-- {{ .Site.Data.products.arraysObjects.title }}
-- {{ .Site.Data.products.variablesFunctionsScope.title }}
-- {{ .Site.Data.products.domInjectionTraversal.title }}
-- {{ .Site.Data.products.browserStorage.title }}
-- {{ .Site.Data.products.ajaxHttp.title }}
-{{ end }}{{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "levelup" ) }}- {{ .Site.Data.products.writingPlugins.title }}
-- {{ .Site.Data.products.esModules.title }}
-- {{ .Site.Data.products.serviceWorkers.title }}
-- {{ .Site.Data.products.webComponents.title }}
-- {{ .Site.Data.products.stateBasedUI.title }}
-- {{ .Site.Data.products.testing.title }}
-- {{ .Site.Data.products.accessibleComponents.title }}
-{{ end }}{{ if eq ( .Get "package" ) "complete" }}- {{ .Site.Data.products.serverless.title }}
-- {{ .Site.Data.products.tokenBasedAuthentication.title }}
-- {{ .Site.Data.products.terminal.title }}
-{{ end }}
-
-{{ if eq ( .Get "package" ) "starter" }}
-- {{ .Site.Data.products.domManipulation.title }}
-- {{ .Site.Data.products.arraysObjects.title }}
-- {{ .Site.Data.products.ajaxHttp.title }}
-{{ end }}
+{{- $.Scratch.Set "products" .Site.Data.products -}}
+{{- if .Get "package" -}}
+	{{- if isset ($.Scratch.Get "products") (.Get "package") -}}
+	{{- $product := index ($.Scratch.Get "products") (.Get "package") -}}
+		{{- if isset $product "guides" -}}
+			<ul>
+			{{- range $id := index $product "guides" -}}
+			{{- if isset ($.Scratch.Get "products") $id -}}
+				{{- $guide := index ($.Scratch.Get "products") $id -}}
+				<li>{{ $guide.title }}</li>
+			{{- end -}}
+			{{- end -}}
+			</ul>
+		{{- end -}}
+	{{- end -}}
+{{- end -}}

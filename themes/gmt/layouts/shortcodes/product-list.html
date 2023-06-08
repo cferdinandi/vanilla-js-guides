@@ -1,31 +1,16 @@
-{{ if eq ( .Get "package" ) "bundles" }}
-- **[{{ .Site.Data.products.complete.title }}.]({{ .Site.Data.products.complete.url }})** {{ .Site.Data.products.complete.description }}
-- **[{{ .Site.Data.products.fundamentals.title }}.]({{ .Site.Data.products.fundamentals.url }})** {{ .Site.Data.products.fundamentals.description }}
-- **[{{ .Site.Data.products.levelup.title }}.]({{ .Site.Data.products.levelup.url }})** {{ .Site.Data.products.levelup.description }}
-{{ end }}
-
-{{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "fundamentals" ) }}
-0. **[{{ .Site.Data.products.domManipulation.title }}.]({{ .Site.Data.products.domManipulation.url }})** {{ .Site.Data.products.domManipulation.description }}
-0. **[{{ .Site.Data.products.stringsNumbers.title }}.]({{ .Site.Data.products.stringsNumbers.url }})** {{ .Site.Data.products.stringsNumbers.description }}
-0. **[{{ .Site.Data.products.arraysObjects.title }}.]({{ .Site.Data.products.arraysObjects.url }})** {{ .Site.Data.products.arraysObjects.description }}
-0. **[{{ .Site.Data.products.variablesFunctionsScope.title }}.]({{ .Site.Data.products.variablesFunctionsScope.url }})** {{ .Site.Data.products.variablesFunctionsScope.description }}
-0. **[{{ .Site.Data.products.domInjectionTraversal.title }}.]({{ .Site.Data.products.domInjectionTraversal.url }})** {{ .Site.Data.products.domInjectionTraversal.description }}
-0. **[{{ .Site.Data.products.browserStorage.title }}.]({{ .Site.Data.products.browserStorage.url }})** {{ .Site.Data.products.browserStorage.description }}
-0. **[{{ .Site.Data.products.ajaxHttp.title }}.]({{ .Site.Data.products.ajaxHttp.url }})** {{ .Site.Data.products.ajaxHttp.description }}
-{{ end }}{{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "levelup" ) }}0. **[{{ .Site.Data.products.writingPlugins.title }}.]({{ .Site.Data.products.writingPlugins.url }})** {{ .Site.Data.products.writingPlugins.description }}
-0. **[{{ .Site.Data.products.esModules.title }}.]({{ .Site.Data.products.esModules.url }})** {{ .Site.Data.products.esModules.description }}
-0. **[{{ .Site.Data.products.serviceWorkers.title }}.]({{ .Site.Data.products.serviceWorkers.url }})** {{ .Site.Data.products.serviceWorkers.description }}
-0. **[{{ .Site.Data.products.webComponents.title }}.]({{ .Site.Data.products.webComponents.url }})** {{ .Site.Data.products.webComponents.description }}
-0. **[{{ .Site.Data.products.stateBasedUI.title }}.]({{ .Site.Data.products.stateBasedUI.url }})** {{ .Site.Data.products.stateBasedUI.description }}
-0. **[{{ .Site.Data.products.testing.title }}.]({{ .Site.Data.products.testing.url }})** {{ .Site.Data.products.testing.description }}
-0. **[{{ .Site.Data.products.accessibleComponents.title }}.]({{ .Site.Data.products.accessibleComponents.url }})** {{ .Site.Data.products.accessibleComponents.description }}
-{{ end }}{{ if eq ( .Get "package" ) "complete" }}0. **[{{ .Site.Data.products.serverless.title }}.]({{ .Site.Data.products.serverless.url }})** {{ .Site.Data.products.serverless.description }}
-0. **[{{ .Site.Data.products.tokenBasedAuthentication.title }}.]({{ .Site.Data.products.tokenBasedAuthentication.url }})** {{ .Site.Data.products.tokenBasedAuthentication.description }}
-0. **[{{ .Site.Data.products.terminal.title }}.]({{ .Site.Data.products.terminal.url }})** {{ .Site.Data.products.terminal.description }}
-{{ end }}
-
-{{ if eq ( .Get "package" ) "starter" }}
-0. **[{{ .Site.Data.products.domManipulation.title }}.]({{ .Site.Data.products.domManipulation.url }})** {{ .Site.Data.products.domManipulation.description }}
-0. **[{{ .Site.Data.products.arraysObjects.title }}.]({{ .Site.Data.products.arraysObjects.url }})** {{ .Site.Data.products.arraysObjects.description }}
-0. **[{{ .Site.Data.products.ajaxHttp.title }}.]({{ .Site.Data.products.ajaxHttp.url }})** {{ .Site.Data.products.ajaxHttp.description }}
-{{ end }}
+{{- $.Scratch.Set "products" .Site.Data.products -}}
+{{- if .Get "package" -}}
+	{{- if isset ($.Scratch.Get "products") (.Get "package") -}}
+	{{- $product := index ($.Scratch.Get "products") (.Get "package") -}}
+		{{- if isset $product "guides" -}}
+			{{- if eq (.Get "package") "bundles" -}}<ul class="list-spaced-small">{{- else -}}<ol class="list-spaced-small">{{- end -}}
+			{{- range $id := index $product "guides" -}}
+			{{- if isset ($.Scratch.Get "products") $id -}}
+				{{- $guide := index ($.Scratch.Get "products") $id -}}
+				<li><strong><a href="{{ $guide.url }}">{{ $guide.title }}.</a></strong> {{ $guide.description }}</li>
+			{{- end -}}
+			{{- end -}}
+			{{- if eq (.Get "package") "bundles" -}}</ul>{{- else -}}</ol>{{- end -}}
+		{{- end -}}
+	{{- end -}}
+{{- end -}}

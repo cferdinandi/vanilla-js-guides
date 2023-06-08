@@ -21,11 +21,7 @@ description: ""
 
 ## What's included?
 
-<div class="list-spaced-small">
-{{%md%}}
 {{<product-list package="fundamentals">}}
-{{%/md%}}
-</div>
 
 {{<formats>}}
 

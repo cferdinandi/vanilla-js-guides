@@ -1,9 +1,16 @@
+bundles:
+    guides: ["complete", "fundamentals", "levelup"]
+
+starter:
+    guides: ["domManipulation", "arraysObjects", "ajaxHttp"]
+
 complete:
     id: "22572"
     monthly: "58818"
     title: "The Complete Set"
     description: "Every pocket guide in the collection, including any new ones that come out in the future."
     url: "/complete-set/"
+    guides: ["domManipulation", "stringsNumbers", "arraysObjects", "variablesFunctionsScope", "domInjectionTraversal", "browserStorage", "ajaxHttp", "writingPlugins", "esModules", "serviceWorkers", "webComponents", "stateBasedUI", "testing", "accessibleComponents", "serverless", "tokenBasedAuthentication", "terminal"]
 
 fundamentals:
     id: "72056"
@@ -11,6 +18,7 @@ fundamentals:
     title: "The Fundamentals Bundle"
     description: "Kick-start your JavaScript journey with this collection of pocket guides focused on essential skills."
     url: "/fundamentals-bundle/"
+    guides: ["domManipulation", "stringsNumbers", "arraysObjects", "variablesFunctionsScope", "domInjectionTraversal", "browserStorage", "ajaxHttp"]
 
 levelup:
     id: "72060"
@@ -18,6 +26,7 @@ levelup:
     title: "The Level-Up Bundle"
     description: "Take your vanilla JavaScript skills to the next level with these pocket guides on advanced web development topics."
     url: "/level-up-bundle/"
+    guides: ["writingPlugins", "esModules", "serviceWorkers", "webComponents", "stateBasedUI", "testing", "accessibleComponents"]
 
 # @deprecated
 beginner:
