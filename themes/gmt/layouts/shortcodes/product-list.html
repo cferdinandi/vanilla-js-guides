@@ -7,7 +7,7 @@
 			{{- range $id := index $product "guides" -}}
 			{{- if isset ($.Scratch.Get "products") $id -}}
 				{{- $guide := index ($.Scratch.Get "products") $id -}}
-				<li><strong><a href="{{ $guide.url }}">{{ $guide.title }}.</a></strong> {{ $guide.description }}</li>
+				<li><strong><a href="{{ $guide.url }}">{{ $guide.title }}.</a></strong> {{ $guide.description | markdownify }}</li>
 			{{- end -}}
 			{{- end -}}
 			{{- if eq (.Get "package") "bundles" -}}</ul>{{- else -}}</ol>{{- end -}}
