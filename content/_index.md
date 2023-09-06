@@ -18,7 +18,7 @@ aliases: ["/beginner-bundle/", "/advanced-bundle/", "/expert-bundle/"]
 
 ## Bundles
 
-<p class="margin-bottom-small">Save more than 40% and get exclusive Slack access with a bundle.</p>
+<p class="margin-bottom-small">Save more than 40% and get exclusive Discord access with a bundle.</p>
 
 <div class="list-spaced-small">
 {{%md%}}
