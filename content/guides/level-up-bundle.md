@@ -11,7 +11,7 @@ description: ""
 
 <img class="img-center img-hero" alt="" src="/img/guides/level-up-bundle.png">
 
-<span class="text-large">Get 7 pocket guides focused on advanced modern JavaScript topics, all of the source code and demos, and exclusive Slack access.</span>
+<span class="text-large">Get 7 pocket guides focused on advanced modern JavaScript topics, all of the source code and demos, and exclusive Discord access.</span>
 
 {{<cta for="guides-all">}}
 

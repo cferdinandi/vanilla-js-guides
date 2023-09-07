@@ -11,7 +11,7 @@ description: ""
 
 <img class="img-center img-hero" alt="" src="/img/guides/complete-set.png">
 
-<span class="text-large">Get every pocket guide, all of the source code and demos, and exclusive Slack access.</span>
+<span class="text-large">Get every pocket guide, all of the source code and demos, and exclusive Discord access.</span>
 
 You'll automatically get any new pocket guides I release in the future, completely&nbsp;free.
 

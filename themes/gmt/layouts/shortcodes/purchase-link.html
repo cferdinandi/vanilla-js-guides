@@ -29,6 +29,32 @@
 	{{- .Scratch.Set "apiDiscount" (index (.Scratch.Get "apiPrice") "discount") -}}
 {{- end -}}
 
+<div class="callout-cta text-center margin-bottom-medium">
+	<div class="margin-bottom-small">
+		<em><strong>Best Value!</strong> Ebook{{ if .Get "bundle" }}s{{ end }} + Videos</em><br>
+		<strong class="text-large">{{ if ne $apiPrice "" }}{{ index $apiPrice "both" | safeHTML }}{{ else }}{{ $price.both | safeHTML }}{{ end }}</strong>
+	</div>
+	<a class="btn btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=3{{ if ne (.Scratch.Get "apiDiscount") "" }}&discount={{ .Scratch.Get "apiDiscount" }}{{ end }}&ref={{ "https://vanillajsguides.com" | urlquery }}">Get the Ebook{{ if .Get "bundle" }}s{{ end }} + Videos</a>
+</div>
+
+<div class="row text-center">
+	<div class="grid-half callout-cta margin-bottom-medium">
+		<div class="margin-bottom-small">
+			<em>Just the Videos</em><br>
+			<strong class="text-large">{{ if ne $apiPrice "" }}{{ index $apiPrice "video" | safeHTML }}{{ else }}{{ $price.video | safeHTML }}{{ end }}</strong>
+		</div>
+		<a class="btn btn-secondary btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=2{{ if ne (.Scratch.Get "apiDiscount") "" }}&discount={{ .Scratch.Get "apiDiscount" }}{{ end }}&ref={{ "https://vanillajsguides.com" | urlquery }}">Get the Videos</a>
+	</div>
+	<div class="grid-half callout-cta margin-bottom-medium">
+		<div class="margin-bottom-small">
+			<em>Just the Ebook{{ if .Get "bundle" }}s{{ end }}</em><br>
+			<strong class="text-large">{{ if ne $apiPrice "" }}{{ index $apiPrice "ebook" | safeHTML }}{{ else }}{{ $price.ebook | safeHTML }}{{ end }}</strong>
+		</div>
+		<a class="btn btn-tertiary btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=1{{ if ne (.Scratch.Get "apiDiscount") "" }}&discount={{ .Scratch.Get "apiDiscount" }}{{ end }}&ref={{ "https://vanillajsguides.com" | urlquery }}">Get the Ebook{{ if .Get "bundle" }}s{{ end }}</a>
+	</div>
+</div>
+
+{{- if false -}}
 <p class="margin-bottom-small"><a class="btn btn-large btn-block edd-buy-now-button" href='https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=3{{ if ne (.Scratch.Get "apiDiscount") "" }}&discount={{ .Scratch.Get "apiDiscount" }}{{ end }}&ref={{ "https://vanillajsguides.com" | urlquery }}'><strong>Best Value:</strong> Ebook{{ if .Get "bundle" }}s{{ end }} + Videos - {{ if ne $apiPrice "" }}{{ index $apiPrice "both" | safeHTML }}{{ else }}{{ $price.both | safeHTML }}{{ end }}</a></p>
 <div class="row">
 	<div class="grid-half margin-bottom-small">
@@ -38,14 +64,28 @@
 		<a class="btn btn-secondary btn-large btn-block edd-buy-now-button" href='https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=1{{ if ne (.Scratch.Get "apiDiscount") "" }}&discount={{ .Scratch.Get "apiDiscount" }}{{ end }}&ref={{ "https://vanillajsguides.com" | urlquery }}'>Just the Ebook{{ if .Get "bundle" }}s{{ end }} - {{ if ne $apiPrice "" }}{{ index $apiPrice "ebook" | safeHTML }}{{ else }}{{ $price.ebook | safeHTML }}{{ end }}</a>
 	</div>
 </div>
+{{- end -}}
 
 {{- if .Get "bundle" -}}
 <details class="text-center margin-bottom">
 	<summary class="margin-bottom-small">Or make three monthly payments...</summary>
+	<p class="margin-bottom-small">
+		<a class="btn btn-muted btn-block edd-buy-now-button" href='https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.monthly }}&edd_options[price_id]=3{{ if ne (.Scratch.Get "apiDiscount") "" }}&discount={{ .Scratch.Get "apiDiscount" }}{{ end }}&ref={{ "https://vanillajsguides.com" | urlquery }}'>Ebooks + Video Series - {{ if ne $apiPrice "" }}{{ index $apiPrice "bothMonthly" | safeHTML }}{{ else }}{{ $price.bothMonthly | safeHTML }}{{ end }}</a>
+	</p>
+	<div class="row">
+		<div class="grid-half">
+			<a class="btn btn-muted btn-block edd-buy-now-button" href='https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.monthly }}&edd_options[price_id]=2{{ if ne (.Scratch.Get "apiDiscount") "" }}&discount={{ .Scratch.Get "apiDiscount" }}{{ end }}&ref={{ "https://vanillajsguides.com" | urlquery }}'>Video Series - {{ if ne $apiPrice "" }}{{ index $apiPrice "videoMonthly" | safeHTML }}{{ else }}{{ $price.videoMonthly | safeHTML }}{{ end }}</a>
+		</div>
+		<div class="grid-half">
+			<a class="btn btn-muted btn-block edd-buy-now-button" href='https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.monthly }}&edd_options[price_id]=1{{ if ne (.Scratch.Get "apiDiscount") "" }}&discount={{ .Scratch.Get "apiDiscount" }}{{ end }}&ref={{ "https://vanillajsguides.com" | urlquery }}'>Ebooks - {{ if ne $apiPrice "" }}{{ index $apiPrice "ebookMonthly" | safeHTML }}{{ else }}{{ $price.ebookMonthly | safeHTML }}{{ end }}</a>
+		</div>
+	</div>
+	{{- if false -}}
 	<ul class="list-unstyled">
 		<li><a class="edd-buy-now-button" href='https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.monthly }}&edd_options[price_id]=3{{ if ne (.Scratch.Get "apiDiscount") "" }}&discount={{ .Scratch.Get "apiDiscount" }}{{ end }}&ref={{ "https://vanillajsguides.com" | urlquery }}'>Ebooks + Video Series - {{ if ne $apiPrice "" }}{{ index $apiPrice "bothMonthly" | safeHTML }}{{ else }}{{ $price.bothMonthly | safeHTML }}{{ end }}</a></li>
 		<li><a class="edd-buy-now-button" href='https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.monthly }}&edd_options[price_id]=2{{ if ne (.Scratch.Get "apiDiscount") "" }}&discount={{ .Scratch.Get "apiDiscount" }}{{ end }}&ref={{ "https://vanillajsguides.com" | urlquery }}'>Video Series - {{ if ne $apiPrice "" }}{{ index $apiPrice "videoMonthly" | safeHTML }}{{ else }}{{ $price.videoMonthly | safeHTML }}{{ end }}</a></li>
 		<li><a class="edd-buy-now-button" href='https://gomakethings.com/checkout?edd_action=add_to_cart&download_id={{ $product.monthly }}&edd_options[price_id]=1{{ if ne (.Scratch.Get "apiDiscount") "" }}&discount={{ .Scratch.Get "apiDiscount" }}{{ end }}&ref={{ "https://vanillajsguides.com" | urlquery }}'>Ebooks - {{ if ne $apiPrice "" }}{{ index $apiPrice "ebookMonthly" | safeHTML }}{{ else }}{{ $price.ebookMonthly | safeHTML }}{{ end }}</a></li>
 	</ul>
+	{{- end -}}
 </details>
 {{- end -}}
